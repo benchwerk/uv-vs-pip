@@ -1,0 +1,32 @@
+{
+ "freeze_identical": true,
+ "freeze_only_pip": [],
+ "freeze_only_uv": [],
+ "dists_pip": 133,
+ "dists_uv": 133,
+ "dists_only_pip": [],
+ "dists_only_uv": [],
+ "dists_same_content": 133,
+ "dists_different_content": [],
+ "files_installed_pip": 11686,
+ "files_installed_uv": 11690,
+ "files_only_pip": [],
+ "files_only_pip_n": 0,
+ "files_only_uv": [
+  "lib/python3.11/site-packages/func_timeout-4.3.5.dist-info/uv_build.json",
+  "lib/python3.11/site-packages/pgsanity-0.2.9.dist-info/uv_build.json",
+  "lib/python3.11/site-packages/shortid-0.1.2.dist-info/uv_build.json",
+  "lib/python3.11/site-packages/wtforms_json-0.3.5.dist-info/uv_build.json"
+ ],
+ "files_only_uv_n": 4,
+ "entrypoints_pip": 31,
+ "entrypoints_uv": 31,
+ "entrypoints_only_pip": [],
+ "entrypoints_only_uv": [],
+ "entrypoints_different_target": [],
+ "installer_field": {
+  "pip": "pip",
+  "uv": "uv"
+ },
+ "note": "freeze equality is a tautology for a fully pinned file; the content test is dists_different_content"
+}

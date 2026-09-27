@@ -1,0 +1,11 @@
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+sleeping 610 s (run 1)
+{"tool":"pip","state":"stale_610s","run":1,"seconds":25.782,"exit":0,"t0":1789594747}
+{"tool":"uv","state":"stale_610s","run":1,"seconds":0.294,"exit":0,"t0":1789594748}
+sleeping 610 s (run 2)
+{"tool":"uv","state":"stale_610s","run":2,"seconds":0.311,"exit":0,"t0":1789595395}
+{"tool":"pip","state":"stale_610s","run":2,"seconds":25.617,"exit":0,"t0":1789595426}
+sleeping 610 s (run 3)
+{"tool":"pip","state":"stale_610s","run":3,"seconds":25.983,"exit":0,"t0":1789596104}
+{"tool":"uv","state":"stale_610s","run":3,"seconds":0.281,"exit":0,"t0":1789596105}
+nuance stale done -> /results/stale

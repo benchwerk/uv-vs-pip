@@ -1,0 +1,381 @@
+{
+ "dir": "2026-09-16_2320_nuances_laptop",
+ "experiments": {
+  "disk": {
+   "rows": 10,
+   "failed_rows": 0,
+   "tools": {
+    "pip": {
+     "warm_install_s": {
+      "median": 19.679,
+      "min": 19.66,
+      "max": 19.846,
+      "n": 5
+     },
+     "venv_apparent_mb": 655.2,
+     "venv_actual_mb": 697.6,
+     "venv_pyc_mb": 114.3,
+     "cache_mb": 182.3,
+     "venv_plus_cache_actual_mb": 880.0,
+     "hardlinked_files": 0,
+     "cache_fs": "overlayfs",
+     "venv_fs": "overlayfs"
+    },
+    "uv": {
+     "warm_install_s": {
+      "median": 0.172,
+      "min": 0.161,
+      "max": 0.174,
+      "n": 5
+     },
+     "venv_apparent_mb": 537.5,
+     "venv_actual_mb": 565.8,
+     "venv_pyc_mb": 0.0,
+     "cache_mb": 590.9,
+     "venv_plus_cache_actual_mb": 594.5,
+     "hardlinked_files": 11296,
+     "cache_fs": "overlayfs",
+     "venv_fs": "overlayfs"
+    }
+   }
+  },
+  "disk_xdev": {
+   "rows": 5,
+   "failed_rows": 0,
+   "tools": {
+    "uv": {
+     "warm_install_s": {
+      "median": 0.529,
+      "min": 0.515,
+      "max": 0.56,
+      "n": 5
+     },
+     "venv_apparent_mb": 537.5,
+     "venv_actual_mb": 565.8,
+     "venv_pyc_mb": 0.0,
+     "cache_mb": 584.0,
+     "venv_plus_cache_actual_mb": 1146.2,
+     "hardlinked_files": 0,
+     "cache_fs": "tmpfs",
+     "venv_fs": "overlayfs"
+    }
+   }
+  },
+  "import": {
+   "rows": 20,
+   "failed_rows": 0,
+   "configs": {
+    "pip": {
+     "install_s": {
+      "median": 19.534,
+      "min": 19.396,
+      "max": 19.618,
+      "n": 5
+     },
+     "first_import_s": {
+      "median": 0.682,
+      "min": 0.656,
+      "max": 0.764,
+      "n": 5
+     },
+     "second_import_s": {
+      "median": 0.646,
+      "min": 0.62,
+      "max": 0.725,
+      "n": 5
+     },
+     "total_install_plus_first_import_s": {
+      "median": 20.204,
+      "min": 20.077,
+      "max": 20.303,
+      "n": 5
+     },
+     "pyc_after_install": {
+      "median": 6406,
+      "min": 6406,
+      "max": 6406,
+      "n": 5
+     },
+     "pyc_after_first_import": {
+      "median": 6406,
+      "min": 6406,
+      "max": 6406,
+      "n": 5
+     },
+     "first_import_penalty_s": 0.036
+    },
+    "uv": {
+     "install_s": {
+      "median": 0.176,
+      "min": 0.165,
+      "max": 0.184,
+      "n": 5
+     },
+     "first_import_s": {
+      "median": 2.018,
+      "min": 1.866,
+      "max": 2.064,
+      "n": 5
+     },
+     "second_import_s": {
+      "median": 0.665,
+      "min": 0.614,
+      "max": 0.682,
+      "n": 5
+     },
+     "total_install_plus_first_import_s": {
+      "median": 2.187,
+      "min": 2.031,
+      "max": 2.241,
+      "n": 5
+     },
+     "pyc_after_install": {
+      "median": 1,
+      "min": 1,
+      "max": 1,
+      "n": 5
+     },
+     "pyc_after_first_import": {
+      "median": 654,
+      "min": 654,
+      "max": 654,
+      "n": 5
+     },
+     "first_import_penalty_s": 1.353
+    },
+    "uv_compile": {
+     "install_s": {
+      "median": 3.642,
+      "min": 3.592,
+      "max": 3.691,
+      "n": 5
+     },
+     "first_import_s": {
+      "median": 0.649,
+      "min": 0.639,
+      "max": 0.705,
+      "n": 5
+     },
+     "second_import_s": {
+      "median": 0.629,
+      "min": 0.614,
+      "max": 0.65,
+      "n": 5
+     },
+     "total_install_plus_first_import_s": {
+      "median": 4.291,
+      "min": 4.269,
+      "max": 4.363,
+      "n": 5
+     },
+     "pyc_after_install": {
+      "median": 6407,
+      "min": 6407,
+      "max": 6407,
+      "n": 5
+     },
+     "pyc_after_first_import": {
+      "median": 6407,
+      "min": 6407,
+      "max": 6407,
+      "n": 5
+     },
+     "first_import_penalty_s": 0.02
+    },
+    "compileall_j1_serial": {
+     "install_s": {
+      "median": 0,
+      "min": 0,
+      "max": 0,
+      "n": 5
+     },
+     "first_import_s": {
+      "median": 10.159,
+      "min": 10.157,
+      "max": 10.233,
+      "n": 5
+     },
+     "second_import_s": {
+      "median": 0,
+      "min": 0,
+      "max": 0,
+      "n": 5
+     },
+     "total_install_plus_first_import_s": {
+      "median": 10.159,
+      "min": 10.157,
+      "max": 10.233,
+      "n": 5
+     },
+     "pyc_after_install": {
+      "median": 0,
+      "min": 0,
+      "max": 0,
+      "n": 5
+     },
+     "pyc_after_first_import": {
+      "median": 6407,
+      "min": 6407,
+      "max": 6407,
+      "n": 5
+     },
+     "first_import_penalty_s": null
+    }
+   },
+   "derived": {
+    "ratio_out_of_the_box_install_only": 111.0,
+    "ratio_install_plus_bytecode_like_for_like": 5.4,
+    "ratio_install_plus_first_import_pip_vs_uv": 9.2,
+    "ratio_install_plus_first_import_pip_vs_uv_compile": 4.7,
+    "uv_deferred_cost_lower_bound_s_(first_import_of_11_modules)": 1.353,
+    "uv_deferred_cost_upper_bound_s_(compileall_j1_serial)": 10.159,
+    "uv_compile_bytecode_cost_s_(parallel)": 3.466,
+    "pyc_files_first_import_writes": 654,
+    "pyc_files_total": 6407
+   }
+  },
+  "mem": {
+   "rows": 20,
+   "failed_rows": 0,
+   "peak_rss_largest_process_mb": {
+    "pip.warm": {
+     "median": 138.8,
+     "min": 138.6,
+     "max": 139.0,
+     "n": 5
+    },
+    "uv.warm": {
+     "median": 65.6,
+     "min": 64.5,
+     "max": 66.3,
+     "n": 5
+    },
+    "pip.cold": {
+     "median": 152.7,
+     "min": 152.4,
+     "max": 152.9,
+     "n": 5
+    },
+    "uv.cold": {
+     "median": 178.4,
+     "min": 174.7,
+     "max": 190.6,
+     "n": 5
+    }
+   },
+   "seconds": {
+    "pip.warm": {
+     "median": 19.858,
+     "min": 19.651,
+     "max": 20.623,
+     "n": 5
+    },
+    "uv.warm": {
+     "median": 0.175,
+     "min": 0.167,
+     "max": 0.177,
+     "n": 5
+    },
+    "pip.cold": {
+     "median": 47.763,
+     "min": 46.586,
+     "max": 51.256,
+     "n": 5
+    },
+    "uv.cold": {
+     "median": 7.753,
+     "min": 7.507,
+     "max": 8.023,
+     "n": 5
+    }
+   }
+  },
+  "same": {
+   "rows": 2,
+   "failed_rows": 0,
+   "same_thing": {
+    "freeze_identical": true,
+    "freeze_only_pip": [],
+    "freeze_only_uv": [],
+    "dists_pip": 134,
+    "dists_uv": 134,
+    "dists_only_pip": [],
+    "dists_only_uv": [],
+    "dists_same_content": 134,
+    "dists_different_content": [],
+    "files_installed_pip": 11728,
+    "files_installed_uv": 11732,
+    "files_only_pip": [],
+    "files_only_pip_n": 0,
+    "files_only_uv": [
+     "lib/python3.11/site-packages/func_timeout-4.3.5.dist-info/uv_build.json",
+     "lib/python3.11/site-packages/pgsanity-0.2.9.dist-info/uv_build.json",
+     "lib/python3.11/site-packages/shortid-0.1.2.dist-info/uv_build.json",
+     "lib/python3.11/site-packages/wtforms_json-0.3.5.dist-info/uv_build.json"
+    ],
+    "files_only_uv_n": 4,
+    "entrypoints_pip": 31,
+    "entrypoints_uv": 31,
+    "entrypoints_only_pip": [],
+    "entrypoints_only_uv": [],
+    "entrypoints_different_target": [],
+    "installer_field": {
+     "pip": "pip",
+     "uv": "uv"
+    },
+    "note": "freeze equality is a tautology for a fully pinned file; the content test is dists_different_content"
+   },
+   "install_s": {
+    "pip": 19.6229,
+    "uv": 0.178833
+   }
+  }
+ },
+ "env": {
+  "disk": {
+   "arch": "x86_64",
+   "kernel": "6.18.33.2-microsoft-standard-WSL2",
+   "cpuset": null,
+   "affinity_cpus": 12,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "overlayfs",
+   "started_utc": "2026-09-16T20:29:23Z"
+  },
+  "disk_xdev": {
+   "arch": "x86_64",
+   "kernel": "6.18.33.2-microsoft-standard-WSL2",
+   "cpuset": null,
+   "affinity_cpus": 12,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "tmpfs",
+   "started_utc": "2026-09-16T20:32:44Z"
+  },
+  "import": {
+   "arch": "x86_64",
+   "kernel": "6.18.33.2-microsoft-standard-WSL2",
+   "cpuset": null,
+   "affinity_cpus": 12,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "overlayfs",
+   "started_utc": "2026-09-16T20:22:51Z"
+  },
+  "mem": {
+   "arch": "x86_64",
+   "kernel": "6.18.33.2-microsoft-standard-WSL2",
+   "cpuset": null,
+   "affinity_cpus": 12,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "overlayfs",
+   "started_utc": "2026-09-16T20:33:06Z"
+  },
+  "same": {
+   "arch": "x86_64",
+   "kernel": "6.18.33.2-microsoft-standard-WSL2",
+   "cpuset": null,
+   "affinity_cpus": 12,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "overlayfs",
+   "started_utc": "2026-09-16T20:27:50Z"
+  }
+ }
+}

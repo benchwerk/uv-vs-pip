@@ -1,0 +1,20 @@
+Collecting func-timeout==4.3.5 (from -r /tmp/sdists.txt (line 1))
+  Using cached func_timeout-4.3.5-py3-none-any.whl
+Collecting pgsanity==0.2.9 (from -r /tmp/sdists.txt (line 2))
+  Using cached pgsanity-0.2.9-py3-none-any.whl
+Collecting shortid==0.1.2 (from -r /tmp/sdists.txt (line 3))
+  Using cached shortid-0.1.2-py3-none-any.whl
+Collecting wtforms-json==0.3.5 (from -r /tmp/sdists.txt (line 4))
+  Using cached wtforms_json-0.3.5-py3-none-any.whl
+Collecting WTForms>=1.0.5 (from wtforms-json==0.3.5->-r /tmp/sdists.txt (line 4))
+  Using cached wtforms-3.2.2-py3-none-any.whl.metadata (4.9 kB)
+Collecting six>=1.3.0 (from wtforms-json==0.3.5->-r /tmp/sdists.txt (line 4))
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting markupsafe>=1.1.1 (from WTForms>=1.0.5->wtforms-json==0.3.5->-r /tmp/sdists.txt (line 4))
+  Using cached markupsafe-3.0.3-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata (2.7 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Using cached wtforms-3.2.2-py3-none-any.whl (158 kB)
+Using cached markupsafe-3.0.3-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (24 kB)
+Installing collected packages: shortid, pgsanity, func-timeout, six, markupsafe, WTForms, wtforms-json
+
+Successfully installed WTForms-3.2.2 func-timeout-4.3.5 markupsafe-3.0.3 pgsanity-0.2.9 shortid-0.1.2 six-1.17.0 wtforms-json-0.3.5

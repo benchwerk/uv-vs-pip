@@ -1,0 +1,3 @@
+dpage/pgadmin4:latest Up 2 hours
+postgres:17-alpine Up 2 hours (healthy)
+ghcr.io/lukegus/termix:latest Up 2 hours (healthy)

@@ -1,0 +1,12 @@
+bin/activate
+bin/activate.bat
+bin/activate.csh
+bin/activate.fish
+bin/activate.nu
+bin/activate.ps1
+bin/activate.xsh
+bin/activate_this.py
+bin/deactivate.bat
+bin/pydoc.bat
+lib/python3.11/site-packages/_virtualenv.pth
+lib/python3.11/site-packages/_virtualenv.py

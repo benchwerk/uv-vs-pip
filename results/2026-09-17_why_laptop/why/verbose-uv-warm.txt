@@ -1,0 +1,1756 @@
+DEBUG Searching for user configuration in: `/root/.config/uv/uv.toml`
+DEBUG uv 0.12.15 (x86_64-unknown-linux-gnu)
+DEBUG Checking for Python interpreter at path `/tmp/venv/bin/python`
+Using Python 3.11.16 environment at: /tmp/venv
+DEBUG At least one requirement is not satisfied: zstandard==0.22.0
+DEBUG Using request connect timeout of 10s and read timeout of 30s
+DEBUG Solving with installed Python version: 3.11.16
+DEBUG Solving with target Python version: >=3.11.16
+DEBUG Adding direct dependency: alembic>=1.13.1, <1.13.1+
+DEBUG Adding direct dependency: amqp>=5.2.0, <5.2.0+
+DEBUG Adding direct dependency: apispec[yaml]>=6.3.0, <6.3.0+
+DEBUG Adding direct dependency: apsw>=3.46.0.0, <3.46.0.0+
+DEBUG Adding direct dependency: attrs>=23.2.0, <23.2.0+
+DEBUG Adding direct dependency: babel>=2.15.0, <2.15.0+
+DEBUG Adding direct dependency: backoff>=2.2.1, <2.2.1+
+DEBUG Adding direct dependency: bcrypt>=4.1.3, <4.1.3+
+DEBUG Adding direct dependency: billiard>=4.2.0, <4.2.0+
+DEBUG Adding direct dependency: blinker>=1.8.2, <1.8.2+
+DEBUG Adding direct dependency: bottleneck{platform_machine != 'aarch64'}>=1.3.8, <1.3.8+
+DEBUG Adding direct dependency: brotli>=1.1.0, <1.1.0+
+DEBUG Adding direct dependency: cachelib>=0.9.0, <0.9.0+
+DEBUG Adding direct dependency: cachetools>=5.3.3, <5.3.3+
+DEBUG Adding direct dependency: cattrs>=23.2.3, <23.2.3+
+DEBUG Adding direct dependency: celery>=5.4.0, <5.4.0+
+DEBUG Adding direct dependency: certifi>=2024.2.2, <2024.2.2+
+DEBUG Adding direct dependency: cffi>=1.16.0, <1.16.0+
+DEBUG Adding direct dependency: charset-normalizer>=3.3.2, <3.3.2+
+DEBUG Adding direct dependency: click>=8.1.7, <8.1.7+
+DEBUG Adding direct dependency: click-didyoumean>=0.3.1, <0.3.1+
+DEBUG Adding direct dependency: click-option-group>=0.5.6, <0.5.6+
+DEBUG Adding direct dependency: click-plugins>=1.1.1, <1.1.1+
+DEBUG Adding direct dependency: click-repl>=0.3.0, <0.3.0+
+DEBUG Adding direct dependency: colorama>=0.4.6, <0.4.6+
+DEBUG Adding direct dependency: cron-descriptor>=1.4.3, <1.4.3+
+DEBUG Adding direct dependency: croniter>=2.0.5, <2.0.5+
+DEBUG Adding direct dependency: cryptography>=42.0.7, <42.0.7+
+DEBUG Adding direct dependency: deprecated>=1.2.14, <1.2.14+
+DEBUG Adding direct dependency: deprecation>=2.1.0, <2.1.0+
+DEBUG Adding direct dependency: dnspython>=2.6.1, <2.6.1+
+DEBUG Adding direct dependency: email-validator>=2.1.1, <2.1.1+
+DEBUG Adding direct dependency: flask>=2.3.3, <2.3.3+
+DEBUG Adding direct dependency: flask-appbuilder>=4.5.0, <4.5.0+
+DEBUG Adding direct dependency: flask-babel>=2.0.0, <2.0.0+
+DEBUG Adding direct dependency: flask-caching>=2.3.0, <2.3.0+
+DEBUG Adding direct dependency: flask-compress>=1.15, <1.15+
+DEBUG Adding direct dependency: flask-jwt-extended>=4.6.0, <4.6.0+
+DEBUG Adding direct dependency: flask-limiter>=3.7.0, <3.7.0+
+DEBUG Adding direct dependency: flask-login>=0.6.3, <0.6.3+
+DEBUG Adding direct dependency: flask-migrate>=3.1.0, <3.1.0+
+DEBUG Adding direct dependency: flask-session>=0.8.0, <0.8.0+
+DEBUG Adding direct dependency: flask-sqlalchemy>=2.5.1, <2.5.1+
+DEBUG Adding direct dependency: flask-talisman>=1.1.0, <1.1.0+
+DEBUG Adding direct dependency: flask-wtf>=1.2.1, <1.2.1+
+DEBUG Adding direct dependency: func-timeout>=4.3.5, <4.3.5+
+DEBUG Adding direct dependency: geographiclib>=2.0, <2.0+
+DEBUG Adding direct dependency: geopy>=2.4.1, <2.4.1+
+DEBUG Adding direct dependency: google-auth>=2.29.0, <2.29.0+
+DEBUG Adding direct dependency: greenlet>=3.0.3, <3.0.3+
+DEBUG Adding direct dependency: gunicorn>=22.0.0, <22.0.0+
+DEBUG Adding direct dependency: hashids>=1.3.1, <1.3.1+
+DEBUG Adding direct dependency: holidays>=0.25, <0.25+
+DEBUG Adding direct dependency: humanize>=4.9.0, <4.9.0+
+DEBUG Adding direct dependency: idna>=3.7, <3.7+
+DEBUG Adding direct dependency: importlib-metadata>=7.1.0, <7.1.0+
+DEBUG Adding direct dependency: importlib-resources>=6.4.0, <6.4.0+
+DEBUG Adding direct dependency: isodate>=0.6.1, <0.6.1+
+DEBUG Adding direct dependency: itsdangerous>=2.2.0, <2.2.0+
+DEBUG Adding direct dependency: jinja2>=3.1.4, <3.1.4+
+DEBUG Adding direct dependency: jsonpath-ng>=1.6.1, <1.6.1+
+DEBUG Adding direct dependency: jsonschema>=4.17.3, <4.17.3+
+DEBUG Adding direct dependency: kombu>=5.3.7, <5.3.7+
+DEBUG Adding direct dependency: korean-lunar-calendar>=0.3.1, <0.3.1+
+DEBUG Adding direct dependency: limits>=3.12.0, <3.12.0+
+DEBUG Adding direct dependency: llvmlite>=0.42.0, <0.42.0+
+DEBUG Adding direct dependency: mako>=1.3.5, <1.3.5+
+DEBUG Adding direct dependency: markdown>=3.6, <3.6+
+DEBUG Adding direct dependency: markdown-it-py>=3.0.0, <3.0.0+
+DEBUG Adding direct dependency: markupsafe>=2.1.5, <2.1.5+
+DEBUG Adding direct dependency: marshmallow>=3.21.2, <3.21.2+
+DEBUG Adding direct dependency: marshmallow-sqlalchemy>=0.28.2, <0.28.2+
+DEBUG Adding direct dependency: mdurl>=0.1.2, <0.1.2+
+DEBUG Adding direct dependency: msgpack>=1.0.8, <1.0.8+
+DEBUG Adding direct dependency: msgspec>=0.18.6, <0.18.6+
+DEBUG Adding direct dependency: nh3>=0.2.17, <0.2.17+
+DEBUG Adding direct dependency: numba>=0.59.1, <0.59.1+
+DEBUG Adding direct dependency: numexpr>=2.10.0, <2.10.0+
+DEBUG Adding direct dependency: numpy>=1.23.5, <1.23.5+
+DEBUG Adding direct dependency: ordered-set>=4.1.0, <4.1.0+
+DEBUG Adding direct dependency: packaging>=23.2, <23.2+
+DEBUG Adding direct dependency: pandas>=2.0.3, <2.0.3+
+DEBUG Adding direct dependency: paramiko>=3.4.0, <3.4.0+
+DEBUG Adding direct dependency: parsedatetime>=2.6, <2.6+
+DEBUG Adding direct dependency: pgsanity>=0.2.9, <0.2.9+
+DEBUG Adding direct dependency: platformdirs>=3.8.1, <3.8.1+
+DEBUG Adding direct dependency: ply>=3.11, <3.11+
+DEBUG Adding direct dependency: polyline>=2.0.2, <2.0.2+
+DEBUG Adding direct dependency: prison>=0.2.1, <0.2.1+
+DEBUG Adding direct dependency: prompt-toolkit>=3.0.44, <3.0.44+
+DEBUG Adding direct dependency: pyarrow>=14.0.2, <14.0.2+
+DEBUG Adding direct dependency: pyasn1>=0.6.0, <0.6.0+
+DEBUG Adding direct dependency: pyasn1-modules>=0.4.0, <0.4.0+
+DEBUG Adding direct dependency: pycparser>=2.22, <2.22+
+DEBUG Adding direct dependency: pygments>=2.18.0, <2.18.0+
+DEBUG Adding direct dependency: pyjwt>=2.8.0, <2.8.0+
+DEBUG Adding direct dependency: pynacl>=1.5.0, <1.5.0+
+DEBUG Adding direct dependency: pyopenssl>=24.1.0, <24.1.0+
+DEBUG Adding direct dependency: pyparsing>=3.1.2, <3.1.2+
+DEBUG Adding direct dependency: pyrsistent>=0.20.0, <0.20.0+
+DEBUG Adding direct dependency: python-dateutil>=2.9.0.post0, <2.9.0.post0+
+DEBUG Adding direct dependency: python-dotenv>=1.0.1, <1.0.1+
+DEBUG Adding direct dependency: pytz>=2024.1, <2024.1+
+DEBUG Adding direct dependency: pyyaml>=6.0.1, <6.0.1+
+DEBUG Adding direct dependency: redis>=4.6.0, <4.6.0+
+DEBUG Adding direct dependency: requests>=2.32.2, <2.32.2+
+DEBUG Adding direct dependency: requests-cache>=1.2.0, <1.2.0+
+DEBUG Adding direct dependency: rich>=13.7.1, <13.7.1+
+DEBUG Adding direct dependency: rsa>=4.9, <4.9+
+DEBUG Adding direct dependency: selenium>=3.141.0, <3.141.0+
+DEBUG Adding direct dependency: shillelagh[gsheetsapi]>=1.2.18, <1.2.18+
+DEBUG Adding direct dependency: shortid>=0.1.2, <0.1.2+
+DEBUG Adding direct dependency: simplejson>=3.19.2, <3.19.2+
+DEBUG Adding direct dependency: six>=1.16.0, <1.16.0+
+DEBUG Adding direct dependency: slack-sdk>=3.27.2, <3.27.2+
+DEBUG Adding direct dependency: sqlalchemy>=1.4.52, <1.4.52+
+DEBUG Adding direct dependency: sqlalchemy-utils>=0.38.3, <0.38.3+
+DEBUG Adding direct dependency: sqlglot>=25.24.0, <25.24.0+
+DEBUG Adding direct dependency: sqlparse>=0.5.0, <0.5.0+
+DEBUG Adding direct dependency: sshtunnel>=0.4.0, <0.4.0+
+DEBUG Adding direct dependency: tabulate>=0.8.10, <0.8.10+
+DEBUG Adding direct dependency: typing-extensions>=4.12.0, <4.12.0+
+DEBUG Adding direct dependency: tzdata>=2024.1, <2024.1+
+DEBUG Adding direct dependency: url-normalize>=1.4.3, <1.4.3+
+DEBUG Adding direct dependency: urllib3>=1.26.18, <1.26.18+
+DEBUG Adding direct dependency: vine>=5.1.0, <5.1.0+
+DEBUG Adding direct dependency: wcwidth>=0.2.13, <0.2.13+
+DEBUG Adding direct dependency: werkzeug>=3.0.6, <3.0.6+
+DEBUG Adding direct dependency: wrapt>=1.16.0, <1.16.0+
+DEBUG Adding direct dependency: wtforms>=3.1.2, <3.1.2+
+DEBUG Adding direct dependency: wtforms-json>=0.3.5, <0.3.5+
+DEBUG Adding direct dependency: xlsxwriter>=3.0.9, <3.0.9+
+DEBUG Adding direct dependency: zipp>=3.19.0, <3.19.0+
+DEBUG Adding direct dependency: zstandard>=0.22.0, <0.22.0+
+DEBUG Found fresh response for: https://pypi.org/simple/amqp/
+DEBUG Found fresh response for: https://pypi.org/simple/alembic/
+DEBUG Found fresh response for: https://pypi.org/simple/apispec/
+DEBUG Found fresh response for: https://pypi.org/simple/babel/
+DEBUG Found fresh response for: https://pypi.org/simple/backoff/
+DEBUG Found fresh response for: https://pypi.org/simple/attrs/
+DEBUG Found fresh response for: https://pypi.org/simple/bcrypt/
+DEBUG Found fresh response for: https://pypi.org/simple/billiard/
+DEBUG Found fresh response for: https://pypi.org/simple/blinker/
+DEBUG Found fresh response for: https://pypi.org/simple/cachelib/
+DEBUG Found fresh response for: https://pypi.org/simple/brotli/
+DEBUG Found fresh response for: https://pypi.org/simple/apsw/
+DEBUG Found fresh response for: https://pypi.org/simple/bottleneck/
+DEBUG Found fresh response for: https://pypi.org/simple/cachetools/
+DEBUG Found fresh response for: https://pypi.org/simple/cattrs/
+DEBUG Found fresh response for: https://pypi.org/simple/certifi/
+DEBUG Found fresh response for: https://pypi.org/simple/click/
+DEBUG Found fresh response for: https://pypi.org/simple/celery/
+DEBUG Found fresh response for: https://pypi.org/simple/click-didyoumean/
+DEBUG Found fresh response for: https://pypi.org/simple/click-option-group/
+DEBUG Found fresh response for: https://pypi.org/simple/click-plugins/
+DEBUG Found fresh response for: https://pypi.org/simple/click-repl/
+DEBUG Found fresh response for: https://pypi.org/simple/cron-descriptor/
+DEBUG Found fresh response for: https://pypi.org/simple/croniter/
+DEBUG Found fresh response for: https://pypi.org/simple/colorama/
+DEBUG Found fresh response for: https://pypi.org/simple/deprecated/
+DEBUG Found fresh response for: https://pypi.org/simple/deprecation/
+DEBUG Found fresh response for: https://pypi.org/simple/dnspython/
+DEBUG Found fresh response for: https://pypi.org/simple/charset-normalizer/
+DEBUG Found fresh response for: https://pypi.org/simple/email-validator/
+DEBUG Found fresh response for: https://pypi.org/simple/flask/
+DEBUG Found fresh response for: https://pypi.org/simple/cffi/
+DEBUG Found fresh response for: https://pypi.org/simple/cryptography/
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/8c/93/7c0742925ffdc924b1fb9104e2072fa14451bf312b66f7e044550867668b/Bottleneck-1.3.8-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/d4/1e/704ae62153b7aa7db4e9f797c414aa18c28d3c2d2caf56fcefde10001090/apsw-3.46.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/fb/2b/a64c2d25a37aeb921fddb929111413049fc5f8b9a4c1aefaffaafe768d54/cachetools-5.3.3-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/b3/0d/cd4a4071c7f38385dc5ba91286723b4d1090b87815db48216212c6c6c30e/cattrs-23.2.3-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/90/c4/6a4d3772e5407622feb93dd25c86ce3c0fee746fa822a777a627d56b4f2a/celery-5.4.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/9b/89/a31c81e36bbb793581d8bba4406a8aac4ba84b2559301c44eef81f4cf5df/cffi-1.16.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/40/26/f35951c45070edc957ba40a5b1db3cf60a9dbb1b350c2d5bef03e01e61de/charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/1b/5b/974430b5ffdb7a4f1941d13d83c64a0395114503cc357c6b9ae4ce5047ed/click_didyoumean-0.3.1-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/af/75/81ea958bc0f7e410257cb2a42531b93a7695a31930cde87192c010a52c50/click_option_group-0.5.6-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/e9/da/824b92d9942f4e472702488857914bdd50f73021efea15b4cad9aca8ecef/click_plugins-1.1.1-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/52/40/9d857001228658f0d59e97ebd4c346fe73e138c6de1bce61dc568a57c7f8/click_repl-0.3.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/e0/18/136b0073305038d1317f3442f614a698ce686830a2810bbe7e875311e09f/cron_descriptor-1.4.3-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/34/ce/1c532b78d43c2eaadc8e900d9686999ff99dd459bc51fcdf855305e57ed9/croniter-2.0.5-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/20/8d/778b7d51b981a96554f29136cd59ca7880bf58094338085bcf2a979a0e6a/Deprecated-1.2.14-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/02/c3/253a89ee03fc9b9682f1541728eb66db7db22148cd94f89ab22528cd1e1b/deprecation-2.1.0-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/87/a1/8c5287991ddb8d3e4662f71356d9656d91ab3a36618c3dd11b280df0d255/dnspython-2.6.1-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/e4/60/b02cb0f5ee0be88bd4fbfdd9cc91e43ec2dfcc47fe064e7c70587ff58a94/email_validator-2.1.1-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/fd/56/26f0be8adc2b4257df20c1c4260ddd0aa396cf8e75d90ab2f7ff99bc34f9/flask-2.3.3-py3-none-any.whl.metadata
+DEBUG Searching for a compatible version of alembic (>=1.13.1, <1.13.1+)
+DEBUG Selecting: alembic==1.13.1 [compatible] (alembic-1.13.1-py3-none-any.whl)
+DEBUG Found fresh response for: https://pypi.org/simple/flask-babel/
+DEBUG Found fresh response for: https://pypi.org/simple/flask-compress/
+DEBUG Found fresh response for: https://pypi.org/simple/flask-appbuilder/
+DEBUG Found fresh response for: https://pypi.org/simple/flask-jwt-extended/
+DEBUG Found fresh response for: https://pypi.org/simple/flask-caching/
+DEBUG Found fresh response for: https://pypi.org/simple/flask-login/
+DEBUG Found fresh response for: https://pypi.org/simple/flask-sqlalchemy/
+DEBUG Found fresh response for: https://pypi.org/simple/flask-migrate/
+DEBUG Found fresh response for: https://pypi.org/simple/flask-limiter/
+DEBUG Found fresh response for: https://pypi.org/simple/flask-session/
+DEBUG Found fresh response for: https://pypi.org/simple/flask-wtf/
+DEBUG Found fresh response for: https://pypi.org/simple/flask-talisman/
+DEBUG Found fresh response for: https://pypi.org/simple/func-timeout/
+DEBUG Found fresh response for: https://pypi.org/simple/geopy/
+DEBUG Found fresh response for: https://pypi.org/simple/geographiclib/
+DEBUG Found fresh response for: https://pypi.org/simple/hashids/
+DEBUG Found fresh response for: https://pypi.org/simple/gunicorn/
+DEBUG Found fresh response for: https://pypi.org/simple/humanize/
+DEBUG Found fresh response for: https://pypi.org/simple/google-auth/
+DEBUG Found fresh response for: https://pypi.org/simple/holidays/
+DEBUG Found fresh response for: https://pypi.org/simple/idna/
+DEBUG Found fresh response for: https://pypi.org/simple/isodate/
+DEBUG Found fresh response for: https://pypi.org/simple/itsdangerous/
+DEBUG Found fresh response for: https://pypi.org/simple/importlib-metadata/
+DEBUG Found fresh response for: https://pypi.org/simple/importlib-resources/
+DEBUG Found fresh response for: https://pypi.org/simple/jinja2/
+DEBUG Found fresh response for: https://pypi.org/simple/greenlet/
+DEBUG Found fresh response for: https://pypi.org/simple/jsonpath-ng/
+DEBUG Found fresh response for: https://pypi.org/simple/jsonschema/
+DEBUG Found fresh response for: https://pypi.org/simple/kombu/
+DEBUG Found fresh response for: https://pypi.org/simple/korean-lunar-calendar/
+DEBUG Found fresh response for: https://pypi.org/simple/limits/
+DEBUG Found fresh response for: https://pypi.org/simple/mako/
+DEBUG Found fresh response for: https://pypi.org/simple/markdown/
+DEBUG Found fresh response for: https://pypi.org/simple/llvmlite/
+DEBUG Found fresh response for: https://pypi.org/simple/markdown-it-py/
+DEBUG Found fresh response for: https://pypi.org/simple/marshmallow/
+DEBUG Found fresh response for: https://pypi.org/simple/marshmallow-sqlalchemy/
+DEBUG Found fresh response for: https://pypi.org/simple/mdurl/
+DEBUG Found fresh response for: https://pypi.org/simple/markupsafe/
+DEBUG Found fresh response for: https://pypi.org/simple/nh3/
+DEBUG Found fresh response for: https://pypi.org/simple/msgspec/
+DEBUG Found fresh response for: https://pypi.org/simple/msgpack/
+DEBUG Found fresh response for: https://pypi.org/simple/ordered-set/
+DEBUG Found fresh response for: https://pypi.org/simple/numexpr/
+DEBUG Found fresh response for: https://pypi.org/simple/numba/
+DEBUG Found fresh response for: https://pypi.org/simple/rsa/
+DEBUG Found fresh response for: https://pypi.org/simple/requests-cache/
+DEBUG Found fresh response for: https://pypi.org/simple/rich/
+DEBUG Found fresh response for: https://pypi.org/simple/requests/
+DEBUG Found fresh response for: https://pypi.org/simple/redis/
+DEBUG Found fresh response for: https://pypi.org/simple/pytz/
+DEBUG Found fresh response for: https://pypi.org/simple/python-dotenv/
+DEBUG Found fresh response for: https://pypi.org/simple/python-dateutil/
+DEBUG Found fresh response for: https://pypi.org/simple/pyyaml/
+DEBUG Found fresh response for: https://pypi.org/simple/pyrsistent/
+DEBUG Found fresh response for: https://pypi.org/simple/pyparsing/
+DEBUG Found fresh response for: https://pypi.org/simple/numpy/
+DEBUG Found fresh response for: https://pypi.org/simple/pyopenssl/
+DEBUG Found fresh response for: https://pypi.org/simple/pynacl/
+DEBUG Found fresh response for: https://pypi.org/simple/pyjwt/
+DEBUG Found fresh response for: https://pypi.org/simple/pycparser/
+DEBUG Found fresh response for: https://pypi.org/simple/pygments/
+DEBUG Found fresh response for: https://pypi.org/simple/pyasn1-modules/
+DEBUG Found fresh response for: https://pypi.org/simple/pyasn1/
+DEBUG Found fresh response for: https://pypi.org/simple/prompt-toolkit/
+DEBUG Found fresh response for: https://pypi.org/simple/polyline/
+DEBUG Found fresh response for: https://pypi.org/simple/prison/
+DEBUG Found fresh response for: https://pypi.org/simple/ply/
+DEBUG Found fresh response for: https://pypi.org/simple/pgsanity/
+DEBUG Found fresh response for: https://pypi.org/simple/parsedatetime/
+DEBUG Found fresh response for: https://pypi.org/simple/pyarrow/
+DEBUG Found fresh response for: https://pypi.org/simple/platformdirs/
+DEBUG Found fresh response for: https://pypi.org/simple/paramiko/
+DEBUG Found fresh response for: https://pypi.org/simple/packaging/
+DEBUG Found fresh response for: https://pypi.org/simple/selenium/
+DEBUG Found fresh response for: https://pypi.org/simple/shillelagh/
+DEBUG Found fresh response for: https://pypi.org/simple/pandas/
+DEBUG Found fresh response for: https://pypi.org/simple/shortid/
+DEBUG Found fresh response for: https://pypi.org/simple/six/
+DEBUG Found fresh response for: https://pypi.org/simple/slack-sdk/
+DEBUG Found fresh response for: https://pypi.org/simple/simplejson/
+DEBUG Found fresh response for: https://pypi.org/simple/sqlalchemy-utils/
+DEBUG Found fresh response for: https://pypi.org/simple/sqlparse/
+DEBUG Found fresh response for: https://pypi.org/simple/sshtunnel/
+DEBUG Found fresh response for: https://pypi.org/simple/sqlglot/
+DEBUG Found fresh response for: https://pypi.org/simple/tabulate/
+DEBUG Found fresh response for: https://pypi.org/simple/typing-extensions/
+DEBUG Found fresh response for: https://pypi.org/simple/tzdata/
+DEBUG Found fresh response for: https://pypi.org/simple/url-normalize/
+DEBUG Found fresh response for: https://pypi.org/simple/urllib3/
+DEBUG Found fresh response for: https://pypi.org/simple/vine/
+DEBUG Found fresh response for: https://pypi.org/simple/sqlalchemy/
+DEBUG Found fresh response for: https://pypi.org/simple/wcwidth/
+DEBUG Found fresh response for: https://pypi.org/simple/werkzeug/
+DEBUG Found fresh response for: https://pypi.org/simple/wtforms/
+DEBUG Found fresh response for: https://pypi.org/simple/wtforms-json/
+DEBUG Found fresh response for: https://pypi.org/simple/xlsxwriter/
+DEBUG Found fresh response for: https://pypi.org/simple/zipp/
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/7b/4e/fa4896744259ee8602464ed2c7330b736cc4dd3fd92f63cd56828bf36707/cryptography-42.0.7-cp39-abi3-manylinux_2_28_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/b3/f0/8e5be5d5e0653d9e1d02b1144efa33ff7d2963dfad07049e02c0fa9b2e8d/amqp-5.2.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/27/45/377f7e32a5c93d94cd56542349b34efab5ca3f9e2fd5a68c5e93169aa32d/Babel-2.15.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/8c/fb/5b32dc208c0adadd1b9f08f0982c1a39c0bcc7a0f6206802a0c9086c4756/apispec-6.3.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/df/73/b6e24bd22e6720ca8ee9a85a0c4a2971af8497d8f3193fa05390cbd46e09/backoff-2.2.1-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://pypi.org/simple/zstandard/
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/e0/44/827b2a91a5816512fcaf3cc4ebc465ccd5d598c45cefa6703fcf4a79018f/attrs-23.2.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/97/00/21e34b365b895e6faf9cc5d4e7b97dd419e08f8a7df119792ec206b4a3fa/bcrypt-4.1.3-cp39-abi3-manylinux_2_28_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/50/8d/6e9fdeeab04d803abc5a715175f87e88893934d5590595eacff23ca12b07/billiard-4.2.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://pypi.org/simple/wrapt/
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/bb/2a/10164ed1f31196a2f7f3799368a821765c62851ead0e630ab52b8e14b4d0/blinker-1.8.2-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/f6/f0/a7bdb48223cd21b9abed814b08fca8fe6a40931e70ec97c24d2f15d68ef3/msgpack-1.0.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/ab/3e/02331179ffab8b79e0383606a028b6a60fb1b4419b84935edd43223406a0/Flask_Babel-2.0.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/27/c8/1efd52b8f6b6b9372515c1b33c5609d9188c4326ad7fa28f2663601eb2ae/Flask_Compress-1.15-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/be/f7/b5415a5ec78666408cd9af9e8163e2953374808d222625cff33f64adfd2a/Flask_JWT_Extended-4.6.0-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/e9/3a/b071d80a877b7c94048ad0438f6d6312d97fd611337d76f9cbcbd1531e43/Flask_AppBuilder-4.5.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/aa/da/8e3ba9735253c6ba440358fcfda89cf5e199467b6ed2baaf6b1e1022b15f/Flask_Caching-2.3.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/59/f5/67e9cc5c2036f58115f9fe0f00d203cf6780c3ff8ae0e705e7a9d9e8ff9e/Flask_Login-0.6.3-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/a8/48/b64a6a2fee01b03f3318cba3aea1c0055ab5f4a933b2d4f5a2d75140c229/Flask_Migrate-3.1.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/09/d3/f10e91728a0d33cce23e46eb05948dc38e959018cddf15103af0e08eeec6/Flask_Limiter-3.7.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/26/2c/9088b6bd95bca539230bbe9ad446737ed391aab9a83aff403e18dded3e75/Flask_SQLAlchemy-2.5.1-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/67/1b/f085ceebb825d1cfaf078852b67cd248a33af2905f40ba9860cc006d966b/flask_session-0.8.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/02/2b/0f0cf68a2f052ea3dbb8b6c8c2a7e8aea5e6df7410f5e289437fefbeb461/flask_wtf-1.2.1-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/77/1c/a15ac936dc3ae4491c5ff089dccdccd72cd3608b15fcf4e2de961f9ee8f3/flask_talisman-1.1.0-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/b3/0d/bf0567477f7281d9a3926c582bfef21bff7498fc0ffd3e9de21811896a0b/func_timeout-4.3.5.tar.gz
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/e5/15/cf2a69ade4b194aa524ac75112d5caac37414b20a3a03e6865dfe0bd1539/geopy-2.4.1-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/9f/5a/a26132406f1f40cf51ea349a5f11b0a46cec02a2031ff82e391c2537247a/geographiclib-2.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/6e/46/ffdf25b1f6dbb1ce588ccb818e983df9e3d30594679f5a08c865a59cead7/hashids-1.3.1-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/29/97/6d610ae77b5633d24b69c2ff1ac3044e0e565ecbd1ec188f02c45073054c/gunicorn-22.0.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/aa/2b/2ae0c789fd08d5b44e745726d08a17e6d3d7d09071d05473105edc7615f2/humanize-4.9.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/9e/8d/ddbcf81ec751d8ee5fd18ac11ff38a0e110f39dfbf105e6d9db69d556dd0/google_auth-2.29.0-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/90/00/92d065c5a19ce5dd131c26f86d1273087218c0489081efe2a562ff298aae/holidays-0.25-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/e5/3e/741d8c82801c347547f8a2a06aa57dbb1992be9e948df2ea0eda2c8b79e8/idna-3.7-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/b6/85/7882d311924cbcfc70b1890780763e36ff0b140c7e51c110fc59a532f087/isodate-0.6.1-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/2d/0a/679461c511447ffaf176567d5c496d1de27cbe34a87df6677d7171b2fbd4/importlib_metadata-7.1.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/04/96/92447566d16df59b2a776c0fb82dbc4d9e07cd95062562af01e408583fc4/itsdangerous-2.2.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/75/06/4df55e1b7b112d183f65db9503bff189e97179b256e1ea450a3c365241e0/importlib_resources-6.4.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/31/80/3a54838c3fb461f6fec263ebf3a3a41771bd05190238de3486aae8540c36/jinja2-3.1.4-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/b3/e7/ca2993c7682d8629b62630ebf0d1f3bb3d579e667ce8e7ca03a0a0576a2d/Brotli-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/93/70/58e525451478055b0fd2859b22226888a6985d404fe65e014fc4893d3b75/cachelib-0.9.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/7f/50/9fb3a5c80df6eb6516693270621676980acd6d5a9a7efdbfa273f8d616c7/alembic-1.13.1-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/6a/73/1b2f991dc26899d2f999c938cbc82c858b3cb7e3ccaad317b32760dbe1da/msgspec-0.18.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/da/19/d52d9a0247007835df949f17abd904615248dc1b94d67cb8c99100330f08/nh3-0.2.17-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/97/18/c30da5e7a0e7f4603abfc6780574131221d9148f323752c2755d48abad30/MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/be/24/cbb242420021a79c87768dcd22ce028f48ef40913239ad6106c8a557f52c/marshmallow-3.21.2-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/c2/15/0c63bbbd7c21e44065ce7e198c0e515a98d2e37e5f5694d69595285dd67f/marshmallow_sqlalchemy-0.28.2-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/a4/1f/300788b5eab99aec872ed2f3647386d7d7f7bbf4f99c91e9e023b404ff7f/llvmlite-0.42.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/42/d7/1ec15b46af6af88f19b8e5ffea08fa375d433c998b8a7639e76935c14f1f/markdown_it_py-3.0.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/fc/b3/0c0c994fe49cd661084f8d5dc06562af53818cc0abefaca35bdc894577c3/Markdown-3.6-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/03/62/70f5a0c2dd208f9f3f2f9afd103aec42ee4d9ad2401d78342f75e9b8da36/Mako-1.3.5-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/88/a4/bc01e7945899bfa5c753a252d58a773b152102f6b763b4b00d3fc953ff85/limits-3.12.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/9c/96/30f3fe51b336bb6da4714f4fdad7bbdce8f13af79af2eb75e22908f3f9f4/korean_lunar_calendar-0.3.1-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/b4/9a/1951f2261271d6994f0df5a55b3e9cdad42ed1fc3020a0dc7f6de80a4566/kombu-5.3.7-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/c1/97/c698bd9350f307daad79dd740806e1a59becd693bd11443a0f531e3229b3/jsonschema-4.17.3-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/16/0a/3b1ee3721b4bd684b0e29c724ab82ed3b2c0e42285beb8bf9e18de8c903f/jsonpath_ng-1.6.1-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/c6/1f/12d5a6cc26e8b483c2e7975f9c22e088ac735c0d8dcb8a8f72d31a4e5f04/greenlet-3.0.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/33/55/af02708f230eb77084a299d7b08175cff006dea4f2721074b92cdb0296c0/ordered_set-4.1.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/21/53/1b312fd243799c4b080c81692b7bd81c9400a2da12291d0447db70cfd635/numexpr-2.10.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/54/f2/7d1579037643c874fa73516ea84c07e8d30ea347fb1a88c03b198447655d/numba-0.59.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/49/97/fa78e3d2f65c02c8e1268b9aba606569fe97f6c8f7c2d74394553347c145/rsa-4.9-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/cc/23/863f517b5d74e297e669c88093ecd92e13a06c488e90acbd5507819049ac/requests_cache-1.2.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/c3/20/748e38b466e0819491f0ce6e90ebe4184966ee304fe483e2c414b0f4ef07/requests-2.32.2-py3-none-any.whl.metadata
+DEBUG Adding transitive dependency for alembic==1.13.1: sqlalchemy>=1.3.0
+DEBUG Adding transitive dependency for alembic==1.13.1: mako*
+DEBUG Adding transitive dependency for alembic==1.13.1: typing-extensions>=4
+DEBUG Searching for a compatible version of amqp (>=5.2.0, <5.2.0+)
+DEBUG Selecting: amqp==5.2.0 [compatible] (amqp-5.2.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for amqp==5.2.0: vine>=5.0.0, <6.0.0
+DEBUG Searching for a compatible version of apispec[yaml] (>=6.3.0, <6.3.0+)
+DEBUG Selecting: apispec==6.3.0 [compatible] (apispec-6.3.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for apispec==6.3.0: apispec==6.3.0
+DEBUG Adding transitive dependency for apispec==6.3.0: apispec[yaml]==6.3.0
+DEBUG Searching for a compatible version of apispec (==6.3.0)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/87/67/a37f6214d0e9fe57f6ae54b2956d550ca8365857f42a1ce0392bb21d9410/rich-13.7.1-py3-none-any.whl.metadata
+DEBUG Selecting: apispec==6.3.0 [compatible] (apispec-6.3.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for apispec==6.3.0: packaging>=21.3
+DEBUG Searching for a compatible version of apispec[yaml] (==6.3.0)
+DEBUG Selecting: apispec==6.3.0 [compatible] (apispec-6.3.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for apispec==6.3.0: pyyaml>=3.10
+DEBUG Searching for a compatible version of apsw (>=3.46.0.0, <3.46.0.0+)
+DEBUG Selecting: apsw==3.46.0.0 [compatible] (apsw-3.46.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of attrs (>=23.2.0, <23.2.0+)
+DEBUG Selecting: attrs==23.2.0 [compatible] (attrs-23.2.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of babel (>=2.15.0, <2.15.0+)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/20/2e/409703d645363352a20c944f5d119bdae3eb3034051a53724a7c5fee12b8/redis-4.6.0-py3-none-any.whl.metadata
+DEBUG Selecting: babel==2.15.0 [compatible] (Babel-2.15.0-py3-none-any.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/9c/3d/a121f284241f08268b21359bd425f7d4825cffc5ac5cd0e1b3d82ffd2b10/pytz-2024.1-py2.py3-none-any.whl.metadata
+DEBUG Searching for a compatible version of backoff (>=2.2.1, <2.2.1+)
+DEBUG Selecting: backoff==2.2.1 [compatible] (backoff-2.2.1-py3-none-any.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata
+DEBUG Searching for a compatible version of bcrypt (>=4.1.3, <4.1.3+)
+DEBUG Selecting: bcrypt==4.1.3 [compatible] (bcrypt-4.1.3-cp39-abi3-manylinux_2_28_x86_64.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/6a/3e/b68c118422ec867fa7ab88444e1274aa40681c606d59ac27de5a5588f082/python_dotenv-1.0.1-py3-none-any.whl.metadata
+DEBUG Searching for a compatible version of billiard (>=4.2.0, <4.2.0+)
+DEBUG Selecting: billiard==4.2.0 [compatible] (billiard-4.2.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of blinker (>=1.8.2, <1.8.2+)
+DEBUG Selecting: blinker==1.8.2 [compatible] (blinker-1.8.2-py3-none-any.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/a1/94/9808e8c9271424120289b9028a657da336ad7e43da0647f62e4f6011d19b/pyrsistent-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Searching for a compatible version of bottleneck{platform_machine != 'aarch64'} (>=1.3.8, <1.3.8+)
+DEBUG Selecting: bottleneck==1.3.8 [compatible] (Bottleneck-1.3.8-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/7b/5e/efd033ab7199a0b2044dab3b9f7a4f6670e6a52c089de572e928d2873b06/PyYAML-6.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Adding transitive dependency for bottleneck==1.3.8: bottleneck==1.3.8
+DEBUG Adding transitive dependency for bottleneck==1.3.8: bottleneck{platform_machine != 'aarch64'}==1.3.8
+DEBUG Searching for a compatible version of bottleneck (==1.3.8)
+DEBUG Selecting: bottleneck==1.3.8 [compatible] (Bottleneck-1.3.8-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for bottleneck==1.3.8: numpy*
+DEBUG Searching for a compatible version of bottleneck{platform_machine != 'aarch64'} (==1.3.8)
+DEBUG Selecting: bottleneck==1.3.8 [compatible] (Bottleneck-1.3.8-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for bottleneck==1.3.8: numpy*
+DEBUG Searching for a compatible version of brotli (>=1.1.0, <1.1.0+)
+DEBUG Selecting: brotli==1.1.0 [compatible] (Brotli-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/9d/ea/6d76df31432a0e6fdf81681a895f009a4bb47b3c39036db3e1b528191d52/pyparsing-3.1.2-py3-none-any.whl.metadata
+DEBUG Searching for a compatible version of cachelib (>=0.9.0, <0.9.0+)
+DEBUG Selecting: cachelib==0.9.0 [compatible] (cachelib-0.9.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of cachetools (>=5.3.3, <5.3.3+)
+DEBUG Selecting: cachetools==5.3.3 [compatible] (cachetools-5.3.3-py3-none-any.whl)
+DEBUG Searching for a compatible version of cattrs (>=23.2.3, <23.2.3+)
+DEBUG Selecting: cattrs==23.2.3 [compatible] (cattrs-23.2.3-py3-none-any.whl)
+DEBUG Adding transitive dependency for cattrs==23.2.3: attrs>=23.1.0
+DEBUG Searching for a compatible version of celery (>=5.4.0, <5.4.0+)
+DEBUG Selecting: celery==5.4.0 [compatible] (celery-5.4.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for celery==5.4.0: billiard>=4.2.0, <5.0
+DEBUG Adding transitive dependency for celery==5.4.0: kombu>=5.3.4, <6.0
+DEBUG Adding transitive dependency for celery==5.4.0: vine>=5.1.0, <6.0
+DEBUG Adding transitive dependency for celery==5.4.0: click>=8.1.2, <9.0
+DEBUG Adding transitive dependency for celery==5.4.0: click-didyoumean>=0.3.0
+DEBUG Adding transitive dependency for celery==5.4.0: click-repl>=0.2.0
+DEBUG Adding transitive dependency for celery==5.4.0: click-plugins>=1.1.1
+DEBUG Adding transitive dependency for celery==5.4.0: tzdata>=2022.7
+DEBUG Adding transitive dependency for celery==5.4.0: python-dateutil>=2.8.2
+DEBUG Searching for a compatible version of certifi (>=2024.2.2, <2024.2.2+)
+DEBUG Selecting: certifi==2024.2.2 [compatible] (certifi-2024.2.2-py3-none-any.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/6e/52/2da48b35193e39ac53cfb141467d9f259851522d0e8c87153f0ba4205fb1/wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Searching for a compatible version of cffi (>=1.16.0, <1.16.0+)
+DEBUG Selecting: cffi==1.16.0 [compatible] (cffi-1.16.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for cffi==1.16.0: pycparser*
+DEBUG Searching for a compatible version of charset-normalizer (>=3.3.2, <3.3.2+)
+DEBUG Selecting: charset-normalizer==3.3.2 [compatible] (charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of click (>=8.1.7, <8.1.7+)
+DEBUG Selecting: click==8.1.7 [compatible] (click-8.1.7-py3-none-any.whl)
+DEBUG Searching for a compatible version of click-didyoumean (>=0.3.1, <0.3.1+)
+DEBUG Selecting: click-didyoumean==0.3.1 [compatible] (click_didyoumean-0.3.1-py3-none-any.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/ee/87/f1bb6a595f14a327e8285b9eb54d41fef76c585a0edef0a45f6fc95de125/PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/2b/4f/e04a8067c7c96c364cef7ef73906504e2f40d690811c021e1a1901473a19/PyJWT-2.8.0-py3-none-any.whl.metadata
+DEBUG Adding transitive dependency for click-didyoumean==0.3.1: click>=7
+DEBUG Searching for a compatible version of click-option-group (>=0.5.6, <0.5.6+)
+DEBUG Selecting: click-option-group==0.5.6 [compatible] (click_option_group-0.5.6-py3-none-any.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl.metadata
+DEBUG Adding transitive dependency for click-option-group==0.5.6: click>=7.0, <9
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/f7/3f/01c8b82017c199075f8f788d0d906b9ffbbc5a47dc9918a945e13d5a2bda/pygments-2.18.0-py3-none-any.whl.metadata
+DEBUG Searching for a compatible version of click-plugins (>=1.1.1, <1.1.1+)
+DEBUG Selecting: click-plugins==1.1.1 [compatible] (click_plugins-1.1.1-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for click-plugins==1.1.1: click>=4.0
+DEBUG Searching for a compatible version of click-repl (>=0.3.0, <0.3.0+)
+DEBUG Selecting: click-repl==0.3.0 [compatible] (click_repl-0.3.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for click-repl==0.3.0: click>=7.0
+DEBUG Adding transitive dependency for click-repl==0.3.0: prompt-toolkit>=3.0.36
+DEBUG Searching for a compatible version of colorama (>=0.4.6, <0.4.6+)
+DEBUG Selecting: colorama==0.4.6 [compatible] (colorama-0.4.6-py2.py3-none-any.whl)
+DEBUG Searching for a compatible version of cron-descriptor (>=1.4.3, <1.4.3+)
+DEBUG Selecting: cron-descriptor==1.4.3 [compatible] (cron_descriptor-1.4.3-py3-none-any.whl)
+DEBUG Searching for a compatible version of croniter (>=2.0.5, <2.0.5+)
+DEBUG Selecting: croniter==2.0.5 [compatible] (croniter-2.0.5-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for croniter==2.0.5: python-dateutil*
+DEBUG Adding transitive dependency for croniter==2.0.5: pytz>2021.1
+DEBUG Searching for a compatible version of cryptography (>=42.0.7, <42.0.7+)
+DEBUG Selecting: cryptography==42.0.7 [compatible] (cryptography-42.0.7-cp39-abi3-manylinux_2_28_x86_64.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/13/68/8906226b15ef38e71dc926c321d2fe99de8048e9098b5dfd38343011c886/pyasn1_modules-0.4.0-py3-none-any.whl.metadata
+DEBUG Adding transitive dependency for cryptography==42.0.7: cffi{platform_python_implementation != 'PyPy'}>=1.12
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/23/7e/5f50d07d5e70a2addbccd90ac2950f81d1edd0783630651d9268d7f1db49/pyasn1-0.6.0-py2.py3-none-any.whl.metadata
+DEBUG Searching for a compatible version of cffi{platform_python_implementation != 'PyPy'} (>=1.12)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/96/e2/139d9c6153f61439c3719a95e63e69eec7f11b9ed80a0c1b032eb60ee7da/prompt_toolkit-3.0.44-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/d7/4f/fbf07370cbf98af0098de83a26625d29aaa0bf73ef7123b561459729f3e6/polyline-2.0.2-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/f1/bd/e55e14cd213174100be0353824f2add41e8996c6f32081888897e8ec48b5/prison-0.2.1-py2.py3-none-any.whl.metadata
+DEBUG Selecting: cffi==2.1.1 [compatible] (cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/a3/58/35da89ee790598a0700ea49b2a66594140f44dec458c07e8e3d4979137fc/ply-3.11-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/45/70/d9ce2d8a93a7b755b09871125768c3237f99147472ec6f3ca3237cd22a4d/pgsanity-0.2.9.tar.gz
+DEBUG Adding transitive dependency for cffi==2.1.1: cffi==2.1.1
+DEBUG Adding transitive dependency for cffi==2.1.1: cffi{platform_python_implementation != 'PyPy'}==2.1.1
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/9d/a4/3dd804926a42537bf69fb3ebb9fd72a50ba84f807d95df5ae016606c976c/parsedatetime-2.6-py3-none-any.whl.metadata
+DEBUG Searching for a compatible version of cffi{platform_python_implementation != 'PyPy'} (>=1.12, <=2.1.0)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/9e/d8/563a9fc17153c588c8c2042d2f0f84a89057cdb1c30270f589c88b42d62c/platformdirs-3.8.1-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/ad/50/8792484502c8141c20c996b802fefa8435a9c018a2bb440a06b172782118/paramiko-3.4.0-py3-none-any.whl.metadata
+DEBUG Selecting: cffi==2.1.0 [compatible] (cffi-2.1.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/d9/f8/cfba56f5353e51c19b0c240380ce39483f4c76e5c4aee5a000f3d75b72da/pyarrow-14.0.2-cp311-cp311-manylinux_2_28_x86_64.whl.metadata
+DEBUG Adding transitive dependency for cffi==2.1.0: cffi==2.1.0
+DEBUG Adding transitive dependency for cffi==2.1.0: cffi{platform_python_implementation != 'PyPy'}==2.1.0
+DEBUG Searching for a compatible version of cffi{platform_python_implementation != 'PyPy'} (>=1.12, <=2.0.0)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/ec/1a/610693ac4ee14fcdf2d9bf3c493370e4f2ef7ae2e19217d7a237ff42367d/packaging-23.2-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/80/d6/4294f0b4bce4de0abf13e17190289f9d0613b0a44e5dd6a7f5ca98459853/selenium-3.141.0-py2.py3-none-any.whl.metadata
+DEBUG Selecting: cffi==2.0.0 [compatible] (cffi-2.0.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl)
+DEBUG Adding transitive dependency for cffi==2.0.0: cffi==2.0.0
+DEBUG Adding transitive dependency for cffi==2.0.0: cffi{platform_python_implementation != 'PyPy'}==2.0.0
+DEBUG Searching for a compatible version of cffi{platform_python_implementation != 'PyPy'} (>=1.12, <=2.0.0b1)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/16/35/73d37426424b238504d97e30586ac47025179f51d39fd6db94bbf0868fc0/shillelagh-1.2.18-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/e1/91/136269c0cd751c9a26c0243dcdc0a366005f00d390b99ff42990e86fda57/shortid-0.1.2.tar.gz
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/d0/28/88b81881c056376254618fad622a5e94b5126db8c61157ea1910cd1c040a/pandas-2.0.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Selecting: cffi==1.17.1 [compatible] (cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/ca/60/d14e8bbbb1891fb2ba6a0551cc37c9c11d71b2baa1a6be0a988b94aeec0e/slack_sdk-3.27.2-py2.py3-none-any.whl.metadata
+DEBUG Adding transitive dependency for cffi==1.17.1: cffi==1.17.1
+DEBUG No `pyproject.toml` available for: func-timeout==4.3.5
+DEBUG Adding transitive dependency for cffi==1.17.1: cffi{platform_python_implementation != 'PyPy'}==1.17.1
+DEBUG Searching for a compatible version of cffi{platform_python_implementation != 'PyPy'} (>=1.12, <=1.17.0 | ==2.0.0b1)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/70/c1/816573ae91aebf06a0fefd8ea30ca43127aa58e68684d2ddfe17c8457afb/simplejson-3.19.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/e1/90/6ff1829b55cf752994be76bdf5f718db053dcb8d738f9df5b622207a4ab8/SQLAlchemy_Utils-0.38.3-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/43/5d/a0fdd88fd486b39ae1fd1a75ff75b4e29a0df96c0304d462fd407b82efe0/sqlparse-0.5.0-py3-none-any.whl.metadata
+DEBUG Selecting: cffi==1.17.0 [compatible] (cffi-1.17.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/58/13/8476c4328dcadfe26f8bd7f3a1a03bf9ddb890a7e7b692f54a179bc525bf/sshtunnel-0.4.0-py2.py3-none-any.whl.metadata
+DEBUG Adding transitive dependency for cffi==1.17.0: cffi==1.17.0
+DEBUG Adding transitive dependency for cffi==1.17.0: cffi{platform_python_implementation != 'PyPy'}==1.17.0
+DEBUG Searching for a compatible version of cffi{platform_python_implementation != 'PyPy'} (>=1.12, <=1.17.0rc1 | ==2.0.0b1)
+DEBUG Selecting: cffi==1.16.0 [compatible] (cffi-1.16.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for cffi==1.16.0: cffi==1.16.0
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/92/4e/e5a13fdb3e6f81ce11893523ff289870c87c8f1f289a7369fb0e9840c3bb/tabulate-0.8.10-py3-none-any.whl.metadata
+DEBUG Adding transitive dependency for cffi==1.16.0: cffi{platform_python_implementation != 'PyPy'}==1.16.0
+DEBUG Searching for a compatible version of cffi{platform_python_implementation != 'PyPy'} (==1.16.0)
+DEBUG Selecting: cffi==1.16.0 [compatible] (cffi-1.16.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/ba/bc/538c58a897e87b0c030266ffe83752731f518aff28fabd287d70a896d1b0/sqlglot-25.24.0-py3-none-any.whl.metadata
+DEBUG Adding transitive dependency for cffi==1.16.0: pycparser*
+DEBUG Searching for a compatible version of deprecated (>=1.2.14, <1.2.14+)
+DEBUG Selecting: deprecated==1.2.14 [compatible] (Deprecated-1.2.14-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for deprecated==1.2.14: wrapt>=1.10, <2
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/e1/4d/d612de852a0bc64a64418e1cef25fe1914c5b1611e34cc271ed7e36174c8/typing_extensions-4.12.0-py3-none-any.whl.metadata
+DEBUG Searching for a compatible version of deprecation (>=2.1.0, <2.1.0+)
+DEBUG Selecting: deprecation==2.1.0 [compatible] (deprecation-2.1.0-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for deprecation==2.1.0: packaging*
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/65/58/f9c9e6be752e9fcb8b6a0ee9fb87e6e7a1f6bcab2cdc73f02bb7ba91ada0/tzdata-2024.1-py2.py3-none-any.whl.metadata
+DEBUG Searching for a compatible version of dnspython (>=2.6.1, <2.6.1+)
+DEBUG Selecting: dnspython==2.6.1 [compatible] (dnspython-2.6.1-py3-none-any.whl)
+DEBUG Searching for a compatible version of email-validator (>=2.1.1, <2.1.1+)
+DEBUG Selecting: email-validator==2.1.1 [compatible] (email_validator-2.1.1-py3-none-any.whl)
+DEBUG Adding transitive dependency for email-validator==2.1.1: dnspython>=2.0.0
+DEBUG Adding transitive dependency for email-validator==2.1.1: idna>=2.0.0
+DEBUG Searching for a compatible version of flask (>=2.3.3, <2.3.3+)
+DEBUG Selecting: flask==2.3.3 [compatible] (flask-2.3.3-py3-none-any.whl)
+DEBUG Adding transitive dependency for flask==2.3.3: werkzeug>=2.3.7
+DEBUG Adding transitive dependency for flask==2.3.3: jinja2>=3.1.2
+DEBUG Adding transitive dependency for flask==2.3.3: itsdangerous>=2.1.2
+DEBUG Adding transitive dependency for flask==2.3.3: click>=8.1.3
+DEBUG Adding transitive dependency for flask==2.3.3: blinker>=1.6.2
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/65/1c/6c6f408be78692fc850006a2b6dea37c2b8592892534e09996e401efc74b/url_normalize-1.4.3-py2.py3-none-any.whl.metadata
+DEBUG Searching for a compatible version of flask-appbuilder (>=4.5.0, <4.5.0+)
+DEBUG Selecting: flask-appbuilder==4.5.0 [compatible] (Flask_AppBuilder-4.5.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: apispec[yaml]>=6.0.0, <7
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: colorama>=0.3.9, <1
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: click>=8, <9
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: email-validator>=1.0.5
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: flask>=2, <3.0.0
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: flask-babel>=1, <3
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: flask-limiter>3, <4
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: flask-login>=0.3, <0.7
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: flask-sqlalchemy>=2.4, <3
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: flask-wtf>=0.14.2, <2
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: flask-jwt-extended>=4.0.0, <5.0.0
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: jsonschema>=3, <5
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: marshmallow>=3.18.0, <4
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: marshmallow-sqlalchemy>=0.22.0, <0.29.0
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: python-dateutil>=2.3, <3
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/54/a7/2104f674a5a6845b04c8ff01659becc6b8978ca410b82b94287e0b1e018b/pyOpenSSL-24.1.0-py3-none-any.whl.metadata
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: prison>=0.2.1, <1.0.0
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: pyjwt>=2.0.0, <3.0.0
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: sqlalchemy<1.5
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: sqlalchemy-utils>=0.32.21, <1
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: wtforms<4
+DEBUG Adding transitive dependency for flask-appbuilder==4.5.0: werkzeug<4
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/e8/ad/b935c7421657a032fd2a5332eed098f3b9993a155afceb1daa280ff6611f/numpy-1.23.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/80/6a/f8a618f84aafb9c373a959e7e51ad34bda73f1d99cd856c05c8f0b78e87f/zstandard-0.22.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Searching for a compatible version of flask-babel (>=2.0.0, <2.0.0+)
+DEBUG Selecting: flask-babel==2.0.0 [compatible] (Flask_Babel-2.0.0-py3-none-any.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/7f/2d/670176f39d6613af2908b5bc31c9974588208de1fcc4117dfae08623d188/zipp-3.19.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/87/b9/bc9e4fe0c6a2656d0baa40aa324f9c11e07e5bcec51be9e90ee4deebb309/XlsxWriter-3.0.9-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/18/19/c3232f35e24dccfad372e9f341c4f3a1166ae7c66e4e1351a9467c921cc1/wtforms-3.1.2-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/6c/69/05837f91dfe42109203ffa3e488214ff86a6d68b2ed6c167da6cdc42349b/werkzeug-3.0.6-py3-none-any.whl.metadata
+DEBUG Adding transitive dependency for flask-babel==2.0.0: pytz*
+DEBUG Adding transitive dependency for flask-babel==2.0.0: flask*
+DEBUG Adding transitive dependency for flask-babel==2.0.0: babel>=2.3
+DEBUG Adding transitive dependency for flask-babel==2.0.0: jinja2>=2.5
+DEBUG Searching for a compatible version of flask-caching (>=2.3.0, <2.3.0+)
+DEBUG Selecting: flask-caching==2.3.0 [compatible] (Flask_Caching-2.3.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for flask-caching==2.3.0: cachelib>=0.9.0, <0.10.0
+DEBUG Adding transitive dependency for flask-caching==2.3.0: flask*
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/a9/5b/3afbd03f813b7ba929887d0d1107b54e7bad4e3a10664ab21a05eb777149/SQLAlchemy-1.4.52-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+DEBUG Searching for a compatible version of flask-compress (>=1.15, <1.15+)
+DEBUG Selecting: flask-compress==1.15 [compatible] (Flask_Compress-1.15-py3-none-any.whl)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/fd/84/fd2ba7aafacbad3c4201d395674fc6348826569da3c0937e75505ead3528/wcwidth-0.2.13-py2.py3-none-any.whl.metadata
+DEBUG Adding transitive dependency for flask-compress==1.15: flask*
+DEBUG Adding transitive dependency for flask-compress==1.15: brotli{platform_python_implementation != 'PyPy'}*
+DEBUG Adding transitive dependency for flask-compress==1.15: zstandard{platform_python_implementation != 'PyPy'}*
+DEBUG Searching for a compatible version of brotli{platform_python_implementation != 'PyPy'} (*)
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/03/ff/7c0c86c43b3cbb927e0ccc0255cb4057ceba4799cd44ae95174ce8e8b5b2/vine-5.1.0-py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/b0/53/aa91e163dcfd1e5b82d8a890ecf13314e3e149c05270cc644581f77f17fd/urllib3-1.26.18-py2.py3-none-any.whl.metadata
+DEBUG Found fresh response for: https://files.pythonhosted.org/packages/24/20/4e88bb8417b2f8d63385da8eaedb0a591fed9e7fe72fd883d119319a6b50/WTForms-JSON-0.3.5.tar.gz
+DEBUG Selecting: brotli==1.2.0 [compatible] (brotli-1.2.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl)
+DEBUG Adding transitive dependency for brotli==1.2.0: brotli==1.2.0
+DEBUG Adding transitive dependency for brotli==1.2.0: brotli{platform_python_implementation != 'PyPy'}==1.2.0
+DEBUG Searching for a compatible version of brotli{platform_python_implementation != 'PyPy'} (<=1.1.0)
+DEBUG Selecting: brotli==1.1.0 [compatible] (Brotli-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for brotli==1.1.0: brotli==1.1.0
+DEBUG Adding transitive dependency for brotli==1.1.0: brotli{platform_python_implementation != 'PyPy'}==1.1.0
+DEBUG Searching for a compatible version of brotli{platform_python_implementation != 'PyPy'} (==1.1.0)
+DEBUG Selecting: brotli==1.1.0 [compatible] (Brotli-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of flask-jwt-extended (>=4.6.0, <4.6.0+)
+DEBUG Selecting: flask-jwt-extended==4.6.0 [compatible] (Flask_JWT_Extended-4.6.0-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for flask-jwt-extended==4.6.0: werkzeug>=0.14
+DEBUG Adding transitive dependency for flask-jwt-extended==4.6.0: flask>=2.0, <4.0
+DEBUG Adding transitive dependency for flask-jwt-extended==4.6.0: pyjwt>=2.0, <3.0
+DEBUG Searching for a compatible version of flask-limiter (>=3.7.0, <3.7.0+)
+DEBUG Selecting: flask-limiter==3.7.0 [compatible] (Flask_Limiter-3.7.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for flask-limiter==3.7.0: limits>=2.8
+DEBUG Adding transitive dependency for flask-limiter==3.7.0: flask>=2
+DEBUG Adding transitive dependency for flask-limiter==3.7.0: ordered-set>4, <5
+DEBUG Adding transitive dependency for flask-limiter==3.7.0: rich>=12, <14
+DEBUG Adding transitive dependency for flask-limiter==3.7.0: typing-extensions>=4
+DEBUG No static `PKG-INFO` available for: func-timeout==4.3.5 (PkgInfo(UnsupportedMetadataVersion("1.2")))
+DEBUG Searching for a compatible version of flask-login (>=0.6.3, <0.6.3+)
+DEBUG Selecting: flask-login==0.6.3 [compatible] (Flask_Login-0.6.3-py3-none-any.whl)
+DEBUG Adding transitive dependency for flask-login==0.6.3: flask>=1.0.4
+DEBUG Adding transitive dependency for flask-login==0.6.3: werkzeug>=1.0.1
+DEBUG Searching for a compatible version of flask-migrate (>=3.1.0, <3.1.0+)
+DEBUG Selecting: flask-migrate==3.1.0 [compatible] (Flask_Migrate-3.1.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for flask-migrate==3.1.0: flask>=0.9
+DEBUG Adding transitive dependency for flask-migrate==3.1.0: flask-sqlalchemy>=1.0
+DEBUG Adding transitive dependency for flask-migrate==3.1.0: alembic>=0.7
+DEBUG Searching for a compatible version of flask-session (>=0.8.0, <0.8.0+)
+DEBUG Selecting: flask-session==0.8.0 [compatible] (flask_session-0.8.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for flask-session==0.8.0: flask>=2.2
+DEBUG Adding transitive dependency for flask-session==0.8.0: msgspec>=0.18.6
+DEBUG Adding transitive dependency for flask-session==0.8.0: cachelib*
+DEBUG Searching for a compatible version of flask-sqlalchemy (>=2.5.1, <2.5.1+)
+DEBUG Selecting: flask-sqlalchemy==2.5.1 [compatible] (Flask_SQLAlchemy-2.5.1-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for flask-sqlalchemy==2.5.1: flask>=0.10
+DEBUG Adding transitive dependency for flask-sqlalchemy==2.5.1: sqlalchemy>=0.8.0
+DEBUG Searching for a compatible version of flask-talisman (>=1.1.0, <1.1.0+)
+DEBUG Selecting: flask-talisman==1.1.0 [compatible] (flask_talisman-1.1.0-py2.py3-none-any.whl)
+DEBUG Searching for a compatible version of flask-wtf (>=1.2.1, <1.2.1+)
+DEBUG Selecting: flask-wtf==1.2.1 [compatible] (flask_wtf-1.2.1-py3-none-any.whl)
+DEBUG Adding transitive dependency for flask-wtf==1.2.1: flask*
+DEBUG Adding transitive dependency for flask-wtf==1.2.1: itsdangerous*
+DEBUG Adding transitive dependency for flask-wtf==1.2.1: wtforms*
+DEBUG Searching for a compatible version of func-timeout (>=4.3.5, <4.3.5+)
+DEBUG Selecting: func-timeout==4.3.5 [compatible] (func_timeout-4.3.5.tar.gz)
+DEBUG No `pyproject.toml` available for: pgsanity==0.2.9
+DEBUG No `pyproject.toml` available for: shortid==0.1.2
+DEBUG Using cached metadata for: func-timeout==4.3.5
+DEBUG No static `PKG-INFO` available for: pgsanity==0.2.9 (PkgInfo(UnsupportedMetadataVersion("1.1")))
+DEBUG No `pyproject.toml` available for: wtforms-json==0.3.5
+DEBUG Searching for a compatible version of geographiclib (>=2.0, <2.0+)
+DEBUG Selecting: geographiclib==2.0 [compatible] (geographiclib-2.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of geopy (>=2.4.1, <2.4.1+)
+DEBUG Selecting: geopy==2.4.1 [compatible] (geopy-2.4.1-py3-none-any.whl)
+DEBUG Adding transitive dependency for geopy==2.4.1: geographiclib>=1.52, <3
+DEBUG Searching for a compatible version of google-auth (>=2.29.0, <2.29.0+)
+DEBUG Selecting: google-auth==2.29.0 [compatible] (google_auth-2.29.0-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for google-auth==2.29.0: cachetools>=2.0.0, <6.0
+DEBUG Adding transitive dependency for google-auth==2.29.0: pyasn1-modules>=0.2.1
+DEBUG Adding transitive dependency for google-auth==2.29.0: rsa>=3.1.4, <5
+DEBUG Searching for a compatible version of greenlet (>=3.0.3, <3.0.3+)
+DEBUG Selecting: greenlet==3.0.3 [compatible] (greenlet-3.0.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG No static `PKG-INFO` available for: shortid==0.1.2 (PkgInfo(UnsupportedMetadataVersion("1.1")))
+DEBUG Searching for a compatible version of gunicorn (>=22.0.0, <22.0.0+)
+DEBUG Selecting: gunicorn==22.0.0 [compatible] (gunicorn-22.0.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for gunicorn==22.0.0: packaging*
+DEBUG Searching for a compatible version of hashids (>=1.3.1, <1.3.1+)
+DEBUG Selecting: hashids==1.3.1 [compatible] (hashids-1.3.1-py2.py3-none-any.whl)
+DEBUG Searching for a compatible version of holidays (>=0.25, <0.25+)
+DEBUG Selecting: holidays==0.25 [compatible] (holidays-0.25-py3-none-any.whl)
+DEBUG Adding transitive dependency for holidays==0.25: korean-lunar-calendar*
+DEBUG Adding transitive dependency for holidays==0.25: python-dateutil*
+DEBUG Searching for a compatible version of humanize (>=4.9.0, <4.9.0+)
+DEBUG Selecting: humanize==4.9.0 [compatible] (humanize-4.9.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of idna (>=3.7, <3.7+)
+DEBUG Selecting: idna==3.7 [compatible] (idna-3.7-py3-none-any.whl)
+DEBUG Searching for a compatible version of importlib-metadata (>=7.1.0, <7.1.0+)
+DEBUG Selecting: importlib-metadata==7.1.0 [compatible] (importlib_metadata-7.1.0-py3-none-any.whl)
+DEBUG Using cached metadata for: pgsanity==0.2.9
+DEBUG Adding transitive dependency for importlib-metadata==7.1.0: zipp>=0.5
+DEBUG No static `PKG-INFO` available for: wtforms-json==0.3.5 (PkgInfo(UnsupportedMetadataVersion("2.1")))
+DEBUG Searching for a compatible version of importlib-resources (>=6.4.0, <6.4.0+)
+DEBUG Selecting: importlib-resources==6.4.0 [compatible] (importlib_resources-6.4.0-py3-none-any.whl)
+DEBUG Using cached metadata for: shortid==0.1.2
+DEBUG Searching for a compatible version of isodate (>=0.6.1, <0.6.1+)
+DEBUG Selecting: isodate==0.6.1 [compatible] (isodate-0.6.1-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for isodate==0.6.1: six*
+DEBUG Searching for a compatible version of itsdangerous (>=2.2.0, <2.2.0+)
+DEBUG Selecting: itsdangerous==2.2.0 [compatible] (itsdangerous-2.2.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of jinja2 (>=3.1.4, <3.1.4+)
+DEBUG Selecting: jinja2==3.1.4 [compatible] (jinja2-3.1.4-py3-none-any.whl)
+DEBUG Adding transitive dependency for jinja2==3.1.4: markupsafe>=2.0
+DEBUG Searching for a compatible version of jsonpath-ng (>=1.6.1, <1.6.1+)
+DEBUG Selecting: jsonpath-ng==1.6.1 [compatible] (jsonpath_ng-1.6.1-py3-none-any.whl)
+DEBUG Adding transitive dependency for jsonpath-ng==1.6.1: ply*
+DEBUG Searching for a compatible version of jsonschema (>=4.17.3, <4.17.3+)
+DEBUG Selecting: jsonschema==4.17.3 [compatible] (jsonschema-4.17.3-py3-none-any.whl)
+DEBUG Using cached metadata for: wtforms-json==0.3.5
+DEBUG Adding transitive dependency for jsonschema==4.17.3: attrs>=17.4.0
+DEBUG Adding transitive dependency for jsonschema==4.17.3: pyrsistent>=0.14.0, <0.17.0 | >=0.17.0+, <0.17.1 | >=0.17.1+, <0.17.2 | >=0.17.2+
+DEBUG Searching for a compatible version of kombu (>=5.3.7, <5.3.7+)
+DEBUG Selecting: kombu==5.3.7 [compatible] (kombu-5.3.7-py3-none-any.whl)
+DEBUG Adding transitive dependency for kombu==5.3.7: amqp>=5.1.1, <6.0.0
+DEBUG Adding transitive dependency for kombu==5.3.7: vine*
+DEBUG Searching for a compatible version of korean-lunar-calendar (>=0.3.1, <0.3.1+)
+DEBUG Selecting: korean-lunar-calendar==0.3.1 [compatible] (korean_lunar_calendar-0.3.1-py3-none-any.whl)
+DEBUG Searching for a compatible version of limits (>=3.12.0, <3.12.0+)
+DEBUG Selecting: limits==3.12.0 [compatible] (limits-3.12.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for limits==3.12.0: deprecated>=1.2
+DEBUG Adding transitive dependency for limits==3.12.0: importlib-resources>=1.3
+DEBUG Adding transitive dependency for limits==3.12.0: packaging>=21, <25
+DEBUG Adding transitive dependency for limits==3.12.0: typing-extensions*
+DEBUG Searching for a compatible version of llvmlite (>=0.42.0, <0.42.0+)
+DEBUG Selecting: llvmlite==0.42.0 [compatible] (llvmlite-0.42.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of mako (>=1.3.5, <1.3.5+)
+DEBUG Selecting: mako==1.3.5 [compatible] (Mako-1.3.5-py3-none-any.whl)
+DEBUG Adding transitive dependency for mako==1.3.5: markupsafe>=0.9.2
+DEBUG Searching for a compatible version of markdown (>=3.6, <3.6+)
+DEBUG Selecting: markdown==3.6 [compatible] (Markdown-3.6-py3-none-any.whl)
+DEBUG Searching for a compatible version of markdown-it-py (>=3.0.0, <3.0.0+)
+DEBUG Selecting: markdown-it-py==3.0.0 [compatible] (markdown_it_py-3.0.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for markdown-it-py==3.0.0: mdurl>=0.1, <1.dev0
+DEBUG Searching for a compatible version of markupsafe (>=2.1.5, <2.1.5+)
+DEBUG Selecting: markupsafe==2.1.5 [compatible] (MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of marshmallow (>=3.21.2, <3.21.2+)
+DEBUG Selecting: marshmallow==3.21.2 [compatible] (marshmallow-3.21.2-py3-none-any.whl)
+DEBUG Adding transitive dependency for marshmallow==3.21.2: packaging>=17.0
+DEBUG Searching for a compatible version of marshmallow-sqlalchemy (>=0.28.2, <0.28.2+)
+DEBUG Selecting: marshmallow-sqlalchemy==0.28.2 [compatible] (marshmallow_sqlalchemy-0.28.2-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for marshmallow-sqlalchemy==0.28.2: marshmallow>=3.0.0
+DEBUG Adding transitive dependency for marshmallow-sqlalchemy==0.28.2: sqlalchemy>=1.3.0, <2.0
+DEBUG Adding transitive dependency for marshmallow-sqlalchemy==0.28.2: packaging>=21.3
+DEBUG Searching for a compatible version of mdurl (>=0.1.2, <0.1.2+)
+DEBUG Selecting: mdurl==0.1.2 [compatible] (mdurl-0.1.2-py3-none-any.whl)
+DEBUG Searching for a compatible version of msgpack (>=1.0.8, <1.0.8+)
+DEBUG Selecting: msgpack==1.0.8 [compatible] (msgpack-1.0.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of msgspec (>=0.18.6, <0.18.6+)
+DEBUG Selecting: msgspec==0.18.6 [compatible] (msgspec-0.18.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of nh3 (>=0.2.17, <0.2.17+)
+DEBUG Selecting: nh3==0.2.17 [compatible] (nh3-0.2.17-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of numba (>=0.59.1, <0.59.1+)
+DEBUG Selecting: numba==0.59.1 [compatible] (numba-0.59.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl)
+DEBUG Adding transitive dependency for numba==0.59.1: llvmlite>=0.42.0.dev0, <0.43
+DEBUG Adding transitive dependency for numba==0.59.1: numpy>=1.22, <1.27
+DEBUG Searching for a compatible version of numexpr (>=2.10.0, <2.10.0+)
+DEBUG Selecting: numexpr==2.10.0 [compatible] (numexpr-2.10.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numexpr==2.10.0: numpy>=1.19.3
+DEBUG Searching for a compatible version of numpy (>=1.23.5, <1.23.5+)
+DEBUG Selecting: numpy==1.23.5 [compatible] (numpy-1.23.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of ordered-set (>=4.1.0, <4.1.0+)
+DEBUG Selecting: ordered-set==4.1.0 [compatible] (ordered_set-4.1.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of packaging (>=23.2, <23.2+)
+DEBUG Selecting: packaging==23.2 [compatible] (packaging-23.2-py3-none-any.whl)
+DEBUG Searching for a compatible version of pandas (>=2.0.3, <2.0.3+)
+DEBUG Selecting: pandas==2.0.3 [compatible] (pandas-2.0.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for pandas==2.0.3: python-dateutil>=2.8.2
+DEBUG Adding transitive dependency for pandas==2.0.3: pytz>=2020.1
+DEBUG Adding transitive dependency for pandas==2.0.3: tzdata>=2022.1
+DEBUG Adding transitive dependency for pandas==2.0.3: numpy{python_full_version >= '3.10'}>=1.21.0
+DEBUG Adding transitive dependency for pandas==2.0.3: numpy{python_full_version >= '3.11'}>=1.23.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0)
+DEBUG No compatible version found for: Python
+DEBUG Recording unit propagation conflict of Python from incompatibility of (numpy{python_full_version >= '3.10'})
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.5.2)
+DEBUG Recording unit propagation conflict of Python from incompatibility of (numpy{python_full_version >= '3.10'})
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.5.1)
+DEBUG Recording unit propagation conflict of Python from incompatibility of (numpy{python_full_version >= '3.10'})
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.5.0)
+DEBUG Recording unit propagation conflict of Python from incompatibility of (numpy{python_full_version >= '3.10'})
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.5.0rc1)
+DEBUG Selecting: numpy==2.4.6 [compatible] (numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.4.6: numpy==2.4.6
+DEBUG Adding transitive dependency for numpy==2.4.6: numpy{python_full_version >= '3.10'}==2.4.6
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.4.5 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.4.5 [compatible] (numpy-2.4.5-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.4.5: numpy==2.4.5
+DEBUG Adding transitive dependency for numpy==2.4.5: numpy{python_full_version >= '3.10'}==2.4.5
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.4.4 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.4.4 [compatible] (numpy-2.4.4-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.4.4: numpy==2.4.4
+DEBUG Adding transitive dependency for numpy==2.4.4: numpy{python_full_version >= '3.10'}==2.4.4
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.4.3 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.4.3 [compatible] (numpy-2.4.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.4.3: numpy==2.4.3
+DEBUG Adding transitive dependency for numpy==2.4.3: numpy{python_full_version >= '3.10'}==2.4.3
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.4.2 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.4.2 [compatible] (numpy-2.4.2-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.4.2: numpy==2.4.2
+DEBUG Adding transitive dependency for numpy==2.4.2: numpy{python_full_version >= '3.10'}==2.4.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.4.1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.4.1 [compatible] (numpy-2.4.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.4.1: numpy==2.4.1
+DEBUG Adding transitive dependency for numpy==2.4.1: numpy{python_full_version >= '3.10'}==2.4.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.4.0 | ==2.5.0rc1)
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.3.5 [compatible] (numpy-2.3.5-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.3.5: numpy==2.3.5
+DEBUG Adding transitive dependency for numpy==2.3.5: numpy{python_full_version >= '3.10'}==2.3.5
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.3.4 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.3.4 [compatible] (numpy-2.3.4-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.3.4: numpy==2.3.4
+DEBUG Adding transitive dependency for numpy==2.3.4: numpy{python_full_version >= '3.10'}==2.3.4
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.3.3 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.3.3 [compatible] (numpy-2.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.3.3: numpy==2.3.3
+DEBUG Adding transitive dependency for numpy==2.3.3: numpy{python_full_version >= '3.10'}==2.3.3
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.3.2 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.3.2 [compatible] (numpy-2.3.2-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.3.2: numpy==2.3.2
+DEBUG Adding transitive dependency for numpy==2.3.2: numpy{python_full_version >= '3.10'}==2.3.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.3.1 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.3.1 [compatible] (numpy-2.3.1-cp311-cp311-manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.3.1: numpy==2.3.1
+DEBUG Adding transitive dependency for numpy==2.3.1: numpy{python_full_version >= '3.10'}==2.3.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.3.0 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.3.0 [compatible] (numpy-2.3.0-cp311-cp311-manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.3.0: numpy==2.3.0
+DEBUG Adding transitive dependency for numpy==2.3.0: numpy{python_full_version >= '3.10'}==2.3.0
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.2.6 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.2.6 [compatible] (numpy-2.2.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.2.6: numpy==2.2.6
+DEBUG Adding transitive dependency for numpy==2.2.6: numpy{python_full_version >= '3.10'}==2.2.6
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.2.5 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.2.5 [compatible] (numpy-2.2.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.2.5: numpy==2.2.5
+DEBUG Adding transitive dependency for numpy==2.2.5: numpy{python_full_version >= '3.10'}==2.2.5
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.2.4 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.2.4 [compatible] (numpy-2.2.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.2.4: numpy==2.2.4
+DEBUG Adding transitive dependency for numpy==2.2.4: numpy{python_full_version >= '3.10'}==2.2.4
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.2.3 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.2.3 [compatible] (numpy-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.2.3: numpy==2.2.3
+DEBUG Adding transitive dependency for numpy==2.2.3: numpy{python_full_version >= '3.10'}==2.2.3
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.2.2 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.2.2 [compatible] (numpy-2.2.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.2.2: numpy==2.2.2
+DEBUG Adding transitive dependency for numpy==2.2.2: numpy{python_full_version >= '3.10'}==2.2.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.2.1 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.2.1 [compatible] (numpy-2.2.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.2.1: numpy==2.2.1
+DEBUG Adding transitive dependency for numpy==2.2.1: numpy{python_full_version >= '3.10'}==2.2.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.2.0 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.2.0 [compatible] (numpy-2.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.2.0: numpy==2.2.0
+DEBUG Adding transitive dependency for numpy==2.2.0: numpy{python_full_version >= '3.10'}==2.2.0
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.1.3 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.1.3 [compatible] (numpy-2.1.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.1.3: numpy==2.1.3
+DEBUG Adding transitive dependency for numpy==2.1.3: numpy{python_full_version >= '3.10'}==2.1.3
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.1.2 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.1.2 [compatible] (numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.1.2: numpy==2.1.2
+DEBUG Adding transitive dependency for numpy==2.1.2: numpy{python_full_version >= '3.10'}==2.1.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.1.1 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.1.1 [compatible] (numpy-2.1.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.1.1: numpy==2.1.1
+DEBUG Adding transitive dependency for numpy==2.1.1: numpy{python_full_version >= '3.10'}==2.1.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.1.0 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.1.0 [compatible] (numpy-2.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.1.0: numpy==2.1.0
+DEBUG Adding transitive dependency for numpy==2.1.0: numpy{python_full_version >= '3.10'}==2.1.0
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.0.2 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.0.2 [compatible] (numpy-2.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.0.2: numpy==2.0.2
+DEBUG Adding transitive dependency for numpy==2.0.2: numpy{python_full_version >= '3.10'}==2.0.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.0.1 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.0.1 [compatible] (numpy-2.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.0.1: numpy==2.0.1
+DEBUG Adding transitive dependency for numpy==2.0.1: numpy{python_full_version >= '3.10'}==2.0.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=2.0.0 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.0.0 [compatible] (numpy-2.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.0.0: numpy==2.0.0
+DEBUG Adding transitive dependency for numpy==2.0.0: numpy{python_full_version >= '3.10'}==2.0.0
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=1.26.4 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.26.4 [compatible] (numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.26.4: numpy==1.26.4
+DEBUG Adding transitive dependency for numpy==1.26.4: numpy{python_full_version >= '3.10'}==1.26.4
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=1.26.3 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.26.3 [compatible] (numpy-1.26.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.26.3: numpy==1.26.3
+DEBUG Adding transitive dependency for numpy==1.26.3: numpy{python_full_version >= '3.10'}==1.26.3
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=1.26.2 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.26.2 [compatible] (numpy-1.26.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.26.2: numpy==1.26.2
+DEBUG Adding transitive dependency for numpy==1.26.2: numpy{python_full_version >= '3.10'}==1.26.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=1.26.1 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.26.1 [compatible] (numpy-1.26.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.26.1: numpy==1.26.1
+DEBUG Adding transitive dependency for numpy==1.26.1: numpy{python_full_version >= '3.10'}==1.26.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=1.26.0 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.26.0 [compatible] (numpy-1.26.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.26.0: numpy==1.26.0
+DEBUG Adding transitive dependency for numpy==1.26.0: numpy{python_full_version >= '3.10'}==1.26.0
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=1.25.2 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.25.2 [compatible] (numpy-1.25.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.25.2: numpy==1.25.2
+DEBUG Adding transitive dependency for numpy==1.25.2: numpy{python_full_version >= '3.10'}==1.25.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=1.25.1 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.25.1 [compatible] (numpy-1.25.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.25.1: numpy==1.25.1
+DEBUG Adding transitive dependency for numpy==1.25.1: numpy{python_full_version >= '3.10'}==1.25.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=1.25.0 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.25.0 [compatible] (numpy-1.25.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.25.0: numpy==1.25.0
+DEBUG Adding transitive dependency for numpy==1.25.0: numpy{python_full_version >= '3.10'}==1.25.0
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=1.24.4 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.24.4 [compatible] (numpy-1.24.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.24.4: numpy==1.24.4
+DEBUG Adding transitive dependency for numpy==1.24.4: numpy{python_full_version >= '3.10'}==1.24.4
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=1.24.3 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.24.3 [compatible] (numpy-1.24.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.24.3: numpy==1.24.3
+DEBUG Adding transitive dependency for numpy==1.24.3: numpy{python_full_version >= '3.10'}==1.24.3
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=1.24.2 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.24.2 [compatible] (numpy-1.24.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.24.2: numpy==1.24.2
+DEBUG Adding transitive dependency for numpy==1.24.2: numpy{python_full_version >= '3.10'}==1.24.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=1.24.1 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.24.1 [compatible] (numpy-1.24.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.24.1: numpy==1.24.1
+DEBUG Adding transitive dependency for numpy==1.24.1: numpy{python_full_version >= '3.10'}==1.24.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=1.24.0 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.24.0 [compatible] (numpy-1.24.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.24.0: numpy==1.24.0
+DEBUG Adding transitive dependency for numpy==1.24.0: numpy{python_full_version >= '3.10'}==1.24.0
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (>=1.21.0, <=1.23.5 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.23.5 [compatible] (numpy-1.23.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.23.5: numpy==1.23.5
+DEBUG Adding transitive dependency for numpy==1.23.5: numpy{python_full_version >= '3.10'}==1.23.5
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2)
+DEBUG Recording unit propagation conflict of Python from incompatibility of (numpy{python_full_version >= '3.11'})
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.5.2)
+DEBUG Recording unit propagation conflict of Python from incompatibility of (numpy{python_full_version >= '3.11'})
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.5.1)
+DEBUG Recording unit propagation conflict of Python from incompatibility of (numpy{python_full_version >= '3.11'})
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.5.0)
+DEBUG Recording unit propagation conflict of Python from incompatibility of (numpy{python_full_version >= '3.11'})
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.5.0rc1)
+DEBUG Selecting: numpy==2.4.6 [compatible] (numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.4.6: numpy==2.4.6
+DEBUG Adding transitive dependency for numpy==2.4.6: numpy{python_full_version >= '3.11'}==2.4.6
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.4.5 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.4.5 [compatible] (numpy-2.4.5-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.4.5: numpy==2.4.5
+DEBUG Adding transitive dependency for numpy==2.4.5: numpy{python_full_version >= '3.11'}==2.4.5
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.4.4 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.4.4 [compatible] (numpy-2.4.4-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.4.4: numpy==2.4.4
+DEBUG Adding transitive dependency for numpy==2.4.4: numpy{python_full_version >= '3.11'}==2.4.4
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.4.3 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.4.3 [compatible] (numpy-2.4.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.4.3: numpy==2.4.3
+DEBUG Adding transitive dependency for numpy==2.4.3: numpy{python_full_version >= '3.11'}==2.4.3
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.4.2 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.4.2 [compatible] (numpy-2.4.2-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.4.2: numpy==2.4.2
+DEBUG Adding transitive dependency for numpy==2.4.2: numpy{python_full_version >= '3.11'}==2.4.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.4.1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.4.1 [compatible] (numpy-2.4.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.4.1: numpy==2.4.1
+DEBUG Adding transitive dependency for numpy==2.4.1: numpy{python_full_version >= '3.11'}==2.4.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.4.0 | ==2.5.0rc1)
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.3.5 [compatible] (numpy-2.3.5-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.3.5: numpy==2.3.5
+DEBUG Adding transitive dependency for numpy==2.3.5: numpy{python_full_version >= '3.11'}==2.3.5
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.3.4 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.3.4 [compatible] (numpy-2.3.4-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.3.4: numpy==2.3.4
+DEBUG Adding transitive dependency for numpy==2.3.4: numpy{python_full_version >= '3.11'}==2.3.4
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.3.3 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.3.3 [compatible] (numpy-2.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.3.3: numpy==2.3.3
+DEBUG Adding transitive dependency for numpy==2.3.3: numpy{python_full_version >= '3.11'}==2.3.3
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.3.2 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.3.2 [compatible] (numpy-2.3.2-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.3.2: numpy==2.3.2
+DEBUG Adding transitive dependency for numpy==2.3.2: numpy{python_full_version >= '3.11'}==2.3.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.3.1 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.3.1 [compatible] (numpy-2.3.1-cp311-cp311-manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.3.1: numpy==2.3.1
+DEBUG Adding transitive dependency for numpy==2.3.1: numpy{python_full_version >= '3.11'}==2.3.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.3.0 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.3.0 [compatible] (numpy-2.3.0-cp311-cp311-manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.3.0: numpy==2.3.0
+DEBUG Adding transitive dependency for numpy==2.3.0: numpy{python_full_version >= '3.11'}==2.3.0
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.2.6 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.2.6 [compatible] (numpy-2.2.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.2.6: numpy==2.2.6
+DEBUG Adding transitive dependency for numpy==2.2.6: numpy{python_full_version >= '3.11'}==2.2.6
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.2.5 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.2.5 [compatible] (numpy-2.2.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.2.5: numpy==2.2.5
+DEBUG Adding transitive dependency for numpy==2.2.5: numpy{python_full_version >= '3.11'}==2.2.5
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.2.4 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.2.4 [compatible] (numpy-2.2.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.2.4: numpy==2.2.4
+DEBUG Adding transitive dependency for numpy==2.2.4: numpy{python_full_version >= '3.11'}==2.2.4
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.2.3 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.2.3 [compatible] (numpy-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.2.3: numpy==2.2.3
+DEBUG Adding transitive dependency for numpy==2.2.3: numpy{python_full_version >= '3.11'}==2.2.3
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.2.2 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.2.2 [compatible] (numpy-2.2.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.2.2: numpy==2.2.2
+DEBUG Adding transitive dependency for numpy==2.2.2: numpy{python_full_version >= '3.11'}==2.2.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.2.1 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.2.1 [compatible] (numpy-2.2.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.2.1: numpy==2.2.1
+DEBUG Adding transitive dependency for numpy==2.2.1: numpy{python_full_version >= '3.11'}==2.2.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.2.0 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.2.0 [compatible] (numpy-2.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.2.0: numpy==2.2.0
+DEBUG Adding transitive dependency for numpy==2.2.0: numpy{python_full_version >= '3.11'}==2.2.0
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.1.3 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.1.3 [compatible] (numpy-2.1.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.1.3: numpy==2.1.3
+DEBUG Adding transitive dependency for numpy==2.1.3: numpy{python_full_version >= '3.11'}==2.1.3
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.1.2 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.1.2 [compatible] (numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.1.2: numpy==2.1.2
+DEBUG Adding transitive dependency for numpy==2.1.2: numpy{python_full_version >= '3.11'}==2.1.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.1.1 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.1.1 [compatible] (numpy-2.1.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.1.1: numpy==2.1.1
+DEBUG Adding transitive dependency for numpy==2.1.1: numpy{python_full_version >= '3.11'}==2.1.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.1.0 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.1.0 [compatible] (numpy-2.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.1.0: numpy==2.1.0
+DEBUG Adding transitive dependency for numpy==2.1.0: numpy{python_full_version >= '3.11'}==2.1.0
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.0.2 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.0.2 [compatible] (numpy-2.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.0.2: numpy==2.0.2
+DEBUG Adding transitive dependency for numpy==2.0.2: numpy{python_full_version >= '3.11'}==2.0.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.0.1 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.0.1 [compatible] (numpy-2.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.0.1: numpy==2.0.1
+DEBUG Adding transitive dependency for numpy==2.0.1: numpy{python_full_version >= '3.11'}==2.0.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=2.0.0 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==2.0.0 [compatible] (numpy-2.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==2.0.0: numpy==2.0.0
+DEBUG Adding transitive dependency for numpy==2.0.0: numpy{python_full_version >= '3.11'}==2.0.0
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=1.26.4 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.26.4 [compatible] (numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.26.4: numpy==1.26.4
+DEBUG Adding transitive dependency for numpy==1.26.4: numpy{python_full_version >= '3.11'}==1.26.4
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=1.26.3 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.26.3 [compatible] (numpy-1.26.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.26.3: numpy==1.26.3
+DEBUG Adding transitive dependency for numpy==1.26.3: numpy{python_full_version >= '3.11'}==1.26.3
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=1.26.2 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.26.2 [compatible] (numpy-1.26.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.26.2: numpy==1.26.2
+DEBUG Adding transitive dependency for numpy==1.26.2: numpy{python_full_version >= '3.11'}==1.26.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=1.26.1 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.26.1 [compatible] (numpy-1.26.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.26.1: numpy==1.26.1
+DEBUG Adding transitive dependency for numpy==1.26.1: numpy{python_full_version >= '3.11'}==1.26.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=1.26.0 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.26.0 [compatible] (numpy-1.26.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.26.0: numpy==1.26.0
+DEBUG Adding transitive dependency for numpy==1.26.0: numpy{python_full_version >= '3.11'}==1.26.0
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=1.25.2 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.25.2 [compatible] (numpy-1.25.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.25.2: numpy==1.25.2
+DEBUG Adding transitive dependency for numpy==1.25.2: numpy{python_full_version >= '3.11'}==1.25.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=1.25.1 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.25.1 [compatible] (numpy-1.25.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.25.1: numpy==1.25.1
+DEBUG Adding transitive dependency for numpy==1.25.1: numpy{python_full_version >= '3.11'}==1.25.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=1.25.0 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.25.0 [compatible] (numpy-1.25.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.25.0: numpy==1.25.0
+DEBUG Adding transitive dependency for numpy==1.25.0: numpy{python_full_version >= '3.11'}==1.25.0
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=1.24.4 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.24.4 [compatible] (numpy-1.24.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.24.4: numpy==1.24.4
+DEBUG Adding transitive dependency for numpy==1.24.4: numpy{python_full_version >= '3.11'}==1.24.4
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=1.24.3 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.24.3 [compatible] (numpy-1.24.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.24.3: numpy==1.24.3
+DEBUG Adding transitive dependency for numpy==1.24.3: numpy{python_full_version >= '3.11'}==1.24.3
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=1.24.2 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.24.2 [compatible] (numpy-1.24.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.24.2: numpy==1.24.2
+DEBUG Adding transitive dependency for numpy==1.24.2: numpy{python_full_version >= '3.11'}==1.24.2
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=1.24.1 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.24.1 [compatible] (numpy-1.24.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.24.1: numpy==1.24.1
+DEBUG Adding transitive dependency for numpy==1.24.1: numpy{python_full_version >= '3.11'}==1.24.1
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=1.24.0 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.24.0 [compatible] (numpy-1.24.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.24.0: numpy==1.24.0
+DEBUG Adding transitive dependency for numpy==1.24.0: numpy{python_full_version >= '3.11'}==1.24.0
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (>=1.23.2, <=1.23.5 | ==2.4.0rc1 | ==2.5.0rc1)
+DEBUG Selecting: numpy==1.23.5 [compatible] (numpy-1.23.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for numpy==1.23.5: numpy==1.23.5
+DEBUG Adding transitive dependency for numpy==1.23.5: numpy{python_full_version >= '3.11'}==1.23.5
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.10'} (==1.23.5)
+DEBUG Selecting: numpy==1.23.5 [compatible] (numpy-1.23.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of numpy{python_full_version >= '3.11'} (==1.23.5)
+DEBUG Selecting: numpy==1.23.5 [compatible] (numpy-1.23.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of paramiko (>=3.4.0, <3.4.0+)
+DEBUG Selecting: paramiko==3.4.0 [compatible] (paramiko-3.4.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for paramiko==3.4.0: bcrypt>=3.2
+DEBUG Adding transitive dependency for paramiko==3.4.0: cryptography>=3.3
+DEBUG Adding transitive dependency for paramiko==3.4.0: pynacl>=1.5
+DEBUG Searching for a compatible version of parsedatetime (>=2.6, <2.6+)
+DEBUG Selecting: parsedatetime==2.6 [compatible] (parsedatetime-2.6-py3-none-any.whl)
+DEBUG Searching for a compatible version of pgsanity (>=0.2.9, <0.2.9+)
+DEBUG Selecting: pgsanity==0.2.9 [compatible] (pgsanity-0.2.9.tar.gz)
+DEBUG Searching for a compatible version of platformdirs (>=3.8.1, <3.8.1+)
+DEBUG Selecting: platformdirs==3.8.1 [compatible] (platformdirs-3.8.1-py3-none-any.whl)
+DEBUG Searching for a compatible version of ply (>=3.11, <3.11+)
+DEBUG Selecting: ply==3.11 [compatible] (ply-3.11-py2.py3-none-any.whl)
+DEBUG Searching for a compatible version of polyline (>=2.0.2, <2.0.2+)
+DEBUG Selecting: polyline==2.0.2 [compatible] (polyline-2.0.2-py3-none-any.whl)
+DEBUG Searching for a compatible version of prison (>=0.2.1, <0.2.1+)
+DEBUG Selecting: prison==0.2.1 [compatible] (prison-0.2.1-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for prison==0.2.1: six*
+DEBUG Searching for a compatible version of prompt-toolkit (>=3.0.44, <3.0.44+)
+DEBUG Selecting: prompt-toolkit==3.0.44 [compatible] (prompt_toolkit-3.0.44-py3-none-any.whl)
+DEBUG Adding transitive dependency for prompt-toolkit==3.0.44: wcwidth*
+DEBUG Searching for a compatible version of pyarrow (>=14.0.2, <14.0.2+)
+DEBUG Selecting: pyarrow==14.0.2 [compatible] (pyarrow-14.0.2-cp311-cp311-manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for pyarrow==14.0.2: numpy>=1.16.6
+DEBUG Searching for a compatible version of pyasn1 (>=0.6.0, <0.6.0+)
+DEBUG Selecting: pyasn1==0.6.0 [compatible] (pyasn1-0.6.0-py2.py3-none-any.whl)
+DEBUG Searching for a compatible version of pyasn1-modules (>=0.4.0, <0.4.0+)
+DEBUG Selecting: pyasn1-modules==0.4.0 [compatible] (pyasn1_modules-0.4.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for pyasn1-modules==0.4.0: pyasn1>=0.4.6, <0.7.0
+DEBUG Searching for a compatible version of pycparser (>=2.22, <2.22+)
+DEBUG Selecting: pycparser==2.22 [compatible] (pycparser-2.22-py3-none-any.whl)
+DEBUG Searching for a compatible version of pygments (>=2.18.0, <2.18.0+)
+DEBUG Selecting: pygments==2.18.0 [compatible] (pygments-2.18.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of pyjwt (>=2.8.0, <2.8.0+)
+DEBUG Selecting: pyjwt==2.8.0 [compatible] (PyJWT-2.8.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of pynacl (>=1.5.0, <1.5.0+)
+DEBUG Selecting: pynacl==1.5.0 [compatible] (PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl)
+DEBUG Adding transitive dependency for pynacl==1.5.0: cffi>=1.4.1
+DEBUG Searching for a compatible version of pyopenssl (>=24.1.0, <24.1.0+)
+DEBUG Selecting: pyopenssl==24.1.0 [compatible] (pyOpenSSL-24.1.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for pyopenssl==24.1.0: cryptography>=41.0.5, <43
+DEBUG Searching for a compatible version of pyparsing (>=3.1.2, <3.1.2+)
+DEBUG Selecting: pyparsing==3.1.2 [compatible] (pyparsing-3.1.2-py3-none-any.whl)
+DEBUG Searching for a compatible version of pyrsistent (>=0.20.0, <0.20.0+)
+DEBUG Selecting: pyrsistent==0.20.0 [compatible] (pyrsistent-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of python-dateutil (>=2.9.0.post0, <2.9.0.post0+)
+DEBUG Selecting: python-dateutil==2.9.0.post0 [compatible] (python_dateutil-2.9.0.post0-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for python-dateutil==2.9.0.post0: six>=1.5
+DEBUG Searching for a compatible version of python-dotenv (>=1.0.1, <1.0.1+)
+DEBUG Selecting: python-dotenv==1.0.1 [compatible] (python_dotenv-1.0.1-py3-none-any.whl)
+DEBUG Searching for a compatible version of pytz (>=2024.1, <2024.1+)
+DEBUG Selecting: pytz==2024.1 [compatible] (pytz-2024.1-py2.py3-none-any.whl)
+DEBUG Searching for a compatible version of pyyaml (>=6.0.1, <6.0.1+)
+DEBUG Selecting: pyyaml==6.0.1 [compatible] (PyYAML-6.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of redis (>=4.6.0, <4.6.0+)
+DEBUG Selecting: redis==4.6.0 [compatible] (redis-4.6.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of requests (>=2.32.2, <2.32.2+)
+DEBUG Selecting: requests==2.32.2 [compatible] (requests-2.32.2-py3-none-any.whl)
+DEBUG Adding transitive dependency for requests==2.32.2: charset-normalizer>=2, <4
+DEBUG Adding transitive dependency for requests==2.32.2: idna>=2.5, <4
+DEBUG Adding transitive dependency for requests==2.32.2: urllib3>=1.21.1, <3
+DEBUG Adding transitive dependency for requests==2.32.2: certifi>=2017.4.17
+DEBUG Searching for a compatible version of requests-cache (>=1.2.0, <1.2.0+)
+DEBUG Selecting: requests-cache==1.2.0 [compatible] (requests_cache-1.2.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for requests-cache==1.2.0: attrs>=21.2
+DEBUG Adding transitive dependency for requests-cache==1.2.0: cattrs>=22.2
+DEBUG Adding transitive dependency for requests-cache==1.2.0: platformdirs>=2.5
+DEBUG Adding transitive dependency for requests-cache==1.2.0: requests>=2.22
+DEBUG Adding transitive dependency for requests-cache==1.2.0: url-normalize>=1.4
+DEBUG Adding transitive dependency for requests-cache==1.2.0: urllib3>=1.25.5
+DEBUG Searching for a compatible version of rich (>=13.7.1, <13.7.1+)
+DEBUG Selecting: rich==13.7.1 [compatible] (rich-13.7.1-py3-none-any.whl)
+DEBUG Adding transitive dependency for rich==13.7.1: markdown-it-py>=2.2.0
+DEBUG Adding transitive dependency for rich==13.7.1: pygments>=2.13.0, <3.0.0
+DEBUG Searching for a compatible version of rsa (>=4.9, <4.9+)
+DEBUG Selecting: rsa==4.9 [compatible] (rsa-4.9-py3-none-any.whl)
+DEBUG Adding transitive dependency for rsa==4.9: pyasn1>=0.1.3
+DEBUG Searching for a compatible version of selenium (>=3.141.0, <3.141.0+)
+DEBUG Selecting: selenium==3.141.0 [compatible] (selenium-3.141.0-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for selenium==3.141.0: urllib3*
+DEBUG Searching for a compatible version of shillelagh[gsheetsapi] (>=1.2.18, <1.2.18+)
+DEBUG Selecting: shillelagh==1.2.18 [compatible] (shillelagh-1.2.18-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for shillelagh==1.2.18: shillelagh==1.2.18
+DEBUG Adding transitive dependency for shillelagh==1.2.18: shillelagh[gsheetsapi]==1.2.18
+DEBUG Searching for a compatible version of shillelagh (==1.2.18)
+DEBUG Selecting: shillelagh==1.2.18 [compatible] (shillelagh-1.2.18-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for shillelagh==1.2.18: apsw>=3.9.2
+DEBUG Adding transitive dependency for shillelagh==1.2.18: python-dateutil>=2.8.1
+DEBUG Adding transitive dependency for shillelagh==1.2.18: requests>=2.31.0
+DEBUG Adding transitive dependency for shillelagh==1.2.18: requests-cache>=0.7.1
+DEBUG Adding transitive dependency for shillelagh==1.2.18: sqlalchemy>=1.3
+DEBUG Adding transitive dependency for shillelagh==1.2.18: greenlet>=2.0.2
+DEBUG Adding transitive dependency for shillelagh==1.2.18: typing-extensions>=3.7.4.3
+DEBUG Adding transitive dependency for shillelagh==1.2.18: packaging*
+DEBUG Searching for a compatible version of shillelagh[gsheetsapi] (==1.2.18)
+DEBUG Selecting: shillelagh==1.2.18 [compatible] (shillelagh-1.2.18-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for shillelagh==1.2.18: google-auth>=1.23.0
+DEBUG Adding transitive dependency for shillelagh==1.2.18: pyopenssl>=24.0.0
+DEBUG Searching for a compatible version of shortid (>=0.1.2, <0.1.2+)
+DEBUG Selecting: shortid==0.1.2 [compatible] (shortid-0.1.2.tar.gz)
+DEBUG Searching for a compatible version of simplejson (>=3.19.2, <3.19.2+)
+DEBUG Selecting: simplejson==3.19.2 [compatible] (simplejson-3.19.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of six (>=1.16.0, <1.16.0+)
+DEBUG Selecting: six==1.16.0 [compatible] (six-1.16.0-py2.py3-none-any.whl)
+DEBUG Searching for a compatible version of slack-sdk (>=3.27.2, <3.27.2+)
+DEBUG Selecting: slack-sdk==3.27.2 [compatible] (slack_sdk-3.27.2-py2.py3-none-any.whl)
+DEBUG Searching for a compatible version of sqlalchemy (>=1.4.52, <1.4.52+)
+DEBUG Selecting: sqlalchemy==1.4.52 [compatible] (SQLAlchemy-1.4.52-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for sqlalchemy==1.4.52: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}<0.4.17 | >=0.4.17+
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+)
+DEBUG Selecting: greenlet==3.5.6 [compatible] (greenlet-3.5.6-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.5.6: greenlet==3.5.6
+DEBUG Adding transitive dependency for greenlet==3.5.6: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.5.6
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.5.5)
+DEBUG Selecting: greenlet==3.5.5 [compatible] (greenlet-3.5.5-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.5.5: greenlet==3.5.5
+DEBUG Adding transitive dependency for greenlet==3.5.5: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.5.5
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.5.4)
+DEBUG Selecting: greenlet==3.5.4 [compatible] (greenlet-3.5.4-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.5.4: greenlet==3.5.4
+DEBUG Adding transitive dependency for greenlet==3.5.4: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.5.4
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.5.3)
+DEBUG Selecting: greenlet==3.5.3 [compatible] (greenlet-3.5.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.5.3: greenlet==3.5.3
+DEBUG Adding transitive dependency for greenlet==3.5.3: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.5.3
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.5.2)
+DEBUG Selecting: greenlet==3.5.2 [compatible] (greenlet-3.5.2-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.5.2: greenlet==3.5.2
+DEBUG Adding transitive dependency for greenlet==3.5.2: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.5.2
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.5.1)
+DEBUG Selecting: greenlet==3.5.1 [compatible] (greenlet-3.5.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.5.1: greenlet==3.5.1
+DEBUG Adding transitive dependency for greenlet==3.5.1: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.5.1
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.5.0)
+DEBUG Selecting: greenlet==3.5.0 [compatible] (greenlet-3.5.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.5.0: greenlet==3.5.0
+DEBUG Adding transitive dependency for greenlet==3.5.0: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.5.0
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.4.0)
+DEBUG Selecting: greenlet==3.4.0 [compatible] (greenlet-3.4.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.4.0: greenlet==3.4.0
+DEBUG Adding transitive dependency for greenlet==3.4.0: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.4.0
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.3.2)
+DEBUG Selecting: greenlet==3.3.2 [compatible] (greenlet-3.3.2-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.3.2: greenlet==3.3.2
+DEBUG Adding transitive dependency for greenlet==3.3.2: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.3.2
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.3.1)
+DEBUG Selecting: greenlet==3.3.1 [compatible] (greenlet-3.3.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.3.1: greenlet==3.3.1
+DEBUG Adding transitive dependency for greenlet==3.3.1: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.3.1
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.3.0)
+DEBUG Selecting: greenlet==3.3.0 [compatible] (greenlet-3.3.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.3.0: greenlet==3.3.0
+DEBUG Adding transitive dependency for greenlet==3.3.0: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.3.0
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.2.5)
+DEBUG Selecting: greenlet==3.2.5 [compatible] (greenlet-3.2.5-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.2.5: greenlet==3.2.5
+DEBUG Adding transitive dependency for greenlet==3.2.5: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.2.5
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.2.4)
+DEBUG Selecting: greenlet==3.2.4 [compatible] (greenlet-3.2.4-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.2.4: greenlet==3.2.4
+DEBUG Adding transitive dependency for greenlet==3.2.4: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.2.4
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.2.3)
+DEBUG Selecting: greenlet==3.2.3 [compatible] (greenlet-3.2.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.2.3: greenlet==3.2.3
+DEBUG Adding transitive dependency for greenlet==3.2.3: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.2.3
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.2.2)
+DEBUG Selecting: greenlet==3.2.2 [compatible] (greenlet-3.2.2-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.2.2: greenlet==3.2.2
+DEBUG Adding transitive dependency for greenlet==3.2.2: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.2.2
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.2.1)
+DEBUG Selecting: greenlet==3.2.1 [compatible] (greenlet-3.2.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.2.1: greenlet==3.2.1
+DEBUG Adding transitive dependency for greenlet==3.2.1: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.2.1
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.2.0)
+DEBUG Selecting: greenlet==3.2.0 [compatible] (greenlet-3.2.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.2.0: greenlet==3.2.0
+DEBUG Adding transitive dependency for greenlet==3.2.0: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.2.0
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.1.1)
+DEBUG Selecting: greenlet==3.1.1 [compatible] (greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.1.1: greenlet==3.1.1
+DEBUG Adding transitive dependency for greenlet==3.1.1: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.1.1
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.1.0)
+DEBUG Selecting: greenlet==3.1.0 [compatible] (greenlet-3.1.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.1.0: greenlet==3.1.0
+DEBUG Adding transitive dependency for greenlet==3.1.0: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.1.0
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (<0.4.17 | >=0.4.17+, <=3.0.3)
+DEBUG Selecting: greenlet==3.0.3 [compatible] (greenlet-3.0.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Adding transitive dependency for greenlet==3.0.3: greenlet==3.0.3
+DEBUG Adding transitive dependency for greenlet==3.0.3: greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')}==3.0.3
+DEBUG Searching for a compatible version of greenlet{(python_full_version >= '3' and platform_machine == 'AMD64') or (python_full_version >= '3' and platform_machine == 'WIN32') or (python_full_version >= '3' and platform_machine == 'aarch64') or (python_full_version >= '3' and platform_machine == 'amd64') or (python_full_version >= '3' and platform_machine == 'ppc64le') or (python_full_version >= '3' and platform_machine == 'win32') or (python_full_version >= '3' and platform_machine == 'x86_64')} (==3.0.3)
+DEBUG Selecting: greenlet==3.0.3 [compatible] (greenlet-3.0.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+DEBUG Searching for a compatible version of sqlalchemy-utils (>=0.38.3, <0.38.3+)
+DEBUG Selecting: sqlalchemy-utils==0.38.3 [compatible] (SQLAlchemy_Utils-0.38.3-py3-none-any.whl)
+DEBUG Adding transitive dependency for sqlalchemy-utils==0.38.3: sqlalchemy>=1.3
+DEBUG Searching for a compatible version of sqlglot (>=25.24.0, <25.24.0+)
+DEBUG Selecting: sqlglot==25.24.0 [compatible] (sqlglot-25.24.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of sqlparse (>=0.5.0, <0.5.0+)
+DEBUG Selecting: sqlparse==0.5.0 [compatible] (sqlparse-0.5.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of sshtunnel (>=0.4.0, <0.4.0+)
+DEBUG Selecting: sshtunnel==0.4.0 [compatible] (sshtunnel-0.4.0-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for sshtunnel==0.4.0: paramiko>=2.7.2
+DEBUG Searching for a compatible version of tabulate (>=0.8.10, <0.8.10+)
+DEBUG Selecting: tabulate==0.8.10 [compatible] (tabulate-0.8.10-py3-none-any.whl)
+DEBUG Searching for a compatible version of typing-extensions (>=4.12.0, <4.12.0+)
+DEBUG Selecting: typing-extensions==4.12.0 [compatible] (typing_extensions-4.12.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of tzdata (>=2024.1, <2024.1+)
+DEBUG Selecting: tzdata==2024.1 [compatible] (tzdata-2024.1-py2.py3-none-any.whl)
+DEBUG Searching for a compatible version of url-normalize (>=1.4.3, <1.4.3+)
+DEBUG Selecting: url-normalize==1.4.3 [compatible] (url_normalize-1.4.3-py2.py3-none-any.whl)
+DEBUG Adding transitive dependency for url-normalize==1.4.3: six*
+DEBUG Searching for a compatible version of urllib3 (>=1.26.18, <1.26.18+)
+DEBUG Selecting: urllib3==1.26.18 [compatible] (urllib3-1.26.18-py2.py3-none-any.whl)
+DEBUG Searching for a compatible version of vine (>=5.1.0, <5.1.0+)
+DEBUG Selecting: vine==5.1.0 [compatible] (vine-5.1.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of wcwidth (>=0.2.13, <0.2.13+)
+DEBUG Selecting: wcwidth==0.2.13 [compatible] (wcwidth-0.2.13-py2.py3-none-any.whl)
+DEBUG Searching for a compatible version of werkzeug (>=3.0.6, <3.0.6+)
+DEBUG Selecting: werkzeug==3.0.6 [compatible] (werkzeug-3.0.6-py3-none-any.whl)
+DEBUG Adding transitive dependency for werkzeug==3.0.6: markupsafe>=2.1.1
+DEBUG Searching for a compatible version of wrapt (>=1.16.0, <1.16.0+)
+DEBUG Selecting: wrapt==1.16.0 [compatible] (wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of wtforms (>=3.1.2, <3.1.2+)
+DEBUG Selecting: wtforms==3.1.2 [compatible] (wtforms-3.1.2-py3-none-any.whl)
+DEBUG Adding transitive dependency for wtforms==3.1.2: markupsafe*
+DEBUG Searching for a compatible version of wtforms-json (>=0.3.5, <0.3.5+)
+DEBUG Selecting: wtforms-json==0.3.5 [compatible] (WTForms-JSON-0.3.5.tar.gz)
+DEBUG Adding transitive dependency for wtforms-json==0.3.5: wtforms>=1.0.5
+DEBUG Adding transitive dependency for wtforms-json==0.3.5: six>=1.3.0
+DEBUG Searching for a compatible version of xlsxwriter (>=3.0.9, <3.0.9+)
+DEBUG Selecting: xlsxwriter==3.0.9 [compatible] (XlsxWriter-3.0.9-py3-none-any.whl)
+DEBUG Searching for a compatible version of zipp (>=3.19.0, <3.19.0+)
+DEBUG Selecting: zipp==3.19.0 [compatible] (zipp-3.19.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of zstandard (>=0.22.0, <0.22.0+)
+DEBUG Selecting: zstandard==0.22.0 [compatible] (zstandard-0.22.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Searching for a compatible version of zstandard{platform_python_implementation != 'PyPy'} (*)
+DEBUG Selecting: zstandard==0.25.0 [compatible] (zstandard-0.25.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl)
+DEBUG Adding transitive dependency for zstandard==0.25.0: zstandard==0.25.0
+DEBUG Adding transitive dependency for zstandard==0.25.0: zstandard{platform_python_implementation != 'PyPy'}==0.25.0
+DEBUG Searching for a compatible version of zstandard{platform_python_implementation != 'PyPy'} (<=0.24.0)
+DEBUG Selecting: zstandard==0.24.0 [compatible] (zstandard-0.24.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl)
+DEBUG Adding transitive dependency for zstandard==0.24.0: zstandard==0.24.0
+DEBUG Adding transitive dependency for zstandard==0.24.0: zstandard{platform_python_implementation != 'PyPy'}==0.24.0
+DEBUG Searching for a compatible version of zstandard{platform_python_implementation != 'PyPy'} (<=0.23.0)
+DEBUG Selecting: zstandard==0.23.0 [compatible] (zstandard-0.23.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for zstandard==0.23.0: zstandard==0.23.0
+DEBUG Adding transitive dependency for zstandard==0.23.0: zstandard{platform_python_implementation != 'PyPy'}==0.23.0
+DEBUG Searching for a compatible version of zstandard{platform_python_implementation != 'PyPy'} (<=0.22.0)
+DEBUG Selecting: zstandard==0.22.0 [compatible] (zstandard-0.22.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Adding transitive dependency for zstandard==0.22.0: zstandard==0.22.0
+DEBUG Adding transitive dependency for zstandard==0.22.0: zstandard{platform_python_implementation != 'PyPy'}==0.22.0
+DEBUG Searching for a compatible version of zstandard{platform_python_implementation != 'PyPy'} (==0.22.0)
+DEBUG Selecting: zstandard==0.22.0 [compatible] (zstandard-0.22.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+DEBUG Tried 134 versions: alembic 1, amqp 1, apispec 1, apsw 1, attrs 1, babel 1, backoff 1, bcrypt 1, billiard 1, blinker 1, bottleneck 1, brotli 1, cachelib 1, cachetools 1, cattrs 1, celery 1, certifi 1, cffi 1, charset-normalizer 1, click 1, click-didyoumean 1, click-option-group 1, click-plugins 1, click-repl 1, colorama 1, cron-descriptor 1, croniter 1, cryptography 1, deprecated 1, deprecation 1, dnspython 1, email-validator 1, flask 1, flask-appbuilder 1, flask-babel 1, flask-caching 1, flask-compress 1, flask-jwt-extended 1, flask-limiter 1, flask-login 1, flask-migrate 1, flask-session 1, flask-sqlalchemy 1, flask-talisman 1, flask-wtf 1, func-timeout 1, geographiclib 1, geopy 1, google-auth 1, greenlet 1, gunicorn 1, hashids 1, holidays 1, humanize 1, idna 1, importlib-metadata 1, importlib-resources 1, isodate 1, itsdangerous 1, jinja2 1, jsonpath-ng 1, jsonschema 1, kombu 1, korean-lunar-calendar 1, limits 1, llvmlite 1, mako 1, markdown 1, markdown-it-py 1, markupsafe 1, marshmallow 1, marshmallow-sqlalchemy 1, mdurl 1, msgpack 1, msgspec 1, nh3 1, numba 1, numexpr 1, numpy 1, ordered-set 1, packaging 1, pandas 1, paramiko 1, parsedatetime 1, pgsanity 1, platformdirs 1, ply 1, polyline 1, prison 1, prompt-toolkit 1, pyarrow 1, pyasn1 1, pyasn1-modules 1, pycparser 1, pygments 1, pyjwt 1, pynacl 1, pyopenssl 1, pyparsing 1, pyrsistent 1, python-dateutil 1, python-dotenv 1, pytz 1, pyyaml 1, redis 1, requests 1, requests-cache 1, rich 1, rsa 1, selenium 1, shillelagh 1, shortid 1, simplejson 1, six 1, slack-sdk 1, sqlalchemy 1, sqlalchemy-utils 1, sqlglot 1, sqlparse 1, sshtunnel 1, tabulate 1, typing-extensions 1, tzdata 1, url-normalize 1, urllib3 1, vine 1, wcwidth 1, werkzeug 1, wrapt 1, wtforms 1, wtforms-json 1, xlsxwriter 1, zipp 1, zstandard 1
+DEBUG marker environment resolution took 0.026s
+Resolved 134 packages in 28ms
+DEBUG Registry requirement already cached: flask-sqlalchemy==2.5.1
+DEBUG Registry requirement already cached: polyline==2.0.2
+DEBUG Registry requirement already cached: flask-session==0.8.0
+DEBUG Registry requirement already cached: celery==5.4.0
+DEBUG Registry requirement already cached: tzdata==2024.1
+DEBUG Registry requirement already cached: pycparser==2.22
+DEBUG Registry requirement already cached: xlsxwriter==3.0.9
+DEBUG Registry requirement already cached: cachetools==5.3.3
+DEBUG Registry requirement already cached: sqlalchemy==1.4.52
+DEBUG Registry requirement already cached: hashids==1.3.1
+DEBUG Registry requirement already cached: numba==0.59.1
+DEBUG Registry requirement already cached: rsa==4.9
+DEBUG Registry requirement already cached: flask-limiter==3.7.0
+DEBUG Registry requirement already cached: korean-lunar-calendar==0.3.1
+DEBUG Registry requirement already cached: wtforms==3.1.2
+DEBUG Registry requirement already cached: func-timeout==4.3.5
+DEBUG Registry requirement already cached: jsonpath-ng==1.6.1
+DEBUG Registry requirement already cached: jinja2==3.1.4
+DEBUG Registry requirement already cached: simplejson==3.19.2
+DEBUG Registry requirement already cached: zstandard==0.22.0
+DEBUG Registry requirement already cached: charset-normalizer==3.3.2
+DEBUG Registry requirement already cached: billiard==4.2.0
+DEBUG Registry requirement already cached: flask-babel==2.0.0
+DEBUG Registry requirement already cached: brotli==1.1.0
+DEBUG Registry requirement already cached: pandas==2.0.3
+DEBUG Registry requirement already cached: prompt-toolkit==3.0.44
+DEBUG Registry requirement already cached: humanize==4.9.0
+DEBUG Registry requirement already cached: click==8.1.7
+DEBUG Registry requirement already cached: gunicorn==22.0.0
+DEBUG Registry requirement already cached: deprecated==1.2.14
+DEBUG Registry requirement already cached: pyasn1==0.6.0
+DEBUG Registry requirement already cached: msgspec==0.18.6
+DEBUG Registry requirement already cached: requests==2.32.2
+DEBUG Registry requirement already cached: flask-talisman==1.1.0
+DEBUG Registry requirement already cached: pyjwt==2.8.0
+DEBUG Registry requirement already cached: packaging==23.2
+DEBUG Registry requirement already cached: sqlparse==0.5.0
+DEBUG Registry requirement already cached: certifi==2024.2.2
+DEBUG Registry requirement already cached: cryptography==42.0.7
+DEBUG Registry requirement already cached: slack-sdk==3.27.2
+DEBUG Registry requirement already cached: urllib3==1.26.18
+DEBUG Registry requirement already cached: pytz==2024.1
+DEBUG Registry requirement already cached: deprecation==2.1.0
+DEBUG Registry requirement already cached: kombu==5.3.7
+DEBUG Registry requirement already cached: greenlet==3.0.3
+DEBUG Registry requirement already cached: markdown==3.6
+DEBUG Registry requirement already cached: numexpr==2.10.0
+DEBUG Registry requirement already cached: werkzeug==3.0.6
+DEBUG Registry requirement already cached: click-option-group==0.5.6
+DEBUG Registry requirement already cached: flask-migrate==3.1.0
+DEBUG Registry requirement already cached: pygments==2.18.0
+DEBUG Registry requirement already cached: ordered-set==4.1.0
+DEBUG Registry requirement already cached: prison==0.2.1
+DEBUG Registry requirement already cached: flask==2.3.3
+DEBUG Registry requirement already cached: paramiko==3.4.0
+DEBUG Registry requirement already cached: isodate==0.6.1
+DEBUG Registry requirement already cached: markupsafe==2.1.5
+DEBUG Registry requirement already cached: babel==2.15.0
+DEBUG Registry requirement already cached: pyyaml==6.0.1
+DEBUG Registry requirement already cached: importlib-resources==6.4.0
+DEBUG Registry requirement already cached: mdurl==0.1.2
+DEBUG Registry requirement already cached: markdown-it-py==3.0.0
+DEBUG Registry requirement already cached: parsedatetime==2.6
+DEBUG Registry requirement already cached: apsw==3.46.0.0
+DEBUG Registry requirement already cached: wrapt==1.16.0
+DEBUG Registry requirement already cached: zipp==3.19.0
+DEBUG Registry requirement already cached: python-dotenv==1.0.1
+DEBUG Registry requirement already cached: click-repl==0.3.0
+DEBUG Registry requirement already cached: click-plugins==1.1.1
+DEBUG Registry requirement already cached: mako==1.3.5
+DEBUG Registry requirement already cached: vine==5.1.0
+DEBUG Registry requirement already cached: rich==13.7.1
+DEBUG Registry requirement already cached: cron-descriptor==1.4.3
+DEBUG Registry requirement already cached: cffi==1.16.0
+DEBUG Registry requirement already cached: email-validator==2.1.1
+DEBUG Registry requirement already cached: flask-wtf==1.2.1
+DEBUG Registry requirement already cached: alembic==1.13.1
+DEBUG Registry requirement already cached: bottleneck==1.3.8
+DEBUG Registry requirement already cached: shillelagh==1.2.18
+DEBUG Registry requirement already cached: pyrsistent==0.20.0
+DEBUG Registry requirement already cached: wcwidth==0.2.13
+DEBUG Registry requirement already cached: blinker==1.8.2
+DEBUG Registry requirement already cached: geographiclib==2.0
+DEBUG Registry requirement already cached: apispec==6.3.0
+DEBUG Registry requirement already cached: itsdangerous==2.2.0
+DEBUG Registry requirement already cached: tabulate==0.8.10
+DEBUG Registry requirement already cached: pyarrow==14.0.2
+DEBUG Registry requirement already cached: sqlglot==25.24.0
+DEBUG Registry requirement already cached: flask-compress==1.15
+DEBUG Registry requirement already cached: url-normalize==1.4.3
+DEBUG Registry requirement already cached: typing-extensions==4.12.0
+DEBUG Registry requirement already cached: google-auth==2.29.0
+DEBUG Registry requirement already cached: requests-cache==1.2.0
+DEBUG Registry requirement already cached: pgsanity==0.2.9
+DEBUG Registry requirement already cached: redis==4.6.0
+DEBUG Registry requirement already cached: limits==3.12.0
+DEBUG Registry requirement already cached: idna==3.7
+DEBUG Registry requirement already cached: flask-caching==2.3.0
+DEBUG Registry requirement already cached: llvmlite==0.42.0
+DEBUG Registry requirement already cached: marshmallow==3.21.2
+DEBUG Registry requirement already cached: flask-jwt-extended==4.6.0
+DEBUG Registry requirement already cached: dnspython==2.6.1
+DEBUG Registry requirement already cached: flask-appbuilder==4.5.0
+DEBUG Registry requirement already cached: sshtunnel==0.4.0
+DEBUG Registry requirement already cached: bcrypt==4.1.3
+DEBUG Registry requirement already cached: jsonschema==4.17.3
+DEBUG Registry requirement already cached: selenium==3.141.0
+DEBUG Registry requirement already cached: msgpack==1.0.8
+DEBUG Registry requirement already cached: importlib-metadata==7.1.0
+DEBUG Registry requirement already cached: wtforms-json==0.3.5
+DEBUG Registry requirement already cached: numpy==1.23.5
+DEBUG Registry requirement already cached: sqlalchemy-utils==0.38.3
+DEBUG Registry requirement already cached: shortid==0.1.2
+DEBUG Registry requirement already cached: pyparsing==3.1.2
+DEBUG Registry requirement already cached: pyasn1-modules==0.4.0
+DEBUG Registry requirement already cached: flask-login==0.6.3
+DEBUG Registry requirement already cached: amqp==5.2.0
+DEBUG Registry requirement already cached: marshmallow-sqlalchemy==0.28.2
+DEBUG Registry requirement already cached: colorama==0.4.6
+DEBUG Registry requirement already cached: attrs==23.2.0
+DEBUG Registry requirement already cached: ply==3.11
+DEBUG Registry requirement already cached: croniter==2.0.5
+DEBUG Registry requirement already cached: six==1.16.0
+DEBUG Registry requirement already cached: nh3==0.2.17
+DEBUG Registry requirement already cached: geopy==2.4.1
+DEBUG Registry requirement already cached: holidays==0.25
+DEBUG Registry requirement already cached: python-dateutil==2.9.0.post0
+DEBUG Registry requirement already cached: click-didyoumean==0.3.1
+DEBUG Registry requirement already cached: backoff==2.2.1
+DEBUG Registry requirement already cached: cachelib==0.9.0
+DEBUG Registry requirement already cached: pynacl==1.5.0
+DEBUG Registry requirement already cached: cattrs==23.2.3
+DEBUG Registry requirement already cached: pyopenssl==24.1.0
+DEBUG Registry requirement already cached: platformdirs==3.8.1
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/qmlzLb8VOZ687IXq/flask_sqlalchemy/model.py` to `/tmp/venv/lib/python3.11/site-packages/flask_sqlalchemy/model.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/mVhibVG_r_B54QdX/click_repl/exceptions.py` to `/tmp/venv/lib/python3.11/site-packages/click_repl/exceptions.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/u_fzxGOLAEa6UmOQ/marshmallow_sqlalchemy-0.28.2.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/marshmallow_sqlalchemy-0.28.2.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/iYGrHhqf_ZUsLigx/Flask_JWT_Extended-4.6.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/Flask_JWT_Extended-4.6.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/CNCjstp-9YiOYyAB/click_plugins/core.py` to `/tmp/venv/lib/python3.11/site-packages/click_plugins/core.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/lmVJc7sopWMYO-bS/dns/versioned.py` to `/tmp/venv/lib/python3.11/site-packages/dns/versioned.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/t3h988qGZkEnXA2W/polyline-2.0.2.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/polyline-2.0.2.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/lpPPrMkg0eAudSpB/colorama-0.4.6.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/colorama-0.4.6.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/XsPdI_0XLtS56-du/Mako-1.3.5.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/Mako-1.3.5.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/K6mGW2RrzmypVpT0/flask_session-0.8.0.dist-info/LICENSE.rst` to `/tmp/venv/lib/python3.11/site-packages/flask_session-0.8.0.dist-info/LICENSE.rst`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/pa8rdxFReLelbcSx/attrs/exceptions.py` to `/tmp/venv/lib/python3.11/site-packages/attrs/exceptions.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/JTgSQkSSyowhtFWc/Flask_AppBuilder-4.5.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/Flask_AppBuilder-4.5.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/EZAst_IMIsM1KXy-/vine/abstract.py` to `/tmp/venv/lib/python3.11/site-packages/vine/abstract.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/vNJrNzI_QoGVCTRV/ply/lex.py` to `/tmp/venv/lib/python3.11/site-packages/ply/lex.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/v_6sTt9E_-Dg0X0v/celery-5.4.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/celery-5.4.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/Bu7vesRnkYMDJmrc/rich-13.7.1.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/rich-13.7.1.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/Dc4y8jhGPumS5jqc/croniter-2.0.5.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/croniter-2.0.5.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/V8KnyVeZF9E6K_pf/six-1.16.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/six-1.16.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/dQqYYkkOCIJ_Q0ZO/nh3/nh3.abi3.so` to `/tmp/venv/lib/python3.11/site-packages/nh3/nh3.abi3.so`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/kzfxoZnR4julubLz/cron_descriptor-1.4.3.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/cron_descriptor-1.4.3.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/FhGmoKqvIOr2XOYS/geopy/point.py` to `/tmp/venv/lib/python3.11/site-packages/geopy/point.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/zMaXtEvO3tgS1yzq/_cffi_backend.cpython-311-x86_64-linux-gnu.so` to `/tmp/venv/lib/python3.11/site-packages/_cffi_backend.cpython-311-x86_64-linux-gnu.so`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/nSlim28A-v3RcA-8/email_validator/exceptions_types.py` to `/tmp/venv/lib/python3.11/site-packages/email_validator/exceptions_types.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/do8Bf6iB46663tE7/holidays-0.25.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/holidays-0.25.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/D0XxnjeG2EX59Uej/flask_wtf-1.2.1.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/flask_wtf-1.2.1.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/380tQaZJDRkvMMa2/tzdata/zoneinfo/Kwajalein` to `/tmp/venv/lib/python3.11/site-packages/tzdata/zoneinfo/Kwajalein`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/QslfblQhx01G2PBO/alembic-1.13.1.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/alembic-1.13.1.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/y35Gui_Rg4Vtr5_S/Bottleneck-1.3.8.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/Bottleneck-1.3.8.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/O8MpbkAZ2kMEdqxY/shillelagh-1.2.18.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/shillelagh-1.2.18.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/E7skvtcECcM_0d03/pycparser-2.22.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/pycparser-2.22.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/qsrmndVycj0kVAF0/_pyrsistent_version.py` to `/tmp/venv/lib/python3.11/site-packages/_pyrsistent_version.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/0dLqoht13OZqjYoU/wcwidth-0.2.13.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/wcwidth-0.2.13.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/Ba0VYgrkF5ey-NaA/XlsxWriter-3.0.9.data/scripts/vba_extract.py` to `/tmp/venv/lib/python3.11/site-packages/XlsxWriter-3.0.9.data/scripts/vba_extract.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/M4XXdd8muonaKSMV/sshtunnel.py` to `/tmp/venv/lib/python3.11/site-packages/sshtunnel.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/C2SgqGiOREe1ZNPn/blinker/_utilities.py` to `/tmp/venv/lib/python3.11/site-packages/blinker/_utilities.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/Mz1abAF-yKMRfT2i/bcrypt-4.1.3.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/bcrypt-4.1.3.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/jV1Fk5Lbn_DURo4n/cachetools-5.3.3.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/cachetools-5.3.3.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/2t7pu-LfXkZufQ7j/geographiclib-2.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/geographiclib-2.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/TyFVp0TLeDpVUjjf/jsonschema-4.17.3.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/jsonschema-4.17.3.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/4NaxEt1FRCypyykP/apispec/exceptions.py` to `/tmp/venv/lib/python3.11/site-packages/apispec/exceptions.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/kQgsc6RdZMJsmuAS/sqlalchemy/cprocessors.cpython-311-x86_64-linux-gnu.so` to `/tmp/venv/lib/python3.11/site-packages/sqlalchemy/cprocessors.cpython-311-x86_64-linux-gnu.so`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/jp48YyuX6bQKLVvZ/dateutil/tz/_common.py` to `/tmp/venv/lib/python3.11/site-packages/dateutil/tz/_common.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/sqgK9O1IiYf-BD3x/itsdangerous/timed.py` to `/tmp/venv/lib/python3.11/site-packages/itsdangerous/timed.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/YaWBnJNfrBL7LTgs/click_didyoumean-0.3.1.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/click_didyoumean-0.3.1.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/gT8Dr1WFgx3R2pdl/tabulate.py` to `/tmp/venv/lib/python3.11/site-packages/tabulate.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/z7DES7VVdT4Yp5Gk/backoff/types.py` to `/tmp/venv/lib/python3.11/site-packages/backoff/types.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/sRFYrMlGK7Xbu1Uz/pyarrow/_fs.pyx` to `/tmp/venv/lib/python3.11/site-packages/pyarrow/_fs.pyx`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/tcu6ZiwMmL1D3tgx/selenium/common/exceptions.py` to `/tmp/venv/lib/python3.11/site-packages/selenium/common/exceptions.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/7M_xjMSRwo-Lrksh/cachelib-0.9.0.dist-info/LICENSE.rst` to `/tmp/venv/lib/python3.11/site-packages/cachelib-0.9.0.dist-info/LICENSE.rst`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/C9nKFCyepWHz3_15/nacl/secret.py` to `/tmp/venv/lib/python3.11/site-packages/nacl/secret.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/uEOosDP3KBee5QLv/cattr/errors.py` to `/tmp/venv/lib/python3.11/site-packages/cattr/errors.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/eSifY9kN6gjenQHL/hashids-1.3.1.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/hashids-1.3.1.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/x9DzNNqPBD6gx_sE/OpenSSL/crypto.py` to `/tmp/venv/lib/python3.11/site-packages/OpenSSL/crypto.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/jyNyDBDmJC169mEK/numba-0.59.1.data/scripts/numba` to `/tmp/venv/lib/python3.11/site-packages/numba-0.59.1.data/scripts/numba`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/Wp5PPIyTRKG-DBj4/msgpack-1.0.8.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/msgpack-1.0.8.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/NTsP9gQGAf_S2iN7/platformdirs-3.8.1.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/platformdirs-3.8.1.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/pyqUBOFsMMQVpHQl/google/oauth2/_client.py` to `/tmp/venv/lib/python3.11/site-packages/google/oauth2/_client.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/TsIW8LcHMZ63V-fO/importlib_metadata/_meta.py` to `/tmp/venv/lib/python3.11/site-packages/importlib_metadata/_meta.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/PIOdYRQ4aXgRSJqF/wtforms_json/__init__.py` to `/tmp/venv/lib/python3.11/site-packages/wtforms_json/__init__.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/AaXMcYJyXAj1iWow/numpy/random/_common.pxd` to `/tmp/venv/lib/python3.11/site-packages/numpy/random/_common.pxd`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/iT-yohgSam-KEywh/requests_cache/models/base.py` to `/tmp/venv/lib/python3.11/site-packages/requests_cache/models/base.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/MtXk1KXemSC8Fnfr/pgsanity/sqlprep.py` to `/tmp/venv/lib/python3.11/site-packages/pgsanity/sqlprep.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/Adf2oOkmPL5oi3ci/redis-4.6.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/redis-4.6.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/qNhq5omjmPGstfNF/limits/limits.py` to `/tmp/venv/lib/python3.11/site-packages/limits/limits.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/w9O2IBArIUjGP2rl/sqlglot-25.24.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/sqlglot-25.24.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/pSb7C_EPmsMUnQEg/idna/codec.py` to `/tmp/venv/lib/python3.11/site-packages/idna/codec.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/6QsC-MUC0pl0Qu9B/Flask_Caching-2.3.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/Flask_Caching-2.3.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/G6M7M2oRBRb-JoLK/Flask_Compress-1.15.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/Flask_Compress-1.15.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/qRvse0F59Fm2oa2l/llvmlite/tests/test_binding.py` to `/tmp/venv/lib/python3.11/site-packages/llvmlite/tests/test_binding.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/yRYeei1GMpVLNFrP/url_normalize-1.4.3.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/url_normalize-1.4.3.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/ATBccGWs7rwZdOPj/typing_extensions-4.12.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/typing_extensions-4.12.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/0hW7ZhhkprrMTZOl/marshmallow-3.21.2.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/marshmallow-3.21.2.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/PXKEymDLcjCVHnfM/flask_talisman-1.1.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/flask_talisman-1.1.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/VEqrZAldFy52z9pB/jsonpath_ng/exceptions.py` to `/tmp/venv/lib/python3.11/site-packages/jsonpath_ng/exceptions.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/4hr7Rnig7nEoyd7L/PyJWT-2.8.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/PyJWT-2.8.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/UkVAcJHkC9HZTGsR/packaging-23.2.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/packaging-23.2.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/GeFcNHzc0EiP9GVg/jinja2/meta.py` to `/tmp/venv/lib/python3.11/site-packages/jinja2/meta.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/UORlS7MEFZ6ASNiN/sqlparse/tokens.py` to `/tmp/venv/lib/python3.11/site-packages/sqlparse/tokens.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/unurA7kmJ5eINi97/simplejson-3.19.2.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/simplejson-3.19.2.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/wubtJbrCW2UFx4da/rsa-4.9.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/rsa-4.9.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/o43jHXfoVGmAOvli/flask_limiter/manager.py` to `/tmp/venv/lib/python3.11/site-packages/flask_limiter/manager.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/zO9-IYozlSiO3WHO/certifi/__main__.py` to `/tmp/venv/lib/python3.11/site-packages/certifi/__main__.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/1Mo8oYpdUXchvKch/zstandard/backend_c.cpython-311-x86_64-linux-gnu.so` to `/tmp/venv/lib/python3.11/site-packages/zstandard/backend_c.cpython-311-x86_64-linux-gnu.so`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/eo23_hstidtCe8bw/korean_lunar_calendar-0.3.1.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/korean_lunar_calendar-0.3.1.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/kNQZ3BAnFAqPu4sA/cryptography-42.0.7.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/cryptography-42.0.7.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/fLEeD6j3ZvfcR0tz/charset_normalizer/api.py` to `/tmp/venv/lib/python3.11/site-packages/charset_normalizer/api.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/bBJ_whfwYmypHVj9/wtforms-3.1.2.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/wtforms-3.1.2.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/wHrMxkVgSYxyYXTr/billiard-4.2.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/billiard-4.2.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/JgkeOgPgMuAwbTN4/flask_babel/speaklater.py` to `/tmp/venv/lib/python3.11/site-packages/flask_babel/speaklater.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/JhZzYHbOsvWJ6Thm/brotli.py` to `/tmp/venv/lib/python3.11/site-packages/brotli.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/L3JlZUU0mydX2wn1/pandas/testing.py` to `/tmp/venv/lib/python3.11/site-packages/pandas/testing.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/aei1H5jgwb2QJx__/slack_sdk/proxy_env_variable_loader.py` to `/tmp/venv/lib/python3.11/site-packages/slack_sdk/proxy_env_variable_loader.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/N8RM0Swp4MZj7NhC/.DS_Store` to `/tmp/venv/lib/python3.11/site-packages/.DS_Store`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/SVNPfrNQWBHJ2UGA/shortid-0.1.2.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/shortid-0.1.2.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/tgsxE-L1u73IdZ3q/pyparsing-3.1.2.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/pyparsing-3.1.2.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/a4UWXDkZMlZNF0bE/pyasn1_modules/rfc7914.py` to `/tmp/venv/lib/python3.11/site-packages/pyasn1_modules/rfc7914.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/B3AsyoYpVPRYGgni/Flask_Login-0.6.3.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/Flask_Login-0.6.3.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/RvMfLGqqKZwtRbqw/amqp/protocol.py` to `/tmp/venv/lib/python3.11/site-packages/amqp/protocol.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/UxvkB7vcFto9nGuP/pygments-2.18.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/pygments-2.18.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/CWtZMnCc1w5ZsZjM/func_timeout/dafunc.py` to `/tmp/venv/lib/python3.11/site-packages/func_timeout/dafunc.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/8X2PEXdRlKpcAQI2/urllib3-1.26.18.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/urllib3-1.26.18.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/uKgcBpP5yMN8FyIi/PyYAML-6.0.1.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/PyYAML-6.0.1.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/CMOGZ4DcBve6DinU/pytz/reference.py` to `/tmp/venv/lib/python3.11/site-packages/pytz/reference.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/PbxriPMqggYAl-nK/importlib_resources/tests/test_compatibilty_files.py` to `/tmp/venv/lib/python3.11/site-packages/importlib_resources/tests/test_compatibilty_files.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/hFmi8Jvg7V7rBYt-/ordered_set-4.1.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/ordered_set-4.1.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/HWZj8FIswEj0eBIc/prison-0.2.1.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/prison-0.2.1.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/98omxIierQDUif1q/flask/testing.py` to `/tmp/venv/lib/python3.11/site-packages/flask/testing.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/9mfBOwfPAnVNfijN/paramiko/kex_gex.py` to `/tmp/venv/lib/python3.11/site-packages/paramiko/kex_gex.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/mjk81qwegWKxSgZP/mdurl/_url.py` to `/tmp/venv/lib/python3.11/site-packages/mdurl/_url.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/tRQhwUpfthcQmsyJ/isodate-0.6.1.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/isodate-0.6.1.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/vguiP-ftPAs1_rZq/markdown_it/parser_core.py` to `/tmp/venv/lib/python3.11/site-packages/markdown_it/parser_core.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/c_qjwffkV4EX6syk/MarkupSafe-2.1.5.dist-info/LICENSE.rst` to `/tmp/venv/lib/python3.11/site-packages/MarkupSafe-2.1.5.dist-info/LICENSE.rst`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/BUZCHGl1_gb3KW4N/Babel-2.15.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/Babel-2.15.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/Gm5EphtzyW7bWDU2/parsedatetime/parsedatetime.py` to `/tmp/venv/lib/python3.11/site-packages/parsedatetime/parsedatetime.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/4cVdupnOK0dnuPlj/apsw-3.46.0.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/apsw-3.46.0.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/uKa28rRx6h2WYTXX/deprecation-2.1.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/deprecation-2.1.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/D9I8KrKwiuxhUayF/kombu-5.3.7.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/kombu-5.3.7.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/gbcFe5lCtI2JpMpV/wrapt-1.16.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/wrapt-1.16.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/IvYad22j5H7zZxgu/zipp/glob.py` to `/tmp/venv/lib/python3.11/site-packages/zipp/glob.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/k2Fwvd80ML3CFGGF/python_dotenv-1.0.1.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/python_dotenv-1.0.1.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/qv9nygqEHE-Xoein/gunicorn-22.0.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/gunicorn-22.0.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/BfCJi5BC6nMEo6WD/greenlet-3.0.3.dist-info/LICENSE.PSF` to `/tmp/venv/lib/python3.11/site-packages/greenlet-3.0.3.dist-info/LICENSE.PSF`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/rgxa2GQVHBu42Ybm/Deprecated-1.2.14.dist-info/LICENSE.rst` to `/tmp/venv/lib/python3.11/site-packages/Deprecated-1.2.14.dist-info/LICENSE.rst`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/ICMSCGRYF-1eDJQM/pyasn1-0.6.0.dist-info/LICENSE.rst` to `/tmp/venv/lib/python3.11/site-packages/pyasn1-0.6.0.dist-info/LICENSE.rst`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/ZAaZDPQwxsf-I2yV/Markdown-3.6.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/Markdown-3.6.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/4R1X7EEI8Cj9q8RQ/msgspec-0.18.6.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/msgspec-0.18.6.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/mA8TxBw0qkC10Q1D/numexpr/tests/test_numexpr.py` to `/tmp/venv/lib/python3.11/site-packages/numexpr/tests/test_numexpr.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/VE0zjzTBmr5XMXq7/requests/packages.py` to `/tmp/venv/lib/python3.11/site-packages/requests/packages.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/yltqbEvnfzXHvCKo/werkzeug/sansio/http.py` to `/tmp/venv/lib/python3.11/site-packages/werkzeug/sansio/http.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/XM3TXZ5C1CfJk-SL/humanize-4.9.0.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/humanize-4.9.0.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/GHTLNp-KEGc4H1Bp/prompt_toolkit/history.py` to `/tmp/venv/lib/python3.11/site-packages/prompt_toolkit/history.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/vM9EickGB9_l-egm/click_option_group-0.5.6.dist-info/RECORD` to `/tmp/venv/lib/python3.11/site-packages/click_option_group-0.5.6.dist-info/RECORD`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/ea2gK8RBLqJ2hRka/flask_migrate/cli.py` to `/tmp/venv/lib/python3.11/site-packages/flask_migrate/cli.py`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/tmp/cache-uv/archive-v0/wjGRb-axz5z-TXUO/click/testing.py` to `/tmp/venv/lib/python3.11/site-packages/click/testing.py`: Operation not supported (os error 95), falling back
+Installed 134 packages in 132ms
+ + alembic==1.13.1
+ + amqp==5.2.0
+ + apispec==6.3.0
+ + apsw==3.46.0.0
+ + attrs==23.2.0
+ + babel==2.15.0
+ + backoff==2.2.1
+ + bcrypt==4.1.3
+ + billiard==4.2.0
+ + blinker==1.8.2
+ + bottleneck==1.3.8
+ + brotli==1.1.0
+ + cachelib==0.9.0
+ + cachetools==5.3.3
+ + cattrs==23.2.3
+ + celery==5.4.0
+ + certifi==2024.2.2
+ + cffi==1.16.0
+ + charset-normalizer==3.3.2
+ + click==8.1.7
+ + click-didyoumean==0.3.1
+ + click-option-group==0.5.6
+ + click-plugins==1.1.1
+ + click-repl==0.3.0
+ + colorama==0.4.6
+ + cron-descriptor==1.4.3
+ + croniter==2.0.5
+ + cryptography==42.0.7
+ + deprecated==1.2.14
+ + deprecation==2.1.0
+ + dnspython==2.6.1
+ + email-validator==2.1.1
+ + flask==2.3.3
+ + flask-appbuilder==4.5.0
+ + flask-babel==2.0.0
+ + flask-caching==2.3.0
+ + flask-compress==1.15
+ + flask-jwt-extended==4.6.0
+ + flask-limiter==3.7.0
+ + flask-login==0.6.3
+ + flask-migrate==3.1.0
+ + flask-session==0.8.0
+ + flask-sqlalchemy==2.5.1
+ + flask-talisman==1.1.0
+ + flask-wtf==1.2.1
+ + func-timeout==4.3.5
+ + geographiclib==2.0
+ + geopy==2.4.1
+ + google-auth==2.29.0
+ + greenlet==3.0.3
+ + gunicorn==22.0.0
+ + hashids==1.3.1
+ + holidays==0.25
+ + humanize==4.9.0
+ + idna==3.7
+ + importlib-metadata==7.1.0
+ + importlib-resources==6.4.0
+ + isodate==0.6.1
+ + itsdangerous==2.2.0
+ + jinja2==3.1.4
+ + jsonpath-ng==1.6.1
+ + jsonschema==4.17.3
+ + kombu==5.3.7
+ + korean-lunar-calendar==0.3.1
+ + limits==3.12.0
+ + llvmlite==0.42.0
+ + mako==1.3.5
+ + markdown==3.6
+ + markdown-it-py==3.0.0
+ + markupsafe==2.1.5
+ + marshmallow==3.21.2
+ + marshmallow-sqlalchemy==0.28.2
+ + mdurl==0.1.2
+ + msgpack==1.0.8
+ + msgspec==0.18.6
+ + nh3==0.2.17
+ + numba==0.59.1
+ + numexpr==2.10.0
+ + numpy==1.23.5
+ + ordered-set==4.1.0
+ + packaging==23.2
+ + pandas==2.0.3
+ + paramiko==3.4.0
+ + parsedatetime==2.6
+ + pgsanity==0.2.9
+ + platformdirs==3.8.1
+ + ply==3.11
+ + polyline==2.0.2
+ + prison==0.2.1
+ + prompt-toolkit==3.0.44
+ + pyarrow==14.0.2
+ + pyasn1==0.6.0
+ + pyasn1-modules==0.4.0
+ + pycparser==2.22
+ + pygments==2.18.0
+ + pyjwt==2.8.0
+ + pynacl==1.5.0
+ + pyopenssl==24.1.0
+ + pyparsing==3.1.2
+ + pyrsistent==0.20.0
+ + python-dateutil==2.9.0.post0
+ + python-dotenv==1.0.1
+ + pytz==2024.1
+ + pyyaml==6.0.1
+ + redis==4.6.0
+ + requests==2.32.2
+ + requests-cache==1.2.0
+ + rich==13.7.1
+ + rsa==4.9
+ + selenium==3.141.0
+ + shillelagh==1.2.18
+ + shortid==0.1.2
+ + simplejson==3.19.2
+ + six==1.16.0
+ + slack-sdk==3.27.2
+ + sqlalchemy==1.4.52
+ + sqlalchemy-utils==0.38.3
+ + sqlglot==25.24.0
+ + sqlparse==0.5.0
+ + sshtunnel==0.4.0
+ + tabulate==0.8.10
+ + typing-extensions==4.12.0
+ + tzdata==2024.1
+ + url-normalize==1.4.3
+ + urllib3==1.26.18
+ + vine==5.1.0
+ + wcwidth==0.2.13
+ + werkzeug==3.0.6
+ + wrapt==1.16.0
+ + wtforms==3.1.2
+ + wtforms-json==0.3.5
+ + xlsxwriter==3.0.9
+ + zipp==3.19.0
+ + zstandard==0.22.0

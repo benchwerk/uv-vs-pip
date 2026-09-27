@@ -1,0 +1,1 @@
+global-proxy caddy:2-alpine Up 2 weeks

@@ -1,0 +1,271 @@
+{
+ "dir": "2026-09-17_why_laptop",
+ "experiments": {
+  "why": {
+   "rows": 36,
+   "failed_rows": 0,
+   "startup_s": {
+    "python": {
+     "median": 0.009,
+     "min": 0.009,
+     "max": 0.009,
+     "n": 5
+    },
+    "pip": {
+     "median": 0.135,
+     "min": 0.13,
+     "max": 0.138,
+     "n": 5
+    },
+    "uv": {
+     "median": 0.005,
+     "min": 0.004,
+     "max": 0.005,
+     "n": 5
+    }
+   },
+   "parallelism": {
+    "pip.cold": {
+     "cpu_per_wall": {
+      "median": 0.58,
+      "min": 0.52,
+      "max": 0.6,
+      "n": 3
+     },
+     "peak_threads": 3,
+     "peak_tcp443_conns": 4,
+     "wall_s_(sampler-quantised; use timed rows elsewhere)": {
+      "median": 47.873,
+      "min": 46.117,
+      "max": 53.463,
+      "n": 3
+     }
+    },
+    "pip.warm": {
+     "cpu_per_wall": {
+      "median": 0.97,
+      "min": 0.97,
+      "max": 0.97,
+      "n": 3
+     },
+     "peak_threads": 2,
+     "peak_tcp443_conns": 0,
+     "wall_s_(sampler-quantised; use timed rows elsewhere)": {
+      "median": 19.744,
+      "min": 19.636,
+      "max": 19.745,
+      "n": 3
+     }
+    },
+    "uv.cold": {
+     "cpu_per_wall": {
+      "median": 1.25,
+      "min": 1.2,
+      "max": 1.34,
+      "n": 3
+     },
+     "peak_threads": 66,
+     "peak_tcp443_conns": 50,
+     "wall_s_(sampler-quantised; use timed rows elsewhere)": {
+      "median": 8.01,
+      "min": 7.978,
+      "max": 8.106,
+      "n": 3
+     }
+    },
+    "uv.warm": {
+     "cpu_per_wall": {
+      "median": 3.01,
+      "min": 2.97,
+      "max": 3.09,
+      "n": 3
+     },
+     "peak_threads": 15,
+     "peak_tcp443_conns": 0,
+     "wall_s_(sampler-quantised; use timed rows elsewhere)": {
+      "median": 0.174,
+      "min": 0.162,
+      "max": 0.2,
+      "n": 3
+     }
+    }
+   },
+   "pip_warm_nocompile_phases_s": {
+    "total": 8.81,
+    "before_installing_collected_packages": 4.56,
+    "installing": 4.24,
+    "dry_run_resolve_plus_prepare": 3.97,
+    "no_index_find_links_total": 5.25,
+    "index_page_parsing_estimate_(total - no_index)": 3.57,
+    "index_parsing_share_pct": 40.5,
+    "installing_share_pct": 48.1
+   },
+   "requests_cold": {
+    "pip": {
+     "total": 401,
+     "index_pages": 135,
+     "metadata_files": 131,
+     "wheels": 131,
+     "sdists": 4,
+     "new_https_connections": 4,
+     "candidate_links_found": 23106,
+     "candidate_links_skipped": 47843
+    },
+    "uv": {
+     "total": 401,
+     "index_pages": 135,
+     "metadata_files": 131,
+     "wheels": 131,
+     "sdists": 4
+    }
+   },
+   "syscalls": {
+    "strace-pip-cold": {
+     "read": 85436,
+     "pread64": 44,
+     "write": 24995,
+     "openat": 42650,
+     "rename": 7988,
+     "unlink": 414,
+     "unlinkat": 2865,
+     "mkdir": 10293,
+     "clone": 20,
+     "clone3": 20,
+     "vfork": 26,
+     "execve": 77,
+     "connect": 102,
+     "sendto": 4,
+     "recvfrom": 8,
+     "futex": 3261,
+     "mmap": 5007,
+     "fsync": 1078,
+     "sendfile": 132,
+     "newfstatat": 167331,
+     "total_calls": 555215
+    },
+    "strace-pip-nocompile-cold": {
+     "read": 71272,
+     "pread64": 44,
+     "write": 18547,
+     "openat": 29836,
+     "rename": 1582,
+     "unlink": 414,
+     "unlinkat": 2865,
+     "mkdir": 3887,
+     "clone": 20,
+     "clone3": 20,
+     "vfork": 26,
+     "execve": 77,
+     "connect": 100,
+     "sendto": 4,
+     "recvfrom": 8,
+     "futex": 1637,
+     "mmap": 4997,
+     "fsync": 1078,
+     "sendfile": 132,
+     "newfstatat": 91832,
+     "total_calls": 399075
+    },
+    "strace-pip-nocompile-warm": {
+     "read": 18270,
+     "pread64": 4,
+     "write": 13258,
+     "openat": 16134,
+     "rename": 268,
+     "unlink": 1,
+     "unlinkat": 390,
+     "mkdir": 1535,
+     "clone": 1,
+     "clone3": 1,
+     "vfork": 2,
+     "execve": 13,
+     "futex": 928,
+     "mmap": 818,
+     "fsync": 268,
+     "newfstatat": 39374,
+     "total_calls": 195108
+    },
+    "strace-pip-warm": {
+     "read": 30865,
+     "pread64": 4,
+     "write": 19706,
+     "openat": 28948,
+     "rename": 6674,
+     "unlink": 1,
+     "unlinkat": 390,
+     "mkdir": 7941,
+     "clone": 1,
+     "clone3": 1,
+     "vfork": 2,
+     "execve": 13,
+     "futex": 2395,
+     "mmap": 828,
+     "fsync": 268,
+     "newfstatat": 114873,
+     "total_calls": 349202
+    },
+    "strace-uv-cold": {
+     "read": 9117,
+     "pread64": 180,
+     "write": 15877,
+     "openat": 25786,
+     "linkat": 12619,
+     "rename": 1373,
+     "renameat2": 144,
+     "unlink": 865,
+     "unlinkat": 2432,
+     "mkdir": 4401,
+     "clone": 77,
+     "clone3": 77,
+     "execve": 14,
+     "connect": 1278,
+     "sendto": 64,
+     "recvfrom": 27028,
+     "futex": 23589,
+     "mmap": 2444,
+     "copy_file_range": 372,
+     "sendfile": 132,
+     "statx": 3171,
+     "newfstatat": 28658,
+     "total_calls": 253299
+    },
+    "strace-uv-warm": {
+     "read": 2221,
+     "pread64": 2,
+     "write": 1908,
+     "openat": 3935,
+     "linkat": 11299,
+     "rename": 304,
+     "renameat2": 1,
+     "unlink": 439,
+     "unlinkat": 6,
+     "mkdir": 1453,
+     "clone": 13,
+     "clone3": 13,
+     "execve": 1,
+     "futex": 119,
+     "mmap": 104,
+     "copy_file_range": 268,
+     "statx": 2169,
+     "newfstatat": 1844,
+     "total_calls": 37314
+    }
+   },
+   "uv_timers_warm": [
+    "Resolved 134 packages in 28ms",
+    "Installed 134 packages in 132ms"
+   ]
+  }
+ },
+ "env": {
+  "why": {
+   "arch": "x86_64",
+   "kernel": "6.18.33.2-microsoft-standard-WSL2",
+   "cpuset": null,
+   "affinity_cpus": 12,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "overlayfs",
+   "started_utc": "2026-09-17T16:55:34Z"
+  }
+ }
+}

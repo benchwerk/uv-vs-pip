@@ -1,0 +1,6 @@
+qdisc netem 8002: root refcnt 5 limit 1000000
+ Sent 13811618 bytes 120811 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc netem 8002: root refcnt 5 limit 1000000
+ Sent 14106752 bytes 123128 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0

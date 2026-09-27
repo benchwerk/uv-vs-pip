@@ -1,0 +1,211 @@
+{
+ "pip_requests_cold": {
+  "total": 398,
+  "index_pages": 134,
+  "metadata_files": 130,
+  "wheels": 130,
+  "sdists": 4,
+  "new_https_connections": 4,
+  "candidate_links_found": 22964,
+  "candidate_links_skipped": 46929
+ },
+ "uv_requests_cold": {
+  "total": 398,
+  "index_pages": 134,
+  "metadata_files": 130,
+  "wheels": 130,
+  "sdists": 4
+ },
+ "strace-pip-cold": {
+  "read": 62893,
+  "write": 24811,
+  "openat": 42490,
+  "unlinkat": 3603,
+  "clone": 46,
+  "execve": 77,
+  "connect": 52,
+  "sendto": 4,
+  "recvfrom": 8,
+  "futex": 2648,
+  "mmap": 4382,
+  "fsync": 1070,
+  "sendfile": 132,
+  "newfstatat": 165832,
+  "total_calls": 523507
+ },
+ "strace-pip-nocompile-cold": {
+  "read": 50488,
+  "write": 18390,
+  "openat": 29730,
+  "unlinkat": 3603,
+  "clone": 46,
+  "execve": 77,
+  "connect": 52,
+  "sendto": 4,
+  "recvfrom": 8,
+  "futex": 982,
+  "mmap": 4373,
+  "fsync": 1070,
+  "sendfile": 132,
+  "newfstatat": 90643,
+  "total_calls": 370175
+ },
+ "strace-pip-nocompile-warm": {
+  "read": 18066,
+  "write": 13156,
+  "openat": 16063,
+  "unlinkat": 650,
+  "clone": 3,
+  "execve": 13,
+  "futex": 490,
+  "mmap": 772,
+  "fsync": 266,
+  "newfstatat": 39018,
+  "total_calls": 193423
+ },
+ "strace-pip-warm": {
+  "read": 30610,
+  "write": 19577,
+  "openat": 28823,
+  "unlinkat": 650,
+  "clone": 3,
+  "execve": 13,
+  "futex": 2304,
+  "mmap": 780,
+  "fsync": 266,
+  "newfstatat": 114207,
+  "total_calls": 347111
+ },
+ "strace-uv-cold": {
+  "read": 9033,
+  "pread64": 152,
+  "write": 19549,
+  "openat": 25681,
+  "linkat": 12580,
+  "renameat2": 143,
+  "unlinkat": 3307,
+  "clone": 69,
+  "execve": 14,
+  "connect": 866,
+  "sendto": 58,
+  "recvfrom": 10700,
+  "futex": 5413,
+  "mmap": 1948,
+  "copy_file_range": 370,
+  "sendfile": 132,
+  "statx": 3144,
+  "newfstatat": 28600,
+  "total_calls": 185458
+ },
+ "strace-uv-warm": {
+  "read": 2204,
+  "write": 1898,
+  "openat": 3908,
+  "linkat": 11260,
+  "renameat2": 1,
+  "unlinkat": 442,
+  "clone": 13,
+  "execve": 1,
+  "futex": 112,
+  "mmap": 120,
+  "copy_file_range": 266,
+  "statx": 2154,
+  "newfstatat": 1830,
+  "total_calls": 37014
+ },
+ "pip_cprofile_warm_nocompile": {
+  "note": "cProfile roughly doubles wall time and inflates Python-heavy phases; use the phases-nocompile/dryrun/noindex rows for proportions",
+  "profiled_total_s": 18.66,
+  "calls": 22538909,
+  "cum_s": {
+   "install.py:run": 18.31,
+   "resolver.py:resolve": 10.11,
+   "prepare.py:prepare_linked_requirements_more": 1.46,
+   "wheel.py:install_wheel": 5.85,
+   "package_finder.py:evaluate_link": 2.6,
+   "link.py:from_json": 3.56
+  },
+  "top_selftime": [
+   {
+    "self_s": 1.688,
+    "fn": "builtin <method 'decompress' of 'zlib.Decompress' objects>"
+   },
+   {
+    "self_s": 0.572,
+    "fn": "builtin <built-in method posix.fsync>"
+   },
+   {
+    "self_s": 0.523,
+    "fn": "builtin <built-in method io.open>"
+   },
+   {
+    "self_s": 0.422,
+    "fn": "parse.py:urlsplit"
+   },
+   {
+    "self_s": 0.291,
+    "fn": "parse.py:quote_from_bytes"
+   },
+   {
+    "self_s": 0.279,
+    "fn": "link.py:_clean_url_path"
+   },
+   {
+    "self_s": 0.269,
+    "fn": "link.py:from_json"
+   },
+   {
+    "self_s": 0.268,
+    "fn": "zipfile.py:_RealGetContents"
+   },
+   {
+    "self_s": 0.262,
+    "fn": "package_finder.py:evaluate_link"
+   },
+   {
+    "self_s": 0.253,
+    "fn": "decoder.py:raw_decode"
+   },
+   {
+    "self_s": 0.241,
+    "fn": "builtin <built-in method posix.stat>"
+   },
+   {
+    "self_s": 0.238,
+    "fn": "builtin <method 'write' of '_io.BufferedWriter' objects>"
+   },
+   {
+    "self_s": 0.228,
+    "fn": "link.py:__init__"
+   },
+   {
+    "self_s": 0.221,
+    "fn": "builtin <built-in method zlib.crc32>"
+   },
+   {
+    "self_s": 0.199,
+    "fn": "builtin <built-in method builtins.isinstance>"
+   },
+   {
+    "self_s": 0.195,
+    "fn": "builtin <method '__exit__' of '_io._IOBase' objects>"
+   },
+   {
+    "self_s": 0.188,
+    "fn": "feedparser.py:readline"
+   },
+   {
+    "self_s": 0.184,
+    "fn": "feedparser.py:_parsegen"
+   },
+   {
+    "self_s": 0.182,
+    "fn": "link.py:_ensure_quoted_url"
+   },
+   {
+    "self_s": 0.178,
+    "fn": "builtin <method 'search' of 're.Pattern' objects>"
+   }
+  ]
+ }
+}

@@ -1,0 +1,8 @@
+/tmp/venv/lib/python3.11/site-packages/selenium/webdriver/firefox/firefox_profile.py:208: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if setting is None or setting is '':
+*** Error compiling '/tmp/venv/lib/python3.11/site-packages/func_timeout/py2_raise.py'...
+  File "/tmp/venv/lib/python3.11/site-packages/func_timeout/py2_raise.py", line 5
+    raise exception[0] , None , exception[0].__traceback__
+                       ^
+SyntaxError: invalid syntax
+

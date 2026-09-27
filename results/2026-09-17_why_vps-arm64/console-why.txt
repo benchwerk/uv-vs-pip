@@ -1,0 +1,56 @@
+Unable to find image 'python:3.11-slim-bookworm@sha256:c31315ac2d5a3e36c7d40958a01f303a4dadd423710bb2cd62d1bab5220fac75' locally
+docker.io/library/python@sha256:c31315ac2d5a3e36c7d40958a01f303a4dadd423710bb2cd62d1bab5220fac75: Pulling from library/python
+81b1678c3acf: Pulling fs layer
+1ebecbcc5fdf: Pulling fs layer
+75782e20ea1f: Pulling fs layer
+23ea1c0152c2: Pulling fs layer
+81b1678c3acf: Download complete
+23ea1c0152c2: Download complete
+1ebecbcc5fdf: Download complete
+75782e20ea1f: Download complete
+75782e20ea1f: Pull complete
+1ebecbcc5fdf: Pull complete
+81b1678c3acf: Pull complete
+23ea1c0152c2: Pull complete
+Digest: sha256:c31315ac2d5a3e36c7d40958a01f303a4dadd423710bb2cd62d1bab5220fac75
+Status: Downloaded newer image for python@sha256:c31315ac2d5a3e36c7d40958a01f303a4dadd423710bb2cd62d1bab5220fac75
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+debconf: delaying package configuration, since apt-utils is not installed
+{"probe":"startup","tool":"python","state":"-","wall_s":0.013,"exit":0,"t0":1789664159}
+{"probe":"startup","tool":"pip","state":"-","wall_s":0.198,"exit":0,"t0":1789664159}
+{"probe":"startup","tool":"uv","state":"-","wall_s":0.006,"exit":0,"t0":1789664159}
+{"probe":"startup","tool":"python","state":"-","wall_s":0.012,"exit":0,"t0":1789664159}
+{"probe":"startup","tool":"pip","state":"-","wall_s":0.199,"exit":0,"t0":1789664159}
+{"probe":"startup","tool":"uv","state":"-","wall_s":0.006,"exit":0,"t0":1789664159}
+{"probe":"startup","tool":"python","state":"-","wall_s":0.012,"exit":0,"t0":1789664159}
+{"probe":"startup","tool":"pip","state":"-","wall_s":0.204,"exit":0,"t0":1789664160}
+{"probe":"startup","tool":"uv","state":"-","wall_s":0.006,"exit":0,"t0":1789664160}
+{"probe":"startup","tool":"python","state":"-","wall_s":0.013,"exit":0,"t0":1789664160}
+{"probe":"startup","tool":"pip","state":"-","wall_s":0.204,"exit":0,"t0":1789664160}
+{"probe":"startup","tool":"uv","state":"-","wall_s":0.006,"exit":0,"t0":1789664160}
+{"probe":"startup","tool":"python","state":"-","wall_s":0.013,"exit":0,"t0":1789664160}
+{"probe":"startup","tool":"pip","state":"-","wall_s":0.193,"exit":0,"t0":1789664160}
+{"probe":"startup","tool":"uv","state":"-","wall_s":0.005,"exit":0,"t0":1789664160}
+{"probe":"par-pip-warm-1","tool":"pip","state":"warm","wall_s":25.142,"cpu_user_s":22.202,"cpu_sys_s":2.335,"cpu_per_wall":0.98,"peak_threads":2,"peak_tcp443_conns":0,"exit":0,"t0":1789664244}
+{"probe":"par-uv-warm-1","tool":"uv","state":"warm","wall_s":0.169,"cpu_user_s":0.062,"cpu_sys_s":0.362,"cpu_per_wall":2.51,"peak_threads":11,"peak_tcp443_conns":0,"exit":0,"t0":1789664245}
+{"probe":"par-pip-cold-1","tool":"pip","state":"cold","wall_s":37.074,"cpu_user_s":28.728,"cpu_sys_s":4.158,"cpu_per_wall":0.89,"peak_threads":3,"peak_tcp443_conns":4,"exit":0,"t0":1789664288}
+{"probe":"par-uv-cold-1","tool":"uv","state":"cold","wall_s":2.515,"cpu_user_s":4.930,"cpu_sys_s":2.282,"cpu_per_wall":2.87,"peak_threads":64,"peak_tcp443_conns":50,"exit":0,"t0":1789664291}
+{"probe":"par-uv-warm-2","tool":"uv","state":"warm","wall_s":0.159,"cpu_user_s":0.063,"cpu_sys_s":0.350,"cpu_per_wall":2.60,"peak_threads":13,"peak_tcp443_conns":0,"exit":0,"t0":1789664301}
+{"probe":"par-pip-warm-2","tool":"pip","state":"warm","wall_s":25.053,"cpu_user_s":22.023,"cpu_sys_s":2.433,"cpu_per_wall":0.98,"peak_threads":2,"peak_tcp443_conns":0,"exit":0,"t0":1789664332}
+{"probe":"par-uv-cold-2","tool":"uv","state":"cold","wall_s":2.445,"cpu_user_s":4.968,"cpu_sys_s":2.121,"cpu_per_wall":2.90,"peak_threads":65,"peak_tcp443_conns":50,"exit":0,"t0":1789664335}
+{"probe":"par-pip-cold-2","tool":"pip","state":"cold","wall_s":36.621,"cpu_user_s":28.155,"cpu_sys_s":3.978,"cpu_per_wall":0.88,"peak_threads":3,"peak_tcp443_conns":4,"exit":0,"t0":1789664387}
+{"probe":"par-pip-warm-3","tool":"pip","state":"warm","wall_s":25.462,"cpu_user_s":22.352,"cpu_sys_s":2.441,"cpu_per_wall":0.97,"peak_threads":2,"peak_tcp443_conns":0,"exit":0,"t0":1789664419}
+{"probe":"par-uv-warm-3","tool":"uv","state":"warm","wall_s":0.164,"cpu_user_s":0.070,"cpu_sys_s":0.356,"cpu_per_wall":2.60,"peak_threads":12,"peak_tcp443_conns":0,"exit":0,"t0":1789664419}
+{"probe":"par-pip-cold-3","tool":"pip","state":"cold","wall_s":37.408,"cpu_user_s":28.670,"cpu_sys_s":4.265,"cpu_per_wall":0.88,"peak_threads":3,"peak_tcp443_conns":4,"exit":0,"t0":1789664463}
+{"probe":"par-uv-cold-3","tool":"uv","state":"cold","wall_s":2.452,"cpu_user_s":4.919,"cpu_sys_s":2.234,"cpu_per_wall":2.92,"peak_threads":65,"peak_tcp443_conns":50,"exit":0,"t0":1789664466}
+{"probe":"phases-nocompile","tool":"pip","state":"warm","run":1,"total_s":10.199,"before_install_s":5.328,"install_s":4.871,"exit":0,"t0":1789664736}
+{"probe":"dryrun","tool":"pip","state":"warm","run":1,"wall_s":4.858,"exit":0,"t0":1789664746}
+{"probe":"noindex-nocompile","tool":"pip","state":"warm","run":1,"wall_s":5.944,"exit":0,"t0":1789664758}
+{"probe":"phases-nocompile","tool":"pip","state":"warm","run":2,"total_s":10.361,"before_install_s":5.440,"install_s":4.921,"exit":0,"t0":1789664774}
+{"probe":"dryrun","tool":"pip","state":"warm","run":2,"wall_s":4.832,"exit":0,"t0":1789664784}
+{"probe":"noindex-nocompile","tool":"pip","state":"warm","run":2,"wall_s":5.966,"exit":0,"t0":1789664796}
+{"probe":"phases-nocompile","tool":"pip","state":"warm","run":3,"total_s":10.495,"before_install_s":5.540,"install_s":4.955,"exit":0,"t0":1789664812}
+{"probe":"dryrun","tool":"pip","state":"warm","run":3,"wall_s":4.791,"exit":0,"t0":1789664822}
+{"probe":"noindex-nocompile","tool":"pip","state":"warm","run":3,"wall_s":5.877,"exit":0,"t0":1789664834}
+{"pip_req": 398, "uv_req": 398, "strace-pip-cold": 523507, "strace-pip-nocompile-cold": 370175, "strace-pip-nocompile-warm": 193423, "strace-pip-warm": 347111, "strace-uv-cold": 185458, "strace-uv-warm": 37014}
+nuance why done -> /results/why

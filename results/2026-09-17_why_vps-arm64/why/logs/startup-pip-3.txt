@@ -1,0 +1,1 @@
+pip 26.2.1 from /tmp/venv/lib/python3.11/site-packages/pip (python 3.11)

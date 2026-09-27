@@ -1,0 +1,76 @@
+Unable to find image 'python:3.11-slim-bookworm@sha256:c31315ac2d5a3e36c7d40958a01f303a4dadd423710bb2cd62d1bab5220fac75' locally
+docker.io/library/python@sha256:c31315ac2d5a3e36c7d40958a01f303a4dadd423710bb2cd62d1bab5220fac75: Pulling from library/python
+81b1678c3acf: Pulling fs layer
+75782e20ea1f: Pulling fs layer
+23ea1c0152c2: Pulling fs layer
+1ebecbcc5fdf: Pulling fs layer
+75782e20ea1f: Download complete
+81b1678c3acf: Download complete
+1ebecbcc5fdf: Download complete
+23ea1c0152c2: Download complete
+75782e20ea1f: Pull complete
+1ebecbcc5fdf: Pull complete
+81b1678c3acf: Pull complete
+23ea1c0152c2: Pull complete
+Digest: sha256:c31315ac2d5a3e36c7d40958a01f303a4dadd423710bb2cd62d1bab5220fac75
+Status: Downloaded newer image for python@sha256:c31315ac2d5a3e36c7d40958a01f303a4dadd423710bb2cd62d1bab5220fac75
+{"tool":"pip","state":"cold","run":1,"seconds":35.645,"exit":0,"t0":1789582315}
+{"tool":"uv","state":"cold","run":1,"seconds":2.424,"exit":0,"t0":1789582352}
+{"tool":"pip","state":"warm","run":1,"seconds":24.223,"exit":0,"t0":1789582401}
+{"tool":"uv","state":"warm","run":1,"seconds":0.139,"exit":0,"t0":1789582426}
+{"tool":"pip","state":"partial","run":1,"seconds":26.060,"exit":0,"t0":1789582472}
+{"tool":"uv","state":"partial","run":1,"seconds":0.315,"exit":0,"t0":1789582512}
+{"tool":"pip","state":"frozen","run":1,"seconds":23.751,"exit":0,"t0":1789582548}
+{"tool":"uv","state":"frozen","run":1,"seconds":0.166,"exit":0,"t0":1789582573}
+{"tool":"pip","state":"noop","run":1,"seconds":0.918,"exit":0,"t0":1789582615}
+{"tool":"uv","state":"noop","run":1,"seconds":0.025,"exit":0,"t0":1789582617}
+{"tool":"pip","state":"warm_nocompile","run":1,"seconds":10.028,"exit":0,"t0":1789582653}
+{"tool":"uv","state":"warm_nocompile","run":1,"seconds":0.136,"exit":0,"t0":1789582664}
+{"tool":"uv","state":"cold","run":2,"seconds":2.484,"exit":0,"t0":1789582664}
+{"tool":"pip","state":"cold","run":2,"seconds":35.665,"exit":0,"t0":1789582682}
+{"tool":"uv","state":"warm","run":2,"seconds":0.141,"exit":0,"t0":1789582719}
+{"tool":"pip","state":"warm","run":2,"seconds":24.445,"exit":0,"t0":1789582755}
+{"tool":"uv","state":"partial","run":2,"seconds":0.319,"exit":0,"t0":1789582792}
+{"tool":"pip","state":"partial","run":2,"seconds":25.451,"exit":0,"t0":1789582839}
+{"tool":"uv","state":"frozen","run":2,"seconds":0.132,"exit":0,"t0":1789582865}
+{"tool":"pip","state":"frozen","run":2,"seconds":23.959,"exit":0,"t0":1789582901}
+{"tool":"uv","state":"noop","run":2,"seconds":0.024,"exit":0,"t0":1789582926}
+{"tool":"pip","state":"noop","run":2,"seconds":0.933,"exit":0,"t0":1789582968}
+{"tool":"uv","state":"warm_nocompile","run":2,"seconds":0.163,"exit":0,"t0":1789582970}
+{"tool":"pip","state":"warm_nocompile","run":2,"seconds":10.048,"exit":0,"t0":1789583006}
+{"tool":"pip","state":"cold","run":3,"seconds":35.872,"exit":0,"t0":1789583022}
+{"tool":"uv","state":"cold","run":3,"seconds":2.519,"exit":0,"t0":1789583059}
+{"tool":"pip","state":"warm","run":3,"seconds":24.891,"exit":0,"t0":1789583107}
+{"tool":"uv","state":"warm","run":3,"seconds":0.141,"exit":0,"t0":1789583133}
+{"tool":"pip","state":"partial","run":3,"seconds":25.571,"exit":0,"t0":1789583179}
+{"tool":"uv","state":"partial","run":3,"seconds":0.298,"exit":0,"t0":1789583218}
+{"tool":"pip","state":"frozen","run":3,"seconds":24.107,"exit":0,"t0":1789583255}
+{"tool":"uv","state":"frozen","run":3,"seconds":0.135,"exit":0,"t0":1789583280}
+{"tool":"pip","state":"noop","run":3,"seconds":0.922,"exit":0,"t0":1789583322}
+{"tool":"uv","state":"noop","run":3,"seconds":0.023,"exit":0,"t0":1789583324}
+{"tool":"pip","state":"warm_nocompile","run":3,"seconds":10.060,"exit":0,"t0":1789583359}
+{"tool":"uv","state":"warm_nocompile","run":3,"seconds":0.139,"exit":0,"t0":1789583370}
+{"tool":"uv","state":"cold","run":4,"seconds":2.426,"exit":0,"t0":1789583371}
+{"tool":"pip","state":"cold","run":4,"seconds":35.670,"exit":0,"t0":1789583388}
+{"tool":"uv","state":"warm","run":4,"seconds":0.131,"exit":0,"t0":1789583424}
+{"tool":"pip","state":"warm","run":4,"seconds":24.652,"exit":0,"t0":1789583460}
+{"tool":"uv","state":"partial","run":4,"seconds":0.310,"exit":0,"t0":1789583498}
+{"tool":"pip","state":"partial","run":4,"seconds":25.474,"exit":0,"t0":1789583544}
+{"tool":"uv","state":"frozen","run":4,"seconds":0.126,"exit":0,"t0":1789583570}
+{"tool":"pip","state":"frozen","run":4,"seconds":24.374,"exit":0,"t0":1789583607}
+{"tool":"uv","state":"noop","run":4,"seconds":0.023,"exit":0,"t0":1789583632}
+{"tool":"pip","state":"noop","run":4,"seconds":0.896,"exit":0,"t0":1789583674}
+{"tool":"uv","state":"warm_nocompile","run":4,"seconds":0.141,"exit":0,"t0":1789583676}
+{"tool":"pip","state":"warm_nocompile","run":4,"seconds":10.268,"exit":0,"t0":1789583712}
+{"tool":"pip","state":"cold","run":5,"seconds":35.844,"exit":0,"t0":1789583728}
+{"tool":"uv","state":"cold","run":5,"seconds":2.407,"exit":0,"t0":1789583765}
+{"tool":"pip","state":"warm","run":5,"seconds":25.199,"exit":0,"t0":1789583813}
+{"tool":"uv","state":"warm","run":5,"seconds":0.139,"exit":0,"t0":1789583839}
+{"tool":"pip","state":"partial","run":5,"seconds":25.499,"exit":0,"t0":1789583885}
+{"tool":"uv","state":"partial","run":5,"seconds":0.321,"exit":0,"t0":1789583923}
+{"tool":"pip","state":"frozen","run":5,"seconds":24.340,"exit":0,"t0":1789583960}
+{"tool":"uv","state":"frozen","run":5,"seconds":0.124,"exit":0,"t0":1789583985}
+{"tool":"pip","state":"noop","run":5,"seconds":0.895,"exit":0,"t0":1789584026}
+{"tool":"uv","state":"noop","run":5,"seconds":0.024,"exit":0,"t0":1789584028}
+{"tool":"pip","state":"warm_nocompile","run":5,"seconds":10.135,"exit":0,"t0":1789584064}
+{"tool":"uv","state":"warm_nocompile","run":5,"seconds":0.139,"exit":0,"t0":1789584075}

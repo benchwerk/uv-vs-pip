@@ -1,0 +1,581 @@
+{
+ "video": "01-uv-vs-pip",
+ "primary_run": "2026-09-15_2016",
+ "runs_analysed": [
+  "2026-09-15_2016",
+  "2026-09-15_2051",
+  "2026-09-16_1810_vps-arm64"
+ ],
+ "same_machine_runs": [
+  "2026-09-15_2051"
+ ],
+ "other_machines": {
+  "2026-09-16_1810_vps-arm64": {
+   "kernel": "6.17.0-1018-oracle",
+   "host_cpus": 4,
+   "downlink_mbps": 1264,
+   "ratios": {
+    "cold": {
+     "pip_over_uv": 14.7,
+     "seconds_saved": 33.24
+    },
+    "warm": {
+     "pip_over_uv": 177.4,
+     "seconds_saved": 24.51
+    },
+    "partial": {
+     "pip_over_uv": 80.9,
+     "seconds_saved": 25.18
+    },
+    "frozen": {
+     "pip_over_uv": 182.6,
+     "seconds_saved": 23.97
+    },
+    "noop": {
+     "pip_over_uv": 38.2,
+     "seconds_saved": 0.89
+    },
+    "warm_nocompile": {
+     "pip_over_uv": 72.4,
+     "seconds_saved": 9.92
+    }
+   },
+   "medians": {
+    "pip.cold": 35.67,
+    "pip.warm": 24.652,
+    "pip.partial": 25.499,
+    "pip.frozen": 24.107,
+    "pip.noop": 0.918,
+    "pip.warm_nocompile": 10.06,
+    "uv.cold": 2.426,
+    "uv.warm": 0.139,
+    "uv.partial": 0.315,
+    "uv.frozen": 0.132,
+    "uv.noop": 0.024,
+    "uv.warm_nocompile": 0.139
+   },
+   "spread_pct": {
+    "pip.cold": 0.6,
+    "pip.warm": 4.0,
+    "pip.partial": 2.4,
+    "pip.frozen": 2.6,
+    "pip.noop": 4.1,
+    "pip.warm_nocompile": 2.4,
+    "uv.cold": 4.6,
+    "uv.warm": 7.2,
+    "uv.partial": 7.3,
+    "uv.frozen": 31.8,
+    "uv.noop": 8.3,
+    "uv.warm_nocompile": 19.4
+   }
+  }
+ },
+ "headline": {
+  "cold_ratio": 2.7,
+  "warm_ratio": 120.1,
+  "title_claim_warm_ratio_is_far_smaller_than_cold": false,
+  "pip_cold_s": 63.654,
+  "uv_cold_s": 23.278,
+  "pip_warm_s": 19.451,
+  "uv_warm_s": 0.162
+ },
+ "bytecode_cost": {
+  "pip_warm_s": 19.451,
+  "pip_warm_nocompile_s": 8.777,
+  "bytecode_seconds": 10.67,
+  "bytecode_share_pct": 54.9
+ },
+ "ratios": {
+  "cold": {
+   "pip_over_uv": 2.7,
+   "seconds_saved": 40.38
+  },
+  "warm": {
+   "pip_over_uv": 120.1,
+   "seconds_saved": 19.29
+  },
+  "partial": {
+   "pip_over_uv": 27.8,
+   "seconds_saved": 22.41
+  },
+  "frozen": {
+   "pip_over_uv": 124.1,
+   "seconds_saved": 18.96
+  },
+  "noop": {
+   "pip_over_uv": 34.0,
+   "seconds_saved": 0.66
+  },
+  "warm_nocompile": {
+   "pip_over_uv": 52.9,
+   "seconds_saved": 8.61
+  }
+ },
+ "summary": {
+  "pip.cold": {
+   "median_s": 63.654,
+   "min_s": 56.465,
+   "max_s": 69.493,
+   "n": 5,
+   "failed": 0,
+   "spread_pct": 20.5,
+   "runs_s": [
+    56.465,
+    56.666,
+    63.654,
+    68.114,
+    69.493
+   ]
+  },
+  "pip.warm": {
+   "median_s": 19.451,
+   "min_s": 19.448,
+   "max_s": 19.731,
+   "n": 5,
+   "failed": 0,
+   "spread_pct": 1.5,
+   "runs_s": [
+    19.448,
+    19.449,
+    19.451,
+    19.624,
+    19.731
+   ]
+  },
+  "pip.partial": {
+   "median_s": 23.242,
+   "min_s": 22.594,
+   "max_s": 23.465,
+   "n": 5,
+   "failed": 0,
+   "spread_pct": 3.7,
+   "runs_s": [
+    22.594,
+    22.751,
+    23.242,
+    23.279,
+    23.465
+   ]
+  },
+  "pip.frozen": {
+   "median_s": 19.112,
+   "min_s": 19.065,
+   "max_s": 19.36,
+   "n": 5,
+   "failed": 0,
+   "spread_pct": 1.5,
+   "runs_s": [
+    19.065,
+    19.106,
+    19.112,
+    19.228,
+    19.36
+   ]
+  },
+  "pip.noop": {
+   "median_s": 0.679,
+   "min_s": 0.669,
+   "max_s": 0.71,
+   "n": 5,
+   "failed": 0,
+   "spread_pct": 6.0,
+   "runs_s": [
+    0.669,
+    0.676,
+    0.679,
+    0.681,
+    0.71
+   ]
+  },
+  "pip.warm_nocompile": {
+   "median_s": 8.777,
+   "min_s": 8.735,
+   "max_s": 8.948,
+   "n": 5,
+   "failed": 0,
+   "spread_pct": 2.4,
+   "runs_s": [
+    8.735,
+    8.748,
+    8.777,
+    8.874,
+    8.948
+   ]
+  },
+  "uv.cold": {
+   "median_s": 23.278,
+   "min_s": 8.115,
+   "max_s": 29.03,
+   "n": 5,
+   "failed": 0,
+   "spread_pct": 89.8,
+   "runs_s": [
+    8.115,
+    9.649,
+    23.278,
+    23.794,
+    29.03
+   ]
+  },
+  "uv.warm": {
+   "median_s": 0.162,
+   "min_s": 0.156,
+   "max_s": 0.172,
+   "n": 5,
+   "failed": 0,
+   "spread_pct": 9.9,
+   "runs_s": [
+    0.156,
+    0.162,
+    0.162,
+    0.164,
+    0.172
+   ]
+  },
+  "uv.partial": {
+   "median_s": 0.837,
+   "min_s": 0.615,
+   "max_s": 0.979,
+   "n": 5,
+   "failed": 0,
+   "spread_pct": 43.5,
+   "runs_s": [
+    0.615,
+    0.721,
+    0.837,
+    0.905,
+    0.979
+   ]
+  },
+  "uv.frozen": {
+   "median_s": 0.154,
+   "min_s": 0.148,
+   "max_s": 0.159,
+   "n": 5,
+   "failed": 0,
+   "spread_pct": 7.1,
+   "runs_s": [
+    0.148,
+    0.154,
+    0.154,
+    0.156,
+    0.159
+   ]
+  },
+  "uv.noop": {
+   "median_s": 0.02,
+   "min_s": 0.019,
+   "max_s": 0.02,
+   "n": 5,
+   "failed": 0,
+   "spread_pct": 5.0,
+   "runs_s": [
+    0.019,
+    0.019,
+    0.02,
+    0.02,
+    0.02
+   ]
+  },
+  "uv.warm_nocompile": {
+   "median_s": 0.166,
+   "min_s": 0.158,
+   "max_s": 0.178,
+   "n": 5,
+   "failed": 0,
+   "spread_pct": 12.0,
+   "runs_s": [
+    0.158,
+    0.161,
+    0.166,
+    0.169,
+    0.178
+   ]
+  }
+ },
+ "reproducibility_vs_other_runs": {
+  "pip.cold": {
+   "primary_median_inside_other_runs_range": true,
+   "max_median_diff_pct": 172.8
+  },
+  "pip.warm": {
+   "primary_median_inside_other_runs_range": false,
+   "max_median_diff_pct": 5.4
+  },
+  "pip.partial": {
+   "primary_median_inside_other_runs_range": true,
+   "max_median_diff_pct": 1.5
+  },
+  "pip.frozen": {
+   "primary_median_inside_other_runs_range": false,
+   "max_median_diff_pct": 6.3
+  },
+  "pip.noop": {
+   "primary_median_inside_other_runs_range": true,
+   "max_median_diff_pct": 5.0
+  },
+  "pip.warm_nocompile": {
+   "primary_median_inside_other_runs_range": false,
+   "max_median_diff_pct": 6.1
+  },
+  "uv.cold": {
+   "primary_median_inside_other_runs_range": true,
+   "max_median_diff_pct": 385.5
+  },
+  "uv.warm": {
+   "primary_median_inside_other_runs_range": true,
+   "max_median_diff_pct": 1.2
+  },
+  "uv.partial": {
+   "primary_median_inside_other_runs_range": true,
+   "max_median_diff_pct": 10.6
+  },
+  "uv.frozen": {
+   "primary_median_inside_other_runs_range": true,
+   "max_median_diff_pct": 7.8
+  },
+  "uv.noop": {
+   "primary_median_inside_other_runs_range": true,
+   "max_median_diff_pct": 5.0
+  },
+  "uv.warm_nocompile": {
+   "primary_median_inside_other_runs_range": true,
+   "max_median_diff_pct": 3.6
+  }
+ },
+ "prediction_check": {
+  "cold": {
+   "predicted_ratio": 8.8,
+   "measured_ratio": 2.7,
+   "predicted_pip_s": 22.0,
+   "measured_pip_s": 63.654,
+   "predicted_uv_s": 2.5,
+   "measured_uv_s": 23.278
+  },
+  "warm": {
+   "predicted_ratio": 20.0,
+   "measured_ratio": 120.1,
+   "predicted_pip_s": 6.0,
+   "measured_pip_s": 19.451,
+   "predicted_uv_s": 0.3,
+   "measured_uv_s": 0.162
+  },
+  "partial": {
+   "predicted_ratio": 9.0,
+   "measured_ratio": 27.8,
+   "predicted_pip_s": 9.0,
+   "measured_pip_s": 23.242,
+   "predicted_uv_s": 1.0,
+   "measured_uv_s": 0.837
+  },
+  "frozen": {
+   "predicted_ratio": 13.3,
+   "measured_ratio": 124.1,
+   "predicted_pip_s": 4.0,
+   "measured_pip_s": 19.112,
+   "predicted_uv_s": 0.3,
+   "measured_uv_s": 0.154
+  },
+  "noop": {
+   "predicted_ratio": 30.0,
+   "measured_ratio": 34.0,
+   "predicted_pip_s": 1.5,
+   "measured_pip_s": 0.679,
+   "predicted_uv_s": 0.05,
+   "measured_uv_s": 0.02
+  }
+ },
+ "env": {
+  "python": "3.11.16",
+  "python_path": "/usr/local/bin/python",
+  "pip": "26.2.1",
+  "uv": "0.12.15",
+  "os": "\"Debian GNU/Linux 12 (bookworm)\"",
+  "kernel": "6.18.33.2-microsoft-standard-WSL2",
+  "host_cpus": 12,
+  "cpu_cap": "4",
+  "mem_cap": "8g",
+  "tmp_filesystem": "overlayfs",
+  "image": "python:3.11-slim-bookworm@sha256:b1add8a6f2aca6bcfcf0b9c9b522352f7ce0d62a3d556a2f2f32511aa0cca250",
+  "requirements_sha256": "ca99fb7f4d8786e888d75a512dec3a788180738b35acbb58e61a304fe6411f91",
+  "pins": 134,
+  "partial_pins": 108,
+  "partial_dropped": [
+   "amqp",
+   "bcrypt",
+   "cachelib",
+   "certifi",
+   "click-option-group",
+   "cron-descriptor",
+   "email-validator",
+   "flask-caching",
+   "flask-talisman",
+   "geopy",
+   "holidays",
+   "importlib-resources",
+   "limits",
+   "markdown-it-py",
+   "nh3",
+   "paramiko",
+   "ply",
+   "pyasn1",
+   "pyjwt",
+   "pynacl",
+   "redis",
+   "rsa",
+   "six",
+   "typing-extensions",
+   "wtforms",
+   "zipp"
+  ],
+  "runs_per_config": 5,
+  "index": "https://pypi.org/simple",
+  "downlink_mbps_estimate": 81,
+  "pip_bytecode": "default (compiles .pyc on install)",
+  "uv_bytecode": "default (does not compile)",
+  "uv_interface": "uv pip install",
+  "started_utc": "2026-09-15T18:16:10Z"
+ },
+ "checks": {
+  "uv_hardlinked": true,
+  "files_hardlinked": 11296,
+  "files_copied_or_generated": 408
+ },
+ "all_runs": {
+  "2026-09-15_2016": {
+   "ratios": {
+    "cold": {
+     "pip_over_uv": 2.7,
+     "seconds_saved": 40.38
+    },
+    "warm": {
+     "pip_over_uv": 120.1,
+     "seconds_saved": 19.29
+    },
+    "partial": {
+     "pip_over_uv": 27.8,
+     "seconds_saved": 22.41
+    },
+    "frozen": {
+     "pip_over_uv": 124.1,
+     "seconds_saved": 18.96
+    },
+    "noop": {
+     "pip_over_uv": 34.0,
+     "seconds_saved": 0.66
+    },
+    "warm_nocompile": {
+     "pip_over_uv": 52.9,
+     "seconds_saved": 8.61
+    }
+   },
+   "medians": {
+    "pip.cold": 63.654,
+    "pip.warm": 19.451,
+    "pip.partial": 23.242,
+    "pip.frozen": 19.112,
+    "pip.noop": 0.679,
+    "pip.warm_nocompile": 8.777,
+    "uv.cold": 23.278,
+    "uv.warm": 0.162,
+    "uv.partial": 0.837,
+    "uv.frozen": 0.154,
+    "uv.noop": 0.02,
+    "uv.warm_nocompile": 0.166
+   },
+   "started": "2026-09-15T18:16:10Z",
+   "downlink_mbps": 81,
+   "failed_rows": 0
+  },
+  "2026-09-15_2051": {
+   "ratios": {
+    "cold": {
+     "pip_over_uv": 1.5,
+     "seconds_saved": 60.63
+    },
+    "warm": {
+     "pip_over_uv": 115.0,
+     "seconds_saved": 18.24
+    },
+    "partial": {
+     "pip_over_uv": 24.7,
+     "seconds_saved": 21.96
+    },
+    "frozen": {
+     "pip_over_uv": 126.1,
+     "seconds_saved": 17.76
+    },
+    "noop": {
+     "pip_over_uv": 33.9,
+     "seconds_saved": 0.63
+    },
+    "warm_nocompile": {
+     "pip_over_uv": 51.5,
+     "seconds_saved": 8.08
+    }
+   },
+   "medians": {
+    "pip.cold": 173.644,
+    "pip.warm": 18.401,
+    "pip.partial": 22.883,
+    "pip.frozen": 17.904,
+    "pip.noop": 0.645,
+    "pip.warm_nocompile": 8.24,
+    "uv.cold": 113.01,
+    "uv.warm": 0.16,
+    "uv.partial": 0.926,
+    "uv.frozen": 0.142,
+    "uv.noop": 0.019,
+    "uv.warm_nocompile": 0.16
+   },
+   "started": "2026-09-15T18:51:31Z",
+   "downlink_mbps": 148,
+   "failed_rows": 0
+  },
+  "2026-09-16_1810_vps-arm64": {
+   "ratios": {
+    "cold": {
+     "pip_over_uv": 14.7,
+     "seconds_saved": 33.24
+    },
+    "warm": {
+     "pip_over_uv": 177.4,
+     "seconds_saved": 24.51
+    },
+    "partial": {
+     "pip_over_uv": 80.9,
+     "seconds_saved": 25.18
+    },
+    "frozen": {
+     "pip_over_uv": 182.6,
+     "seconds_saved": 23.97
+    },
+    "noop": {
+     "pip_over_uv": 38.2,
+     "seconds_saved": 0.89
+    },
+    "warm_nocompile": {
+     "pip_over_uv": 72.4,
+     "seconds_saved": 9.92
+    }
+   },
+   "medians": {
+    "pip.cold": 35.67,
+    "pip.warm": 24.652,
+    "pip.partial": 25.499,
+    "pip.frozen": 24.107,
+    "pip.noop": 0.918,
+    "pip.warm_nocompile": 10.06,
+    "uv.cold": 2.426,
+    "uv.warm": 0.139,
+    "uv.partial": 0.315,
+    "uv.frozen": 0.132,
+    "uv.noop": 0.024,
+    "uv.warm_nocompile": 0.139
+   },
+   "started": "2026-09-16T18:10:56Z",
+   "downlink_mbps": 1264,
+   "failed_rows": 0
+  }
+ }
+}

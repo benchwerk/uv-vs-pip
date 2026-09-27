@@ -1,0 +1,19 @@
+Using Python 3.11.16 environment at: /tmp/venv
+Resolved 7 packages in 955ms
+   Building wtforms-json==0.3.5
+   Building func-timeout==4.3.5
+   Building shortid==0.1.2
+   Building pgsanity==0.2.9
+      Built shortid==0.1.2
+      Built wtforms-json==0.3.5
+      Built func-timeout==4.3.5
+      Built pgsanity==0.2.9
+Prepared 7 packages in 268ms
+Installed 7 packages in 5ms
+ + func-timeout==4.3.5
+ + markupsafe==3.0.3
+ + pgsanity==0.2.9
+ + shortid==0.1.2
+ + six==1.17.0
+ + wtforms==3.2.2
+ + wtforms-json==0.3.5

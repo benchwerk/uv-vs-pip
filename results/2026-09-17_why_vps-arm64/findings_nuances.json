@@ -1,0 +1,238 @@
+{
+ "dir": "2026-09-17_why_vps-arm64",
+ "experiments": {
+  "why": {
+   "rows": 36,
+   "failed_rows": 0,
+   "startup_s": {
+    "python": {
+     "median": 0.013,
+     "min": 0.012,
+     "max": 0.013,
+     "n": 5
+    },
+    "pip": {
+     "median": 0.199,
+     "min": 0.193,
+     "max": 0.204,
+     "n": 5
+    },
+    "uv": {
+     "median": 0.006,
+     "min": 0.005,
+     "max": 0.006,
+     "n": 5
+    }
+   },
+   "parallelism": {
+    "pip.cold": {
+     "cpu_per_wall": {
+      "median": 0.88,
+      "min": 0.88,
+      "max": 0.89,
+      "n": 3
+     },
+     "peak_threads": 3,
+     "peak_tcp443_conns": 4,
+     "wall_s_(sampler-quantised; use timed rows elsewhere)": {
+      "median": 37.074,
+      "min": 36.621,
+      "max": 37.408,
+      "n": 3
+     }
+    },
+    "pip.warm": {
+     "cpu_per_wall": {
+      "median": 0.98,
+      "min": 0.97,
+      "max": 0.98,
+      "n": 3
+     },
+     "peak_threads": 2,
+     "peak_tcp443_conns": 0,
+     "wall_s_(sampler-quantised; use timed rows elsewhere)": {
+      "median": 25.142,
+      "min": 25.053,
+      "max": 25.462,
+      "n": 3
+     }
+    },
+    "uv.cold": {
+     "cpu_per_wall": {
+      "median": 2.9,
+      "min": 2.87,
+      "max": 2.92,
+      "n": 3
+     },
+     "peak_threads": 65,
+     "peak_tcp443_conns": 50,
+     "wall_s_(sampler-quantised; use timed rows elsewhere)": {
+      "median": 2.452,
+      "min": 2.445,
+      "max": 2.515,
+      "n": 3
+     }
+    },
+    "uv.warm": {
+     "cpu_per_wall": {
+      "median": 2.6,
+      "min": 2.51,
+      "max": 2.6,
+      "n": 3
+     },
+     "peak_threads": 13,
+     "peak_tcp443_conns": 0,
+     "wall_s_(sampler-quantised; use timed rows elsewhere)": {
+      "median": 0.164,
+      "min": 0.159,
+      "max": 0.169,
+      "n": 3
+     }
+    }
+   },
+   "pip_warm_nocompile_phases_s": {
+    "total": 10.36,
+    "before_installing_collected_packages": 5.44,
+    "installing": 4.92,
+    "dry_run_resolve_plus_prepare": 4.83,
+    "no_index_find_links_total": 5.94,
+    "index_page_parsing_estimate_(total - no_index)": 4.42,
+    "index_parsing_share_pct": 42.6,
+    "installing_share_pct": 47.5
+   },
+   "requests_cold": {
+    "pip": {
+     "total": 398,
+     "index_pages": 134,
+     "metadata_files": 130,
+     "wheels": 130,
+     "sdists": 4,
+     "new_https_connections": 4,
+     "candidate_links_found": 22964,
+     "candidate_links_skipped": 46929
+    },
+    "uv": {
+     "total": 398,
+     "index_pages": 134,
+     "metadata_files": 130,
+     "wheels": 130,
+     "sdists": 4
+    }
+   },
+   "syscalls": {
+    "strace-pip-cold": {
+     "read": 62893,
+     "write": 24811,
+     "openat": 42490,
+     "unlinkat": 3603,
+     "clone": 46,
+     "execve": 77,
+     "connect": 52,
+     "sendto": 4,
+     "recvfrom": 8,
+     "futex": 2648,
+     "mmap": 4382,
+     "fsync": 1070,
+     "sendfile": 132,
+     "newfstatat": 165832,
+     "total_calls": 523507
+    },
+    "strace-pip-nocompile-cold": {
+     "read": 50488,
+     "write": 18390,
+     "openat": 29730,
+     "unlinkat": 3603,
+     "clone": 46,
+     "execve": 77,
+     "connect": 52,
+     "sendto": 4,
+     "recvfrom": 8,
+     "futex": 982,
+     "mmap": 4373,
+     "fsync": 1070,
+     "sendfile": 132,
+     "newfstatat": 90643,
+     "total_calls": 370175
+    },
+    "strace-pip-nocompile-warm": {
+     "read": 18066,
+     "write": 13156,
+     "openat": 16063,
+     "unlinkat": 650,
+     "clone": 3,
+     "execve": 13,
+     "futex": 490,
+     "mmap": 772,
+     "fsync": 266,
+     "newfstatat": 39018,
+     "total_calls": 193423
+    },
+    "strace-pip-warm": {
+     "read": 30610,
+     "write": 19577,
+     "openat": 28823,
+     "unlinkat": 650,
+     "clone": 3,
+     "execve": 13,
+     "futex": 2304,
+     "mmap": 780,
+     "fsync": 266,
+     "newfstatat": 114207,
+     "total_calls": 347111
+    },
+    "strace-uv-cold": {
+     "read": 9033,
+     "pread64": 152,
+     "write": 19549,
+     "openat": 25681,
+     "linkat": 12580,
+     "renameat2": 143,
+     "unlinkat": 3307,
+     "clone": 69,
+     "execve": 14,
+     "connect": 866,
+     "sendto": 58,
+     "recvfrom": 10700,
+     "futex": 5413,
+     "mmap": 1948,
+     "copy_file_range": 370,
+     "sendfile": 132,
+     "statx": 3144,
+     "newfstatat": 28600,
+     "total_calls": 185458
+    },
+    "strace-uv-warm": {
+     "read": 2204,
+     "write": 1898,
+     "openat": 3908,
+     "linkat": 11260,
+     "renameat2": 1,
+     "unlinkat": 442,
+     "clone": 13,
+     "execve": 1,
+     "futex": 112,
+     "mmap": 120,
+     "copy_file_range": 266,
+     "statx": 2154,
+     "newfstatat": 1830,
+     "total_calls": 37014
+    }
+   },
+   "uv_timers_warm": [
+    "Resolved 133 packages in 35ms",
+    "Installed 133 packages in 101ms"
+   ]
+  }
+ },
+ "env": {
+  "why": {
+   "arch": "aarch64",
+   "kernel": "6.17.0-1018-oracle",
+   "cpuset": null,
+   "affinity_cpus": 4,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "overlayfs",
+   "started_utc": "2026-09-17T16:55:48Z"
+  }
+ }
+}

@@ -1,0 +1,244 @@
+{
+ "pip_requests_cold": {
+  "total": 401,
+  "index_pages": 135,
+  "metadata_files": 131,
+  "wheels": 131,
+  "sdists": 4,
+  "new_https_connections": 4,
+  "candidate_links_found": 23106,
+  "candidate_links_skipped": 47843
+ },
+ "uv_requests_cold": {
+  "total": 401,
+  "index_pages": 135,
+  "metadata_files": 131,
+  "wheels": 131,
+  "sdists": 4
+ },
+ "strace-pip-cold": {
+  "read": 85436,
+  "pread64": 44,
+  "write": 24995,
+  "openat": 42650,
+  "rename": 7988,
+  "unlink": 414,
+  "unlinkat": 2865,
+  "mkdir": 10293,
+  "clone": 20,
+  "clone3": 20,
+  "vfork": 26,
+  "execve": 77,
+  "connect": 102,
+  "sendto": 4,
+  "recvfrom": 8,
+  "futex": 3261,
+  "mmap": 5007,
+  "fsync": 1078,
+  "sendfile": 132,
+  "newfstatat": 167331,
+  "total_calls": 555215
+ },
+ "strace-pip-nocompile-cold": {
+  "read": 71272,
+  "pread64": 44,
+  "write": 18547,
+  "openat": 29836,
+  "rename": 1582,
+  "unlink": 414,
+  "unlinkat": 2865,
+  "mkdir": 3887,
+  "clone": 20,
+  "clone3": 20,
+  "vfork": 26,
+  "execve": 77,
+  "connect": 100,
+  "sendto": 4,
+  "recvfrom": 8,
+  "futex": 1637,
+  "mmap": 4997,
+  "fsync": 1078,
+  "sendfile": 132,
+  "newfstatat": 91832,
+  "total_calls": 399075
+ },
+ "strace-pip-nocompile-warm": {
+  "read": 18270,
+  "pread64": 4,
+  "write": 13258,
+  "openat": 16134,
+  "rename": 268,
+  "unlink": 1,
+  "unlinkat": 390,
+  "mkdir": 1535,
+  "clone": 1,
+  "clone3": 1,
+  "vfork": 2,
+  "execve": 13,
+  "futex": 928,
+  "mmap": 818,
+  "fsync": 268,
+  "newfstatat": 39374,
+  "total_calls": 195108
+ },
+ "strace-pip-warm": {
+  "read": 30865,
+  "pread64": 4,
+  "write": 19706,
+  "openat": 28948,
+  "rename": 6674,
+  "unlink": 1,
+  "unlinkat": 390,
+  "mkdir": 7941,
+  "clone": 1,
+  "clone3": 1,
+  "vfork": 2,
+  "execve": 13,
+  "futex": 2395,
+  "mmap": 828,
+  "fsync": 268,
+  "newfstatat": 114873,
+  "total_calls": 349202
+ },
+ "strace-uv-cold": {
+  "read": 9117,
+  "pread64": 180,
+  "write": 15877,
+  "openat": 25786,
+  "linkat": 12619,
+  "rename": 1373,
+  "renameat2": 144,
+  "unlink": 865,
+  "unlinkat": 2432,
+  "mkdir": 4401,
+  "clone": 77,
+  "clone3": 77,
+  "execve": 14,
+  "connect": 1278,
+  "sendto": 64,
+  "recvfrom": 27028,
+  "futex": 23589,
+  "mmap": 2444,
+  "copy_file_range": 372,
+  "sendfile": 132,
+  "statx": 3171,
+  "newfstatat": 28658,
+  "total_calls": 253299
+ },
+ "strace-uv-warm": {
+  "read": 2221,
+  "pread64": 2,
+  "write": 1908,
+  "openat": 3935,
+  "linkat": 11299,
+  "rename": 304,
+  "renameat2": 1,
+  "unlink": 439,
+  "unlinkat": 6,
+  "mkdir": 1453,
+  "clone": 13,
+  "clone3": 13,
+  "execve": 1,
+  "futex": 119,
+  "mmap": 104,
+  "copy_file_range": 268,
+  "statx": 2169,
+  "newfstatat": 1844,
+  "total_calls": 37314
+ },
+ "pip_cprofile_warm_nocompile": {
+  "note": "cProfile roughly doubles wall time and inflates Python-heavy phases; use the phases-nocompile/dryrun/noindex rows for proportions",
+  "profiled_total_s": 15.99,
+  "calls": 23015386,
+  "cum_s": {
+   "install.py:run": 15.74,
+   "resolver.py:resolve": 8.65,
+   "prepare.py:prepare_linked_requirements_more": 1.45,
+   "wheel.py:install_wheel": 4.97,
+   "package_finder.py:evaluate_link": 2.43,
+   "link.py:from_json": 3.03
+  },
+  "top_selftime": [
+   {
+    "self_s": 1.46,
+    "fn": "builtin <method 'decompress' of 'zlib.Decompress' objects>"
+   },
+   {
+    "self_s": 0.538,
+    "fn": "builtin <built-in method posix.fsync>"
+   },
+   {
+    "self_s": 0.411,
+    "fn": "builtin <method 'write' of '_io.BufferedWriter' objects>"
+   },
+   {
+    "self_s": 0.373,
+    "fn": "parse.py:urlsplit"
+   },
+   {
+    "self_s": 0.334,
+    "fn": "builtin <built-in method io.open>"
+   },
+   {
+    "self_s": 0.294,
+    "fn": "builtin <method 'update' of '_hashlib.HASH' objects>"
+   },
+   {
+    "self_s": 0.289,
+    "fn": "link.py:_clean_url_path"
+   },
+   {
+    "self_s": 0.281,
+    "fn": "builtin <built-in method posix.mkdir>"
+   },
+   {
+    "self_s": 0.261,
+    "fn": "package_finder.py:evaluate_link"
+   },
+   {
+    "self_s": 0.246,
+    "fn": "link.py:from_json"
+   },
+   {
+    "self_s": 0.207,
+    "fn": "zipfile.py:_RealGetContents"
+   },
+   {
+    "self_s": 0.2,
+    "fn": "link.py:__init__"
+   },
+   {
+    "self_s": 0.196,
+    "fn": "version.py:__init__"
+   },
+   {
+    "self_s": 0.177,
+    "fn": "link.py:_ensure_quoted_url"
+   },
+   {
+    "self_s": 0.162,
+    "fn": "utils.py:parse_wheel_filename"
+   },
+   {
+    "self_s": 0.16,
+    "fn": "decoder.py:raw_decode"
+   },
+   {
+    "self_s": 0.159,
+    "fn": "builtin <built-in method posix.stat>"
+   },
+   {
+    "self_s": 0.156,
+    "fn": "builtin <built-in method builtins.isinstance>"
+   },
+   {
+    "self_s": 0.149,
+    "fn": "parse.py:quote_from_bytes"
+   },
+   {
+    "self_s": 0.139,
+    "fn": "zipfile.py:read"
+   }
+  ]
+ }
+}

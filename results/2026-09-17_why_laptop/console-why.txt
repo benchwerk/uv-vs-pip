@@ -1,0 +1,40 @@
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+debconf: delaying package configuration, since apt-utils is not installed
+{"probe":"startup","tool":"python","state":"-","wall_s":0.009,"exit":0,"t0":1789664143}
+{"probe":"startup","tool":"pip","state":"-","wall_s":0.130,"exit":0,"t0":1789664143}
+{"probe":"startup","tool":"uv","state":"-","wall_s":0.005,"exit":0,"t0":1789664143}
+{"probe":"startup","tool":"python","state":"-","wall_s":0.009,"exit":0,"t0":1789664143}
+{"probe":"startup","tool":"pip","state":"-","wall_s":0.135,"exit":0,"t0":1789664143}
+{"probe":"startup","tool":"uv","state":"-","wall_s":0.005,"exit":0,"t0":1789664143}
+{"probe":"startup","tool":"python","state":"-","wall_s":0.009,"exit":0,"t0":1789664143}
+{"probe":"startup","tool":"pip","state":"-","wall_s":0.138,"exit":0,"t0":1789664143}
+{"probe":"startup","tool":"uv","state":"-","wall_s":0.004,"exit":0,"t0":1789664143}
+{"probe":"startup","tool":"python","state":"-","wall_s":0.009,"exit":0,"t0":1789664143}
+{"probe":"startup","tool":"pip","state":"-","wall_s":0.133,"exit":0,"t0":1789664143}
+{"probe":"startup","tool":"uv","state":"-","wall_s":0.004,"exit":0,"t0":1789664143}
+{"probe":"startup","tool":"python","state":"-","wall_s":0.009,"exit":0,"t0":1789664144}
+{"probe":"startup","tool":"pip","state":"-","wall_s":0.135,"exit":0,"t0":1789664144}
+{"probe":"startup","tool":"uv","state":"-","wall_s":0.005,"exit":0,"t0":1789664144}
+{"probe":"par-pip-warm-1","tool":"pip","state":"warm","wall_s":19.636,"cpu_user_s":16.990,"cpu_sys_s":2.105,"cpu_per_wall":0.97,"peak_threads":2,"peak_tcp443_conns":0,"exit":0,"t0":1789664230}
+{"probe":"par-uv-warm-1","tool":"uv","state":"warm","wall_s":0.174,"cpu_user_s":0.059,"cpu_sys_s":0.464,"cpu_per_wall":3.01,"peak_threads":13,"peak_tcp443_conns":0,"exit":0,"t0":1789664231}
+{"probe":"par-pip-cold-1","tool":"pip","state":"cold","wall_s":47.873,"cpu_user_s":23.052,"cpu_sys_s":4.838,"cpu_per_wall":0.58,"peak_threads":3,"peak_tcp443_conns":4,"exit":0,"t0":1789664283}
+{"probe":"par-uv-cold-1","tool":"uv","state":"cold","wall_s":8.010,"cpu_user_s":5.848,"cpu_sys_s":3.764,"cpu_per_wall":1.20,"peak_threads":64,"peak_tcp443_conns":50,"exit":0,"t0":1789664292}
+{"probe":"par-uv-warm-2","tool":"uv","state":"warm","wall_s":0.162,"cpu_user_s":0.048,"cpu_sys_s":0.453,"cpu_per_wall":3.09,"peak_threads":12,"peak_tcp443_conns":0,"exit":0,"t0":1789664292}
+{"probe":"par-pip-warm-2","tool":"pip","state":"warm","wall_s":19.744,"cpu_user_s":16.980,"cpu_sys_s":2.228,"cpu_per_wall":0.97,"peak_threads":2,"peak_tcp443_conns":0,"exit":0,"t0":1789664316}
+{"probe":"par-uv-cold-2","tool":"uv","state":"cold","wall_s":7.978,"cpu_user_s":6.061,"cpu_sys_s":3.914,"cpu_per_wall":1.25,"peak_threads":65,"peak_tcp443_conns":50,"exit":0,"t0":1789664325}
+{"probe":"par-pip-cold-2","tool":"pip","state":"cold","wall_s":46.117,"cpu_user_s":22.759,"cpu_sys_s":4.743,"cpu_per_wall":0.60,"peak_threads":3,"peak_tcp443_conns":4,"exit":0,"t0":1789664375}
+{"probe":"par-pip-warm-3","tool":"pip","state":"warm","wall_s":19.745,"cpu_user_s":17.131,"cpu_sys_s":2.055,"cpu_per_wall":0.97,"peak_threads":2,"peak_tcp443_conns":0,"exit":0,"t0":1789664400}
+{"probe":"par-uv-warm-3","tool":"uv","state":"warm","wall_s":0.200,"cpu_user_s":0.074,"cpu_sys_s":0.520,"cpu_per_wall":2.97,"peak_threads":15,"peak_tcp443_conns":0,"exit":0,"t0":1789664400}
+{"probe":"par-pip-cold-3","tool":"pip","state":"cold","wall_s":53.463,"cpu_user_s":23.094,"cpu_sys_s":4.662,"cpu_per_wall":0.52,"peak_threads":3,"peak_tcp443_conns":4,"exit":0,"t0":1789664458}
+{"probe":"par-uv-cold-3","tool":"uv","state":"cold","wall_s":8.106,"cpu_user_s":6.713,"cpu_sys_s":4.163,"cpu_per_wall":1.34,"peak_threads":66,"peak_tcp443_conns":48,"exit":0,"t0":1789664467}
+{"probe":"phases-nocompile","tool":"pip","state":"warm","run":1,"total_s":8.815,"before_install_s":4.577,"install_s":4.237,"exit":0,"t0":1789664871}
+{"probe":"dryrun","tool":"pip","state":"warm","run":1,"wall_s":3.966,"exit":0,"t0":1789664879}
+{"probe":"noindex-nocompile","tool":"pip","state":"warm","run":1,"wall_s":5.245,"exit":0,"t0":1789664889}
+{"probe":"phases-nocompile","tool":"pip","state":"warm","run":2,"total_s":8.791,"before_install_s":4.555,"install_s":4.237,"exit":0,"t0":1789664902}
+{"probe":"dryrun","tool":"pip","state":"warm","run":2,"wall_s":3.966,"exit":0,"t0":1789664910}
+{"probe":"noindex-nocompile","tool":"pip","state":"warm","run":2,"wall_s":5.196,"exit":0,"t0":1789664919}
+{"probe":"phases-nocompile","tool":"pip","state":"warm","run":3,"total_s":8.846,"before_install_s":4.562,"install_s":4.284,"exit":0,"t0":1789664932}
+{"probe":"dryrun","tool":"pip","state":"warm","run":3,"wall_s":3.883,"exit":0,"t0":1789664940}
+{"probe":"noindex-nocompile","tool":"pip","state":"warm","run":3,"wall_s":5.253,"exit":0,"t0":1789664950}
+{"pip_req": 401, "uv_req": 401, "strace-pip-cold": 555215, "strace-pip-nocompile-cold": 399075, "strace-pip-nocompile-warm": 195108, "strace-pip-warm": 349202, "strace-uv-cold": 253299, "strace-uv-warm": 37314}
+nuance why done -> /results/why

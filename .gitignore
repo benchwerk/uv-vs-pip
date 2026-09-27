@@ -1,0 +1,23 @@
+# Allow-list: nothing is published unless it is named here. Only what proves the claims:
+# the harness, raw results, methodology, prediction, findings and the review record.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE
+!/LICENSE-DATA
+!/bench/
+!/analysis/
+!/results/
+!/methodology.md
+!/prediction.md
+!/NUANCES.md
+!/editorial_log.md
+# runs superseded after a review found a defect (recorded in editorial_log.md)
+/results/_superseded/
+/results/2026-09-16_2110_nuances_laptop/
+# never, anywhere
+.env
+*.key
+*.pem
+__pycache__/

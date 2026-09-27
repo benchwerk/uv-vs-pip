@@ -1,0 +1,62 @@
+Collecting func-timeout==4.3.5 (from -r /tmp/sdists.txt (line 1))
+  Downloading func_timeout-4.3.5.tar.gz (44 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting pgsanity==0.2.9 (from -r /tmp/sdists.txt (line 2))
+  Downloading pgsanity-0.2.9.tar.gz (7.5 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting shortid==0.1.2 (from -r /tmp/sdists.txt (line 3))
+  Downloading shortid-0.1.2.tar.gz (1.9 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting wtforms-json==0.3.5 (from -r /tmp/sdists.txt (line 4))
+  Downloading WTForms-JSON-0.3.5.tar.gz (12 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting WTForms>=1.0.5 (from wtforms-json==0.3.5->-r /tmp/sdists.txt (line 4))
+  Downloading wtforms-3.2.2-py3-none-any.whl.metadata (4.9 kB)
+Collecting six>=1.3.0 (from wtforms-json==0.3.5->-r /tmp/sdists.txt (line 4))
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting markupsafe>=1.1.1 (from WTForms>=1.0.5->wtforms-json==0.3.5->-r /tmp/sdists.txt (line 4))
+  Downloading markupsafe-3.0.3-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata (2.7 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading wtforms-3.2.2-py3-none-any.whl (158 kB)
+Downloading markupsafe-3.0.3-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (24 kB)
+Building wheels for collected packages: func-timeout, pgsanity, shortid, wtforms-json
+  Building wheel for func-timeout (pyproject.toml): started
+  Building wheel for func-timeout (pyproject.toml): finished with status 'done'
+  Created wheel for func-timeout: filename=func_timeout-4.3.5-py3-none-any.whl size=15160 sha256=9962eb7f5961c0f168524a94ef6b8b38b2e5f1e41cf706e96c6f18db5321cd60
+  Stored in directory: /tmp/cache-pip/wheels/07/e6/86/f23164d12c3134966614102db8e7956ab359faf7ffd78703ce
+  Building wheel for pgsanity (pyproject.toml): started
+  Building wheel for pgsanity (pyproject.toml): finished with status 'done'
+  Created wheel for pgsanity: filename=pgsanity-0.2.9-py3-none-any.whl size=5704 sha256=8fe5c5cf0edcf1c8d02b8c9697c0ce6ce271860f95530db2219e66f57a3170c8
+  Stored in directory: /tmp/cache-pip/wheels/45/e6/4e/f67a52962e2d79ff99474b0e1800e570b6c7190c4e6a04285a
+  Building wheel for shortid (pyproject.toml): started
+  Building wheel for shortid (pyproject.toml): finished with status 'done'
+  Created wheel for shortid: filename=shortid-0.1.2-py3-none-any.whl size=2637 sha256=ca1dbf74c1ad6fd1130102f07d0a5c6d09d03db83d95d7718e1f3e66551fa870
+  Stored in directory: /tmp/cache-pip/wheels/b7/c7/6d/c1e66e817792b2b002c290fcf4eb0e8459a31b2b02fa915b6e
+  Building wheel for wtforms-json (pyproject.toml): started
+  Building wheel for wtforms-json (pyproject.toml): finished with status 'done'
+  Created wheel for wtforms-json: filename=wtforms_json-0.3.5-py3-none-any.whl size=4857 sha256=37eeec1e67b79a66be31aac541801d42c9b5bb20192c3abce85082538eaf0c73
+  Stored in directory: /tmp/cache-pip/wheels/12/b9/6c/b041dd399632113dc0e3aa50e46bc7e18db8f5a060beed0291
+Successfully built func-timeout pgsanity shortid wtforms-json
+Installing collected packages: shortid, pgsanity, func-timeout, six, markupsafe, WTForms, wtforms-json
+
+Successfully installed WTForms-3.2.2 func-timeout-4.3.5 markupsafe-3.0.3 pgsanity-0.2.9 shortid-0.1.2 six-1.17.0 wtforms-json-0.3.5

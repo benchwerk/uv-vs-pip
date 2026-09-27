@@ -1,0 +1,632 @@
+{
+ "dir": "2026-09-16_2330_nuances_vps-arm64",
+ "experiments": {
+  "cpu_1cpu": {
+   "rows": 25,
+   "failed_rows": 0,
+   "cpuset": "1",
+   "by_cfg_state": {
+    "pip.warm": {
+     "median": 24.223,
+     "min": 24.095,
+     "max": 24.374,
+     "n": 5
+    },
+    "uv.warm": {
+     "median": 0.334,
+     "min": 0.327,
+     "max": 0.334,
+     "n": 5
+    },
+    "pip.cold": {
+     "median": 34.977,
+     "min": 34.526,
+     "max": 35.037,
+     "n": 5
+    },
+    "uv.cold": {
+     "median": 6.206,
+     "min": 6.195,
+     "max": 6.241,
+     "n": 5
+    },
+    "uv_compile.warm": {
+     "median": 14.343,
+     "min": 14.276,
+     "max": 14.418,
+     "n": 5
+    }
+   }
+  },
+  "cpu_2cpu": {
+   "rows": 25,
+   "failed_rows": 0,
+   "cpuset": "2",
+   "by_cfg_state": {
+    "pip.warm": {
+     "median": 24.439,
+     "min": 24.214,
+     "max": 24.853,
+     "n": 5
+    },
+    "uv.warm": {
+     "median": 0.208,
+     "min": 0.206,
+     "max": 0.209,
+     "n": 5
+    },
+    "pip.cold": {
+     "median": 35.594,
+     "min": 35.585,
+     "max": 36.144,
+     "n": 5
+    },
+    "uv.cold": {
+     "median": 3.677,
+     "min": 3.516,
+     "max": 3.814,
+     "n": 5
+    },
+    "uv_compile.warm": {
+     "median": 7.552,
+     "min": 7.519,
+     "max": 7.669,
+     "n": 5
+    }
+   }
+  },
+  "disk": {
+   "rows": 10,
+   "failed_rows": 0,
+   "tools": {
+    "pip": {
+     "warm_install_s": {
+      "median": 24.739,
+      "min": 24.524,
+      "max": 25.213,
+      "n": 5
+     },
+     "venv_apparent_mb": 627.6,
+     "venv_actual_mb": 669.9,
+     "venv_pyc_mb": 114.2,
+     "cache_mb": 173.2,
+     "venv_plus_cache_actual_mb": 843.1,
+     "hardlinked_files": 0,
+     "cache_fs": "overlayfs",
+     "venv_fs": "overlayfs"
+    },
+    "uv": {
+     "warm_install_s": {
+      "median": 0.147,
+      "min": 0.142,
+      "max": 0.155,
+      "n": 5
+     },
+     "venv_apparent_mb": 510.1,
+     "venv_actual_mb": 538.3,
+     "venv_pyc_mb": 0.0,
+     "cache_mb": 563.1,
+     "venv_plus_cache_actual_mb": 566.6,
+     "hardlinked_files": 11257,
+     "cache_fs": "overlayfs",
+     "venv_fs": "overlayfs"
+    }
+   }
+  },
+  "disk_xdev": {
+   "rows": 5,
+   "failed_rows": 0,
+   "tools": {
+    "uv": {
+     "warm_install_s": {
+      "median": 9.26,
+      "min": 9.252,
+      "max": 10.429,
+      "n": 5
+     },
+     "venv_apparent_mb": 510.1,
+     "venv_actual_mb": 538.3,
+     "venv_pyc_mb": 0.0,
+     "cache_mb": 556.3,
+     "venv_plus_cache_actual_mb": 1090.9,
+     "hardlinked_files": 0,
+     "cache_fs": "tmpfs",
+     "venv_fs": "overlayfs"
+    }
+   }
+  },
+  "import": {
+   "rows": 20,
+   "failed_rows": 0,
+   "configs": {
+    "pip": {
+     "install_s": {
+      "median": 24.7,
+      "min": 24.46,
+      "max": 25.213,
+      "n": 5
+     },
+     "first_import_s": {
+      "median": 1.0,
+      "min": 0.957,
+      "max": 1.031,
+      "n": 5
+     },
+     "second_import_s": {
+      "median": 0.784,
+      "min": 0.767,
+      "max": 0.802,
+      "n": 5
+     },
+     "total_install_plus_first_import_s": {
+      "median": 25.683,
+      "min": 25.46,
+      "max": 26.244,
+      "n": 5
+     },
+     "pyc_after_install": {
+      "median": 6379,
+      "min": 6379,
+      "max": 6379,
+      "n": 5
+     },
+     "pyc_after_first_import": {
+      "median": 6379,
+      "min": 6379,
+      "max": 6379,
+      "n": 5
+     },
+     "first_import_penalty_s": 0.216
+    },
+    "uv": {
+     "install_s": {
+      "median": 0.148,
+      "min": 0.136,
+      "max": 0.158,
+      "n": 5
+     },
+     "first_import_s": {
+      "median": 2.493,
+      "min": 2.483,
+      "max": 2.633,
+      "n": 5
+     },
+     "second_import_s": {
+      "median": 0.784,
+      "min": 0.742,
+      "max": 0.793,
+      "n": 5
+     },
+     "total_install_plus_first_import_s": {
+      "median": 2.646,
+      "min": 2.619,
+      "max": 2.79,
+      "n": 5
+     },
+     "pyc_after_install": {
+      "median": 1,
+      "min": 1,
+      "max": 1,
+      "n": 5
+     },
+     "pyc_after_first_import": {
+      "median": 640,
+      "min": 640,
+      "max": 640,
+      "n": 5
+     },
+     "first_import_penalty_s": 1.709
+    },
+    "uv_compile": {
+     "install_s": {
+      "median": 4.081,
+      "min": 4.071,
+      "max": 4.087,
+      "n": 5
+     },
+     "first_import_s": {
+      "median": 0.789,
+      "min": 0.787,
+      "max": 0.798,
+      "n": 5
+     },
+     "second_import_s": {
+      "median": 0.779,
+      "min": 0.745,
+      "max": 0.807,
+      "n": 5
+     },
+     "total_install_plus_first_import_s": {
+      "median": 4.872,
+      "min": 4.858,
+      "max": 4.883,
+      "n": 5
+     },
+     "pyc_after_install": {
+      "median": 6380,
+      "min": 6380,
+      "max": 6380,
+      "n": 5
+     },
+     "pyc_after_first_import": {
+      "median": 6380,
+      "min": 6380,
+      "max": 6380,
+      "n": 5
+     },
+     "first_import_penalty_s": 0.01
+    },
+    "compileall_j1_serial": {
+     "install_s": {
+      "median": 0,
+      "min": 0,
+      "max": 0,
+      "n": 5
+     },
+     "first_import_s": {
+      "median": 13.801,
+      "min": 13.548,
+      "max": 14.08,
+      "n": 5
+     },
+     "second_import_s": {
+      "median": 0,
+      "min": 0,
+      "max": 0,
+      "n": 5
+     },
+     "total_install_plus_first_import_s": {
+      "median": 13.801,
+      "min": 13.548,
+      "max": 14.08,
+      "n": 5
+     },
+     "pyc_after_install": {
+      "median": 0,
+      "min": 0,
+      "max": 0,
+      "n": 5
+     },
+     "pyc_after_first_import": {
+      "median": 6380,
+      "min": 6380,
+      "max": 6380,
+      "n": 5
+     },
+     "first_import_penalty_s": null
+    }
+   },
+   "derived": {
+    "ratio_out_of_the_box_install_only": 166.9,
+    "ratio_install_plus_bytecode_like_for_like": 6.1,
+    "ratio_install_plus_first_import_pip_vs_uv": 9.7,
+    "ratio_install_plus_first_import_pip_vs_uv_compile": 5.3,
+    "uv_deferred_cost_lower_bound_s_(first_import_of_11_modules)": 1.709,
+    "uv_deferred_cost_upper_bound_s_(compileall_j1_serial)": 13.801,
+    "uv_compile_bytecode_cost_s_(parallel)": 3.933,
+    "pyc_files_first_import_writes": 640,
+    "pyc_files_total": 6380
+   }
+  },
+  "mem": {
+   "rows": 20,
+   "failed_rows": 0,
+   "peak_rss_largest_process_mb": {
+    "pip.warm": {
+     "median": 137.1,
+     "min": 136.9,
+     "max": 137.2,
+     "n": 5
+    },
+    "uv.warm": {
+     "median": 61.3,
+     "min": 60.4,
+     "max": 61.6,
+     "n": 5
+    },
+    "pip.cold": {
+     "median": 149.9,
+     "min": 149.8,
+     "max": 150.0,
+     "n": 5
+    },
+    "uv.cold": {
+     "median": 215.7,
+     "min": 207.4,
+     "max": 222.0,
+     "n": 5
+    }
+   },
+   "seconds": {
+    "pip.warm": {
+     "median": 28.695,
+     "min": 24.964,
+     "max": 34.879,
+     "n": 5
+    },
+    "uv.warm": {
+     "median": 0.149,
+     "min": 0.14,
+     "max": 0.165,
+     "n": 5
+    },
+    "pip.cold": {
+     "median": 37.204,
+     "min": 35.827,
+     "max": 48.559,
+     "n": 5
+    },
+    "uv.cold": {
+     "median": 2.375,
+     "min": 2.296,
+     "max": 2.725,
+     "n": 5
+    }
+   }
+  },
+  "netem": {
+   "rows": 30,
+   "failed_rows": 0,
+   "by_delay_tool": {
+    "+0ms.pip": {
+     "median": 35.962,
+     "min": 35.194,
+     "max": 36.396,
+     "n": 5
+    },
+    "+0ms.uv": {
+     "median": 2.466,
+     "min": 2.324,
+     "max": 2.627,
+     "n": 5
+    },
+    "+50ms.pip": {
+     "median": 57.917,
+     "min": 57.493,
+     "max": 58.655,
+     "n": 5
+    },
+    "+50ms.uv": {
+     "median": 4.972,
+     "min": 4.938,
+     "max": 5.036,
+     "n": 5
+    },
+    "+150ms.pip": {
+     "median": 102.877,
+     "min": 102.647,
+     "max": 104.172,
+     "n": 5
+    },
+    "+150ms.uv": {
+     "median": 12.35,
+     "min": 12.088,
+     "max": 12.612,
+     "n": 5
+    }
+   },
+   "tcp_connect_ms": {
+    "+0ms": {
+     "median": 1.4,
+     "min": 1.3,
+     "max": 1.4,
+     "n": 10
+    },
+    "+50ms": {
+     "median": 51.5,
+     "min": 51.4,
+     "max": 51.5,
+     "n": 10
+    },
+    "+150ms": {
+     "median": 151.5,
+     "min": 151.4,
+     "max": 151.5,
+     "n": 10
+    }
+   },
+   "ratio_by_delay": {
+    "+0ms": {
+     "pip_over_uv": 14.6,
+     "pip_s": 35.962,
+     "uv_s": 2.466
+    },
+    "+50ms": {
+     "pip_over_uv": 11.6,
+     "pip_s": 57.917,
+     "uv_s": 4.972
+    },
+    "+150ms": {
+     "pip_over_uv": 8.3,
+     "pip_s": 102.877,
+     "uv_s": 12.35
+    }
+   },
+   "slope_s_per_ms": {
+    "pip": 0.446,
+    "uv": 0.066
+   }
+  },
+  "same": {
+   "rows": 2,
+   "failed_rows": 0,
+   "same_thing": {
+    "freeze_identical": true,
+    "freeze_only_pip": [],
+    "freeze_only_uv": [],
+    "dists_pip": 133,
+    "dists_uv": 133,
+    "dists_only_pip": [],
+    "dists_only_uv": [],
+    "dists_same_content": 133,
+    "dists_different_content": [],
+    "files_installed_pip": 11686,
+    "files_installed_uv": 11690,
+    "files_only_pip": [],
+    "files_only_pip_n": 0,
+    "files_only_uv": [
+     "lib/python3.11/site-packages/func_timeout-4.3.5.dist-info/uv_build.json",
+     "lib/python3.11/site-packages/pgsanity-0.2.9.dist-info/uv_build.json",
+     "lib/python3.11/site-packages/shortid-0.1.2.dist-info/uv_build.json",
+     "lib/python3.11/site-packages/wtforms_json-0.3.5.dist-info/uv_build.json"
+    ],
+    "files_only_uv_n": 4,
+    "entrypoints_pip": 31,
+    "entrypoints_uv": 31,
+    "entrypoints_only_pip": [],
+    "entrypoints_only_uv": [],
+    "entrypoints_different_target": [],
+    "installer_field": {
+     "pip": "pip",
+     "uv": "uv"
+    },
+    "note": "freeze equality is a tautology for a fully pinned file; the content test is dists_different_content"
+   },
+   "install_s": {
+    "pip": 25.007,
+    "uv": 0.147031
+   }
+  },
+  "sdist": {
+   "rows": 20,
+   "failed_rows": 0,
+   "by_tool_state": {
+    "pip.cold": {
+     "median": 6.964,
+     "min": 6.933,
+     "max": 7.231,
+     "n": 5
+    },
+    "uv.cold": {
+     "median": 1.246,
+     "min": 1.168,
+     "max": 1.321,
+     "n": 5
+    },
+    "pip.warm": {
+     "median": 0.642,
+     "min": 0.626,
+     "max": 0.652,
+     "n": 5
+    },
+    "uv.warm": {
+     "median": 0.021,
+     "min": 0.02,
+     "max": 0.023,
+     "n": 5
+    }
+   }
+  },
+  "stale": {
+   "rows": 6,
+   "failed_rows": 0,
+   "by_tool": {
+    "pip": {
+     "median": 25.782,
+     "min": 25.617,
+     "max": 25.983,
+     "n": 3
+    },
+    "uv": {
+     "median": 0.294,
+     "min": 0.281,
+     "max": 0.311,
+     "n": 3
+    }
+   },
+   "ratio": 87.7
+  }
+ },
+ "env": {
+  "cpu_1cpu": {
+   "arch": "aarch64",
+   "kernel": "6.17.0-1018-oracle",
+   "cpuset": "1",
+   "affinity_cpus": 1,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "overlayfs",
+   "started_utc": "2026-09-16T20:37:44Z"
+  },
+  "cpu_2cpu": {
+   "arch": "aarch64",
+   "kernel": "6.17.0-1018-oracle",
+   "cpuset": "2",
+   "affinity_cpus": 2,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "overlayfs",
+   "started_utc": "2026-09-16T20:47:15Z"
+  },
+  "disk": {
+   "arch": "aarch64",
+   "kernel": "6.17.0-1018-oracle",
+   "cpuset": null,
+   "affinity_cpus": 4,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "overlayfs",
+   "started_utc": "2026-09-16T20:32:47Z"
+  },
+  "disk_xdev": {
+   "arch": "aarch64",
+   "kernel": "6.17.0-1018-oracle",
+   "cpuset": null,
+   "affinity_cpus": 4,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "tmpfs",
+   "started_utc": "2026-09-16T20:36:33Z"
+  },
+  "import": {
+   "arch": "aarch64",
+   "kernel": "6.17.0-1018-oracle",
+   "cpuset": null,
+   "affinity_cpus": 4,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "overlayfs",
+   "started_utc": "2026-09-16T20:24:22Z"
+  },
+  "mem": {
+   "arch": "aarch64",
+   "kernel": "6.17.0-1018-oracle",
+   "cpuset": null,
+   "affinity_cpus": 4,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "overlayfs",
+   "started_utc": "2026-09-16T20:56:08Z"
+  },
+  "netem": {
+   "arch": "aarch64",
+   "kernel": "6.17.0-1018-oracle",
+   "cpuset": null,
+   "affinity_cpus": 4,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "overlayfs",
+   "started_utc": "2026-09-16T21:04:18Z"
+  },
+  "same": {
+   "arch": "aarch64",
+   "kernel": "6.17.0-1018-oracle",
+   "cpuset": null,
+   "affinity_cpus": 4,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "overlayfs",
+   "started_utc": "2026-09-16T20:31:12Z"
+  },
+  "sdist": {
+   "arch": "aarch64",
+   "kernel": "6.17.0-1018-oracle",
+   "cpuset": null,
+   "affinity_cpus": 4,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "overlayfs",
+   "started_utc": "2026-09-16T22:01:50Z"
+  },
+  "stale": {
+   "arch": "aarch64",
+   "kernel": "6.17.0-1018-oracle",
+   "cpuset": null,
+   "affinity_cpus": 4,
+   "cgroup_cpu_max": "400000 100000",
+   "uv_cache_fs": "overlayfs",
+   "started_utc": "2026-09-16T21:27:36Z"
+  }
+ }
+}

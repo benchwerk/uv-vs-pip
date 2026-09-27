@@ -1,0 +1,2 @@
+# Evidence: every file is stored and checked out byte for byte (hashes in the records must match; bash needs LF)
+* -text
